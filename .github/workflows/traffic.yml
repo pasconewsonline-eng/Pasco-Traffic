@@ -1,0 +1,25 @@
+name: Pasco Traffic Check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 9-23 * * *"
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - env:
+          TOMTOM_KEY: ${{ secrets.TOMTOM_KEY }}
+        run: python traffic_check.py
+      - name: Commit traffic data
+        run: |
+          git config user.name "traffic-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/traffic.json
+          git commit -m "Update traffic $(date -u +%Y-%m-%dT%H:%M)" || echo "No changes"
+          git push
