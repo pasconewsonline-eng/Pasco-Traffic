@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 Pasco/Hernando Combined Traffic Feed — TomTom + FHP
@@ -6,12 +7,12 @@ crash feed, merges them by road, and writes data/traffic.json for the website.
 REPORT MODE: also prints everything so we can confirm accuracy before going live.
 """
 import os, sys, json, re, datetime, urllib.request, urllib.parse
-
+ 
 TOMTOM_KEY = os.environ.get("TOMTOM_KEY", "").strip()
-
+ 
 # Bounding box over Pasco + Hernando (west,south,east,north)
-BBOX = "-82.80,28.15,-82.05,28.45"
-
+BBOX = "-82.80,28.16,-82.05,28.43"
+ 
 MONITORED = {
     "US 19": ["us-19","us 19","u.s. 19","highway 19"],
     "SR 54": ["sr-54","sr 54","state road 54"],
@@ -22,7 +23,7 @@ MONITORED = {
     "I-75": ["i-75","i 75","interstate 75"],
     "County Line Road": ["county line"],
 }
-
+ 
 def match_roads(text):
     t = (" " + (text or "").lower() + " ").replace("/", " ")
     hits = []
@@ -31,12 +32,12 @@ def match_roads(text):
             if k in t:
                 hits.append(road); break
     return hits
-
+ 
 # ---------- TomTom ----------
 ICON = {0:"Unknown",1:"Accident",2:"Fog",3:"Dangerous Conditions",4:"Rain",5:"Ice",
         6:"Traffic Jam",7:"Lane Closed",8:"Road Closed",9:"Road Works",10:"Wind",11:"Flooding",14:"Broken Down Vehicle"}
 MAG = {0:"unknown",1:"minor",2:"moderate",3:"major",4:"closure"}
-
+ 
 def fetch_tomtom():
     if not TOMTOM_KEY:
         print("WARN: no TomTom key"); return []
@@ -64,17 +65,29 @@ def fetch_tomtom():
             coords = [mid[1], mid[0]]  # lat,lon
         elif g.get("type")=="Point" and g.get("coordinates"):
             coords = [g["coordinates"][1], g["coordinates"][0]]
+        sev = MAG.get(p.get("magnitudeOfDelay",0),"unknown")
+        kind = ICON.get(p.get("iconCategory",0),"Incident")
+        delay = p.get("delay")
+        # Skip roadworks/construction — FL511 already covers planned work.
+        if "road works" in kind.lower() or "roadwork" in (desc or "").lower():
+            continue
+        # Sanity check: don't call it "major/stopped" unless the delay is real (>=120s).
+        # This cuts TomTom's overblown short-lived "stopped traffic" flags.
+        if sev == "major" and (not delay or delay < 120):
+            sev = "moderate"
+        if sev == "moderate" and (not delay or delay < 45):
+            sev = "minor"
         out.append({
             "source":"TomTom",
-            "kind": ICON.get(p.get("iconCategory",0),"Incident"),
-            "severity": MAG.get(p.get("magnitudeOfDelay",0),"unknown"),
+            "kind": kind,
+            "severity": sev,
             "desc": desc, "from": frm, "to": to, "roadnums": roadnums,
             "roads": roads,
             "delay_sec": p.get("delay"), "length_m": p.get("length"),
             "coords": coords,
         })
     return out
-
+ 
 # ---------- FHP CadView ----------
 def fetch_fhp():
     url = "https://trafficincidents.flhsmv.gov/SmartWebClient/CadView.aspx"
@@ -120,7 +133,7 @@ def fetch_fhp():
             "roads":roads,"coords":[lat,lon] if (lat and lon) else None,
         })
     return out
-
+ 
 def main():
     print("=== Pasco/Hernando Combined Traffic Feed (TomTom + FHP) ===")
     tomtom = fetch_tomtom()
@@ -128,19 +141,19 @@ def main():
     print(f"TomTom incidents in area: {len(tomtom)}")
     print(f"FHP incidents (Pasco/Hernando): {len(fhp)}")
     print("="*60)
-
+ 
     print("\n--- TomTom on monitored roads ---")
     tt_roads = [x for x in tomtom if x["roads"]]
     for x in tt_roads:
         d = f" | delay {x['delay_sec']}s" if x.get("delay_sec") else ""
         print(f"  [{x['kind']}/{x['severity']}] {', '.join(x['roads'])}: {x['from']} -> {x['to']} {x['desc']}{d}")
     print(f"  ({len(tt_roads)} on monitored roads, {len(tomtom)} total in area)")
-
+ 
     print("\n--- FHP crashes/incidents ---")
     for x in fhp:
         flag = (" >> "+", ".join(x["roads"])) if x["roads"] else ""
         print(f"  [{x['county']}] {x['kind']} @ {x.get('location','')}{flag}")
-
+ 
     # Cross-reference: roads where BOTH sources show activity
     print("\n--- OVERLAP (both FHP + TomTom on same road) ---")
     tt_road_set = set()
@@ -154,7 +167,7 @@ def main():
         for r in overlap: print(f"  ** {r}: confirmed crash + traffic impact **")
     else:
         print("  (none right now)")
-
+ 
     # Write merged JSON for the website to pull later
     payload = {
         "generated": datetime.datetime.utcnow().isoformat()+"Z",
@@ -166,6 +179,6 @@ def main():
     with open("data/traffic.json","w") as f:
         json.dump(payload, f, indent=2)
     print("\nWrote data/traffic.json")
-
+ 
 if __name__ == "__main__":
     main()
