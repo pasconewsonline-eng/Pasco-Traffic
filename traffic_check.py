@@ -10,7 +10,7 @@ import os, sys, json, re, datetime, urllib.request, urllib.parse
 TOMTOM_KEY = os.environ.get("TOMTOM_KEY", "").strip()
 
 # Bounding box over Pasco + Hernando (west,south,east,north)
-BBOX = "-82.80,28.15,-82.05,28.85"
+BBOX = "-82.80,28.15,-82.05,28.45"
 
 MONITORED = {
     "US 19": ["us-19","us 19","u.s. 19","highway 19"],
@@ -21,9 +21,6 @@ MONITORED = {
     "Suncoast Parkway": ["suncoast","veterans expressway","sr-589","sr 589"],
     "I-75": ["i-75","i 75","interstate 75"],
     "County Line Road": ["county line"],
-    "Cortez Boulevard": ["cortez","sr-50","sr 50"],
-    "Commercial Way": ["commercial way"],
-    "Mariner Boulevard": ["mariner"],
 }
 
 def match_roads(text):
@@ -106,10 +103,17 @@ def fetch_fhp():
         # incident type is usually first cell, location among cells
         itype = cells[0] if cells else "Incident"
         location = ""
-        for c in cells:
-            if re.search(r"\d", c) and re.search(r"[A-Za-z]", c) and len(c) > len(location):
-                location = c
-        roads = match_roads(rowtext)
+        for cell in cells:
+            # prefer cells that look like a road/location: has letters and (a number or road word)
+            looks_loc = re.search(r"[A-Za-z]", cell) and (re.search(r"\d", cell) or re.search(r"\b(RD|ROAD|ST|STREET|BLVD|HWY|HIGHWAY|US|SR|I-|AVE|LANE|LN|DR|PKWY|CR)\b", cell, re.I))
+            if looks_loc and len(cell) > len(location) and not re.match(r"^[-\d\.\s]+$", cell):
+                location = cell
+        if not location:
+            # fallback: longest alphabetic cell that isn't the type
+            for cell in cells[1:]:
+                if re.search(r"[A-Za-z]", cell) and len(cell) > len(location):
+                    location = cell
+        roads = match_roads(rowtext + " " + location)
         out.append({
             "source":"FHP","kind":itype,"severity":"reported",
             "desc":itype,"location":location,"county":county,
