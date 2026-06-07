@@ -1,40 +1,6 @@
 {
-  "generated": "2026-06-07T00:48:26.457329Z",
+  "generated": "2026-06-07T10:13:35.936988Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 67,
-      "length_m": 164.354,
-      "coords": [
-        28.1869724563,
-        -82.7400635795
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 96,
-      "length_m": 147.8622545944,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -45,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -72,22 +38,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Adams St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 48.7354061886,
-      "coords": [
-        28.2497442198,
-        -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -101,34 +51,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Adams St",
+      "to": "Grand Blvd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 51,
-      "length_m": 110.8882967126,
+      "delay_sec": null,
+      "length_m": 48.7354061886,
       "coords": [
-        28.2805064782,
-        -82.7078153805
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 47,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
+        28.2497442198,
+        -82.7190109209
       ]
     },
     {
@@ -175,8 +109,8 @@
       "delay_sec": null,
       "length_m": 39.1190238243,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.1606050398,
+        -82.5336059049
       ]
     },
     {
@@ -191,8 +125,8 @@
       "delay_sec": null,
       "length_m": 39.1190238243,
       "coords": [
-        28.1606050398,
-        -82.5336059049
+        28.1606291303,
+        -82.5335012988
       ]
     },
     {
@@ -229,22 +163,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Ender Hills Dr",
-      "to": "Overpass Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 186,
-      "length_m": 246.6017599349,
-      "coords": [
-        28.2769726349,
-        -82.2956564143
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -274,11 +192,72 @@
         28.3362468251,
         -82.2715768829
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Fairview Heights Rd (Handcart Rd/CR-579A)",
+      "to": "CR-54/Eiland Blvd (Handcart Rd/CR-579A)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 104.2383477776,
+      "coords": [
+        28.2637198633,
+        -82.245643945
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "CR-54/Eiland Blvd (Handcart Rd/CR-579A)",
+      "to": "Fairview Heights Rd (Handcart Rd/CR-579A)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 104.2383477776,
+      "coords": [
+        28.2646573005,
+        -82.2456426039
+      ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "PALM AVE x[EMBASSY BLVD]    [PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2934515854194,
+        -82.698545196121
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Fatality",
+      "severity": "reported",
+      "desc": "Fatality",
+      "location": "OLD BRIDGE RD x[HANDCART RD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "Ridge Road"
+      ],
+      "coords": [
+        28.2647360693895,
+        -82.2457456944692
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "US 19"
+    "Ridge Road"
   ],
   "overlap": []
 }
