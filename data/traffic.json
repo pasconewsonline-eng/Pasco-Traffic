@@ -1,22 +1,20 @@
 {
-  "generated": "2026-06-13T10:09:28.416033Z",
+  "generated": "2026-06-13T15:53:20.378660Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "US-19 (Grand Blvd)",
-      "to": "Massachusetts Ave (Grand Blvd)",
-      "roadnums": "County Hwy-595",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 213,
-      "length_m": 791.444,
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 62,
+      "length_m": 164.52,
       "coords": [
-        28.2664436353,
-        -82.7218688146
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
@@ -85,18 +83,84 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 19",
+      "to": "Mulberry Ln",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 221,
+      "length_m": 346.6272597045,
+      "coords": [
+        28.3426425349,
+        -82.6987119631
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
+      "delay_sec": 230,
+      "length_m": 114.5296787305,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.1894213696,
+        -82.6182456926
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 74,
+      "length_m": 83.6582008461,
+      "coords": [
+        28.1895205868,
+        -82.617737414
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Hays Rd",
+      "to": "Hays Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 244,
+      "length_m": 580.2028900932,
+      "coords": [
+        28.3701244171,
+        -82.5716288999
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Stonegate Trl",
+      "to": "Stonegate Trl",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 298,
+      "length_m": 638.4189513435,
+      "coords": [
+        28.3736515512,
+        -82.566279234
       ]
     },
     {
@@ -113,6 +177,106 @@
       "coords": [
         28.1606050398,
         -82.5336059049
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 85,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Station Ln",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 115.9977378631,
+      "coords": [
+        28.1953704702,
+        -82.4649802461
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Collier Pkwy / Preakness Blvd",
+      "to": "Collier Pkwy / Preakness Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 55,
+      "length_m": 53.867405962,
+      "coords": [
+        28.1888848712,
+        -82.4377424136
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "County Line Rd (Cypress Creek Rd)",
+      "to": "FL-54 (Cypress Creek Rd)",
+      "roadnums": "",
+      "roads": [
+        "County Line Road"
+      ],
+      "delay_sec": 170,
+      "length_m": 207.0560425674,
+      "coords": [
+        28.1858674423,
+        -82.4032076314
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 74,
+      "length_m": 147.6256764512,
+      "coords": [
+        28.1866264804,
+        -82.4030587688
       ]
     },
     {
@@ -181,6 +345,40 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 292,
+      "length_m": 595.7251176364,
+      "coords": [
+        28.2108937222,
+        -82.2461012616
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Pasco County Trasnsfer Station Recycling Ctr",
+      "to": "Pasco County Trasnsfer Station Recycling Ctr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 350,
+      "length_m": 312.4817385263,
+      "coords": [
+        28.2982613167,
+        -82.2424333408
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -194,22 +392,25 @@
         28.3587625976,
         -82.1907726541
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "B Ave",
+      "to": "Gall Blvd / South Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 196,
+      "length_m": 140.3337007636,
+      "coords": [
+        28.2287894682,
+        -82.1820702269
+      ]
     }
   ],
   "fhp": [
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "TRINITY BLVD x[DUCK SLOUGH BLVD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1851268555116,
-        -82.6357944682806
-      ]
-    },
     {
       "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -225,6 +426,9 @@
     }
   ],
   "monitored_roads_active": [
+    "County Line Road",
+    "Ridge Road",
+    "SR 54",
     "US 19"
   ],
   "overlap": []
