@@ -1,6 +1,22 @@
 {
-  "generated": "2026-06-14T08:56:52.223520Z",
+  "generated": "2026-06-14T15:29:45.562880Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Moog Rd",
+      "to": "Moog Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 69,
+      "length_m": 46.2335,
+      "coords": [
+        28.2074417777,
+        -82.7388874308
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +27,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -51,18 +67,52 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
-      "roadnums": "",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
+      "delay_sec": 104,
+      "length_m": 145.8132968764,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.217041414,
+        -82.7163448051
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 60,
+      "length_m": 117.9521747299,
+      "coords": [
+        28.2804971037,
+        -82.6980668918
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 52",
+      "to": "Murcott Way",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 113,
+      "length_m": 90.304040437,
+      "coords": [
+        28.3299931994,
+        -82.560041757
       ]
     },
     {
@@ -83,18 +133,116 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 57,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Dale Mabry Hwy",
+      "to": "Walmart Way",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 95,
+      "length_m": 39.9102838877,
+      "coords": [
+        28.1778985473,
+        -82.4700710789
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 232.4399715588,
+      "coords": [
+        28.1859478974,
+        -82.4341858044
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "Sunlake Blvd",
-      "to": "Coastal Shore Ter / Del Webb Blvd",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 130,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 54,
+      "length_m": 147.6256764512,
+      "coords": [
+        28.1866264804,
+        -82.4030587688
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Old Pasco Rd",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 124,
-      "length_m": 164.9149967869,
+      "delay_sec": 51,
+      "length_m": 65.4019376834,
       "coords": [
-        28.2281296156,
-        -82.5022978202
+        28.2380055615,
+        -82.3667805508
       ]
     },
     {
@@ -111,6 +259,24 @@
       "coords": [
         28.3773167701,
         -82.3555876925
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-56 (I-75)",
+      "to": "FL-54/Exit 58 (I-75)",
+      "roadnums": "I-75 N",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 379,
+      "length_m": 4206.9146512656,
+      "coords": [
+        28.2256432603,
+        -82.362715663
       ]
     },
     {
@@ -147,6 +313,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Epperson Blvd",
+      "to": "Epperson Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 216,
+      "length_m": 1175.8960409092,
+      "coords": [
+        28.2775788162,
+        -82.2862472251
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -178,7 +360,44 @@
       ]
     }
   ],
-  "fhp": [],
-  "monitored_roads_active": [],
-  "overlap": []
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "I-75 SB [MM300]  x[MM300]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.50894390426,
+        -82.2428484827577
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "I-75 NB [MM279]  x[MM279]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.2398033245498,
+        -82.3519379842839
+      ]
+    }
+  ],
+  "monitored_roads_active": [
+    "I-75",
+    "SR 52",
+    "SR 54"
+  ],
+  "overlap": [
+    "I-75"
+  ]
 }
