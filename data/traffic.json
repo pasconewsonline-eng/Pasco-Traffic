@@ -1,38 +1,22 @@
 {
-  "generated": "2026-06-16T23:52:13.305679Z",
+  "generated": "2026-06-17T18:05:00.578842Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Strauber Memorial Hwy (Moog Rd)",
+      "to": "US-19 (Moog Rd)",
+      "roadnums": "",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 83,
-      "length_m": 147.862,
+      "delay_sec": null,
+      "length_m": 240.957,
       "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Mile Stretch Dr",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 56,
-      "length_m": 49.4171952376,
-      "coords": [
-        28.1878549374,
-        -82.7237651364
+        28.2096679674,
+        -82.7412826435
       ]
     },
     {
@@ -40,15 +24,17 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "US-19 (Moog Rd)",
+      "to": "Strauber Memorial Hwy (Moog Rd)",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "US 19"
+      ],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 240.9569192972,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2096679674,
+        -82.7412826435
       ]
     },
     {
@@ -73,6 +59,38 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Grand Blvd",
+      "to": "Aspen St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Adams St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 48.7354061886,
+      "coords": [
+        28.2497442198,
+        -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
       "roads": [],
@@ -86,17 +104,67 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Moog Rd (Madison St)",
+      "to": "FL-54 (Madison St)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 173,
+      "length_m": 295.1306274519,
+      "coords": [
+        28.2124776172,
+        -82.7153322712
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Congress St",
+      "to": "Regency Park Blvd",
       "roadnums": "County Hwy-524",
       "roads": [],
-      "delay_sec": 52,
-      "length_m": 139.8768034468,
+      "delay_sec": 78,
+      "length_m": 117.9521747299,
       "coords": [
-        28.2805386612,
-        -82.7061121777
+        28.2804971037,
+        -82.6980668918
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Little Rd",
+      "to": "Horsechestnut Ct",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 184,
+      "length_m": 586.943098108,
+      "coords": [
+        28.184651005,
+        -82.6706520335
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 76,
+      "length_m": 83.6582008461,
+      "coords": [
+        28.1895205868,
+        -82.617737414
       ]
     },
     {
@@ -140,7 +208,7 @@
       "to": "Mentmore Blvd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 53,
+      "delay_sec": 52,
       "length_m": 138.9274305032,
       "coords": [
         28.1935157196,
@@ -150,69 +218,49 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Sunterra Dr / Feldman Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 330,
+      "length_m": 298.5639994809,
+      "coords": [
+        28.2938249882,
+        -82.4914965645
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
+      "from": "State Road 56",
+      "to": "State Road 56",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 69,
-      "length_m": 147.6256764512,
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 230.8038673443,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.1855200591,
+        -82.3709782079
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 100,
-      "length_m": 114.3674473919,
-      "coords": [
-        28.1891531207,
-        -82.4006380752
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 86,
-      "length_m": 216.8347243815,
+      "delay_sec": 56,
+      "length_m": 167.252086934,
       "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Mansfield Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 83,
-      "length_m": 383.0819437651,
-      "coords": [
-        28.1960919874,
-        -82.3326078668
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -229,38 +277,6 @@
       "coords": [
         28.1895420112,
         -82.322395356
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Beardsley Dr / Sedgwick Dr",
-      "to": "Sedgwick Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 91,
-      "length_m": 42.5117660172,
-      "coords": [
-        28.1770308351,
-        -82.316633971
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 88,
-      "length_m": 376.0272204491,
-      "coords": [
-        28.1983798744,
-        -82.3157837108
       ]
     },
     {
@@ -314,71 +330,40 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Gall Blvd",
-      "to": "N Dairy Rd",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Zephyrhills",
+      "to": "Gall Blvd / State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 254,
-      "length_m": 153.6096052659,
+      "delay_sec": 155,
+      "length_m": 57.5778295254,
       "coords": [
-        28.2728809692,
-        -82.1877739444
-      ]
-    }
-  ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 NB [EXIT]  x[MM293]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.4225327316645,
-        -82.2851339609385
+        28.1925970865,
+        -82.2008523955
       ]
     },
     {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "BROAD ST x[WHITMAN RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 301 / Countryside Pl",
+      "to": "US Highway 301",
+      "roadnums": "",
       "roads": [],
+      "delay_sec": 185,
+      "length_m": 104.0863179921,
       "coords": [
-        28.5928729512516,
-        -82.3709496793471
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SR-54 x[JUPITER DR]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.2170031313131,
-        -82.7323007890488
+        28.3473015244,
+        -82.1866608276
       ]
     }
   ],
+  "fhp": [],
   "monitored_roads_active": [
-    "I-75",
-    "SR 54",
+    "Little Road",
     "US 19"
   ],
-  "overlap": [
-    "SR 54"
-  ]
+  "overlap": []
 }
