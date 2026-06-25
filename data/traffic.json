@@ -1,6 +1,58 @@
 {
-  "generated": "2026-06-25T10:22:39.195346Z",
+  "generated": "2026-06-25T18:28:37.913372Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 141,
+      "length_m": 130.738,
+      "coords": [
+        28.1885522733,
+        -82.7400367574
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 128,
+      "length_m": 164.3537887319,
+      "coords": [
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 77,
+      "length_m": 160.8409771858,
+      "coords": [
+        28.1961161437,
+        -82.739878507
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +63,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -38,22 +90,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Adams St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 48.7354061886,
-      "coords": [
-        28.2497442198,
-        -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -68,17 +104,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Copperfield Dr",
-      "to": "Littlefield Dr",
-      "roadnums": "",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 151,
-      "length_m": 231.2582138455,
+      "delay_sec": 101,
+      "length_m": 157.5965365388,
       "coords": [
-        28.1793187606,
-        -82.7031765
+        28.2170306307,
+        -82.7140904085
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 99,
+      "length_m": 139.8768034468,
+      "coords": [
+        28.2805386612,
+        -82.7061121777
       ]
     },
     {
@@ -87,17 +139,80 @@
       "severity": "moderate",
       "desc": "Stopped traffic",
       "from": "US Highway 19",
-      "to": "Little Rd",
+      "to": "US Highway 19",
       "roadnums": "",
       "roads": [
-        "US 19",
-        "Little Road"
+        "US 19"
       ],
-      "delay_sec": 74,
-      "length_m": 40.6313425909,
+      "delay_sec": 113,
+      "length_m": 127.6552585516,
       "coords": [
-        28.3986698536,
-        -82.6592325286
+        28.3282940337,
+        -82.699249746
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 69,
+      "length_m": 117.9521747299,
+      "coords": [
+        28.2804971037,
+        -82.6980668918
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Plathe Rd",
+      "to": "Plathe Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 346,
+      "length_m": 146.330799352,
+      "coords": [
+        28.241681512,
+        -82.6896581665
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Buck Dr",
+      "to": "Red Fox Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 240,
+      "length_m": 191.5170554894,
+      "coords": [
+        28.3029739845,
+        -82.6461554185
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 131,
+      "length_m": 83.6582008461,
+      "coords": [
+        28.1895205868,
+        -82.617737414
       ]
     },
     {
@@ -137,17 +252,31 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 48,
-      "length_m": 147.6256764512,
+      "roads": [],
+      "delay_sec": 156,
+      "length_m": 166.5143874028,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.1610945339,
+        -82.5329970435
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 49,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
       ]
     },
     {
@@ -156,14 +285,14 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "Central Pasco",
-      "to": "State Road 56",
-      "roadnums": "",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 70,
-      "length_m": 253.0461847268,
+      "delay_sec": 56,
+      "length_m": 126.905205149,
       "coords": [
-        28.1929162265,
-        -82.3828764871
+        28.1859934811,
+        -82.4282353237
       ]
     },
     {
@@ -171,15 +300,79 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
+      "from": "Sierra Center Blvd",
+      "to": "Pondside Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 242,
+      "length_m": 109.032080737,
+      "coords": [
+        28.1938415795,
+        -82.3968870059
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Golden Maple Loop",
+      "to": "State Road 56 / Cypress Ridge Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 475,
+      "length_m": 377.9016446494,
+      "coords": [
+        28.1865835565,
+        -82.3764324799
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "Central Pasco",
+      "to": "Northwood Palms Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 90,
+      "length_m": 216.8347243815,
+      "coords": [
+        28.1854623588,
+        -82.3684716836
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "The Shoppes at New Tampa",
       "to": "Central Pasco",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 132,
-      "length_m": 268.0824510935,
+      "delay_sec": 262,
+      "length_m": 158.0254936265,
       "coords": [
-        28.3251478123,
-        -82.3249032214
+        28.1827788539,
+        -82.3530677572
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Mansfield Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 195,
+      "length_m": 115.0560766359,
+      "coords": [
+        28.1922202488,
+        -82.3245089367
       ]
     },
     {
@@ -232,6 +425,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Handcart Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 273.6618358368,
+      "coords": [
+        28.2974526655,
+        -82.2497343138
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -277,56 +486,91 @@
         28.3587625976,
         -82.1907726541
       ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-39/Paul S Buchman Hwy (US-301)",
-      "to": "CR-535/Chancey Rd (Gall Blvd/US-301)",
-      "roadnums": "US-301 S US-301 N",
-      "roads": [],
-      "delay_sec": 130,
-      "length_m": 505.1216421715,
-      "coords": [
-        28.2099375682,
-        -82.1832034602
-      ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "DALE MABRY HWY x[WALMART WAY]    [LUTZ]",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-52 x[SUNLAKE BLVD N]    [LAND O LAKES]",
       "county": "PASCO",
-      "roads": [],
+      "roads": [
+        "SR 52"
+      ],
       "coords": [
-        28.1799288142293,
-        -82.4692367346574
+        28.3268637373737,
+        -82.5301906685523
       ]
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SHADY HILLS RD x[LANCER RD]    [SPRING HILL]",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "US-19 x[FOX HOLLOW DR]    [PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [
+        "US 19"
+      ],
+      "coords": [
+        28.3022223583663,
+        -82.704171585282
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "LAND O LAKES BLVD x[LAKE PATIENCE RD]    [LAND O LAKES]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.4253131444884,
-        -82.5513853807579
+        28.2154613658322,
+        -82.4601835011641
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-54 x[COLLIER PKWY]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.1860562758015,
+        -82.4382188079048
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "LITTLE RD x[US-19]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [
+        "US 19",
+        "Little Road"
+      ],
+      "coords": [
+        28.3993515854194,
+        -82.6597390721572
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
+    "SR 52",
     "SR 54",
     "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "US 19"
+  ]
 }
