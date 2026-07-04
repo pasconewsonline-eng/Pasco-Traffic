@@ -1,36 +1,38 @@
 {
-  "generated": "2026-07-04T20:17:32.116340Z",
+  "generated": "2026-07-04T23:47:52.862544Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 63,
+      "length_m": 164.354,
+      "coords": [
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Bob White Dr",
-      "to": "Hawk Dr",
-      "roadnums": "",
-      "roads": [],
+      "from": "Massachusetts Ave (Grand Blvd)",
+      "to": "US-19 (Grand Blvd)",
+      "roadnums": "County Hwy-595",
+      "roads": [
+        "US 19"
+      ],
       "delay_sec": 181,
-      "length_m": 317.357,
+      "length_m": 270.6818375524,
       "coords": [
-        28.2043840243,
-        -82.7261925355
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2734254608,
+        -82.7219693974
       ]
     },
     {
@@ -55,6 +57,40 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Grand Blvd",
+      "to": "Aspen St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Berlin Dr / Wilkins St",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 194,
+      "length_m": 62.0705268567,
+      "coords": [
+        28.2779583789,
+        -82.719576867
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
       "roads": [],
@@ -63,54 +99,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 51,
-      "length_m": 145.8132968764,
-      "coords": [
-        28.217041414,
-        -82.7163448051
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 71,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Port Richey",
-      "to": "1st Isle",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 140,
-      "length_m": 144.2243288296,
-      "coords": [
-        28.3423018591,
-        -82.6992095128
       ]
     },
     {
@@ -185,6 +173,94 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Race Track Rd",
+      "to": "St Johns Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 489,
+      "length_m": 270.8187100217,
+      "coords": [
+        28.4060218066,
+        -82.6700096444
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Little Rd",
+      "to": "Rancho del Rio Dr / Schwartz St",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 56,
+      "length_m": 38.9593130465,
+      "coords": [
+        28.2342664935,
+        -82.6658991591
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Rancho del Rio Dr / Schwartz St",
+      "to": "Little Rd",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 82,
+      "length_m": 38.9593130465,
+      "coords": [
+        28.2342664935,
+        -82.6658991591
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 72,
+      "length_m": 88.3108009279,
+      "coords": [
+        28.2060000737,
+        -82.6628105954
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "State Road 54",
+      "to": "Destiny Way",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": null,
+      "length_m": 131.8495077192,
+      "coords": [
+        28.1917830534,
+        -82.6263513282
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -220,15 +296,47 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 78,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
       "from": "Land O Lakes Blvd",
       "to": "Land O Lakes Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 108,
-      "length_m": 45.1900774525,
+      "delay_sec": 63,
+      "length_m": 20.1153839297,
       "coords": [
-        28.216812084,
-        -82.4599041656
+        28.1856756503,
+        -82.4662113801
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Storybook Cabin Way",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 169,
+      "length_m": 318.4283856249,
+      "coords": [
+        28.2995098911,
+        -82.4481373146
       ]
     },
     {
@@ -249,36 +357,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Eagleflight Ln",
-      "to": "Collier Pkwy",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Creek Grass Way",
+      "to": "Sun Vista Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 76,
-      "length_m": 69.7657137753,
+      "delay_sec": null,
+      "length_m": 35.4567981651,
       "coords": [
-        28.2132004222,
-        -82.4378993228
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 109,
-      "length_m": 64.1075244296,
-      "coords": [
-        28.1863341398,
-        -82.4068138614
+        28.1905988197,
+        -82.3940840974
       ]
     },
     {
@@ -311,6 +401,22 @@
       "coords": [
         28.1899537282,
         -82.3738937691
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Pink Flamingo Ln",
+      "to": "Market Grove Ln",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 122,
+      "length_m": 164.5356370363,
+      "coords": [
+        28.2420757493,
+        -82.3521611705
       ]
     },
     {
@@ -363,40 +469,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54 / Mowrey Rd",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 213,
-      "length_m": 133.5218776499,
-      "coords": [
-        28.2183167901,
-        -82.2501460328
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Zephyrhills",
-      "to": "Zephyrhills",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 66,
-      "length_m": 241.6562882911,
-      "coords": [
-        28.1811641527,
-        -82.2357653692
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -410,40 +482,44 @@
         28.3587625976,
         -82.1907726541
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Gall Blvd",
+      "to": "Gall Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 259,
+      "length_m": 137.1919494673,
+      "coords": [
+        28.2728876867,
+        -82.1877618744
+      ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "CORTEZ BLVD x[DELTONA BLVD]    [BROOKSVILLE]",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "1164 ACADEMY AVE   [SPRING HILL]",
       "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.5209833245498,
-        -82.5644862323703
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "CLARK ST x[OLD DIXIE HWY]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3604107992973,
-        -82.6990837930425
+        28.4507897935881,
+        -82.6110065375257
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
     "Ridge Road",
-    "SR 54"
+    "SR 54",
+    "US 19"
   ],
   "overlap": []
 }
