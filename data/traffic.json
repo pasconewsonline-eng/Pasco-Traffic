@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-06T23:15:42.335383Z",
+  "generated": "2026-07-07T01:17:19.864580Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -12,7 +12,7 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 53,
+      "delay_sec": 62,
       "length_m": 160.841,
       "coords": [
         28.1961161437,
@@ -24,15 +24,49 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
+      "from": "Sunset Rd",
+      "to": "Sunset Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 54,
-      "length_m": 164.5198566414,
+      "delay_sec": 62,
+      "length_m": 66.1039162109,
       "coords": [
-        28.1938684697,
-        -82.7399120347
+        28.2568211997,
+        -82.7269516007
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Massachusetts Ave (Grand Blvd)",
+      "to": "US-19 (Grand Blvd)",
+      "roadnums": "County Hwy-595",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 256,
+      "length_m": 399.2355781314,
+      "coords": [
+        28.2697602016,
+        -82.7219318465
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -56,42 +90,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "US Highway 19",
-      "to": "Fox Hollow Dr",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 261,
-      "length_m": 140.5369908734,
-      "coords": [
-        28.3013378548,
-        -82.7039328829
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Carlsbad St",
-      "to": "Seven Springs Blvd",
+      "from": "Seven Springs Blvd",
+      "to": "Carlsbad St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -106,8 +106,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Seven Springs Blvd",
-      "to": "Carlsbad St",
+      "from": "Carlsbad St",
+      "to": "Seven Springs Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -136,17 +136,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Picnic Ct",
-      "to": "Little Deer Pkwy / Little Creek Dr",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "US Highway 19",
+      "to": "US Highway 19",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 339,
-      "length_m": 230.6488170611,
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 159,
+      "length_m": 70.252615638,
       "coords": [
-        28.2343751213,
-        -82.6752707974
+        28.3984284541,
+        -82.6601686195
       ]
     },
     {
@@ -186,49 +188,15 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Porfirio Pl",
-      "to": "Romanesque Ct / Talavera Pkwy",
+      "from": "Champions Ave",
+      "to": "Collier Pkwy / Preakness Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 324,
-      "length_m": 372.1099992035,
+      "delay_sec": 210,
+      "length_m": 126.866419949,
       "coords": [
-        28.3399495582,
-        -82.5126739458
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 45,
-      "length_m": 147.6256764512,
-      "coords": [
-        28.1866264804,
-        -82.4030587688
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1884463323,
+        -82.4380119756
       ]
     },
     {
@@ -249,18 +217,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 77,
-      "length_m": 216.8347243815,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1854623588,
-        -82.3684716836
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -330,83 +298,40 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 60,
-      "length_m": 239.4547861413,
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Dixie Ave",
+      "to": "US Highway 301 / Willingham Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 259,
+      "length_m": 156.317086522,
       "coords": [
-        28.1958250849,
-        -82.2469112888
+        28.3533324714,
+        -82.1916215732
       ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "13618 PEACH TREE RD   [HUDSON]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3552729512516,
-        -82.6250166605805
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 NB [MM285]  x[MM285]    [SAN ANTONIO]",
+      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
+      "location": "SR-54 x[LITTLE RD]    [NEW PORT RICHEY]",
       "county": "PASCO",
       "roads": [
-        "I-75"
+        "SR 54",
+        "Little Road"
       ],
       "coords": [
-        28.3196429380764,
-        -82.3246578326683
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "25830 SIERRA CENTER BLVD   [LUTZ]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1951041106719,
-        -82.3936731066339
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 NB [MM278]  x[MM278]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.2271043170839,
-        -82.3614235459199
+        28.2058990206412,
+        -82.6661822405613
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
-    "Ridge Road",
+    "Little Road",
     "SR 54",
     "US 19"
   ],
