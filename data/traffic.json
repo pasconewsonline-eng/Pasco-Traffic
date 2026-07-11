@@ -1,6 +1,22 @@
 {
-  "generated": "2026-07-11T11:30:14.506197Z",
+  "generated": "2026-07-11T12:40:11.263397Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Trouble Creek Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 50,
+      "length_m": 187.59,
+      "coords": [
+        28.2255479908,
+        -82.7331045882
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +27,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -35,6 +51,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 72,
+      "length_m": 110.8882967126,
+      "coords": [
+        28.2805064782,
+        -82.7078153805
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -47,6 +79,22 @@
       "coords": [
         28.294694039,
         -82.6759641484
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Hays Rd",
+      "to": "Hays Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 201,
+      "length_m": 580.2028900932,
+      "coords": [
+        28.3701244171,
+        -82.5716288999
       ]
     },
     {
@@ -100,17 +148,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 92,
+      "length_m": 64.1075244296,
+      "coords": [
+        28.1863341398,
+        -82.4068138614
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Wesley Chapel Blvd",
-      "to": "Tradewinds Dr",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 153,
-      "length_m": 401.9585549141,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2110613898,
-        -82.3938534275
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -131,18 +197,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 68,
+      "length_m": 167.252086934,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -240,9 +306,43 @@
         28.3587625976,
         -82.1907726541
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "US Highway 301 / Countryside Pl",
+      "to": "US Highway 301",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 133,
+      "length_m": 104.0863179921,
+      "coords": [
+        28.3473015244,
+        -82.1866608276
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "5th Ave (20th St)",
+      "to": "C Ave (20th St)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 152,
+      "length_m": 535.449629409,
+      "coords": [
+        28.2326894202,
+        -82.1716565504
+      ]
     }
   ],
   "fhp": [],
-  "monitored_roads_active": [],
+  "monitored_roads_active": [
+    "SR 54"
+  ],
   "overlap": []
 }
