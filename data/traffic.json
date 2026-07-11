@@ -1,20 +1,38 @@
 {
-  "generated": "2026-07-11T12:40:11.263397Z",
+  "generated": "2026-07-11T14:11:24.193855Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
+      "to": "Darlington Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 86,
+      "length_m": 160.841,
+      "coords": [
+        28.1961161437,
+        -82.739878507
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 50,
-      "length_m": 187.59,
+      "delay_sec": 86,
+      "length_m": 164.5198566414,
       "coords": [
-        28.2255479908,
-        -82.7331045882
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
@@ -52,17 +70,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "major",
+      "desc": "Stopped traffic",
       "from": "New Port Richey",
       "to": "Congress St",
       "roadnums": "County Hwy-524",
       "roads": [],
-      "delay_sec": 72,
+      "delay_sec": 147,
       "length_m": 110.8882967126,
       "coords": [
         28.2805064782,
         -82.7078153805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Fox Hollow Dr",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 85,
+      "length_m": 108.0146287211,
+      "coords": [
+        28.3020526775,
+        -82.7037169651
       ]
     },
     {
@@ -85,32 +121,32 @@
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Hays Rd",
-      "to": "Hays Rd",
+      "desc": "Stopped traffic",
+      "from": "Trinity Blvd",
+      "to": "Lowman Ln",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 201,
-      "length_m": 580.2028900932,
+      "delay_sec": 62,
+      "length_m": 98.7932935367,
       "coords": [
-        28.3701244171,
-        -82.5716288999
+        28.1887011372,
+        -82.6243235782
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Hays Rd",
+      "to": "Hays Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
+      "delay_sec": 272,
+      "length_m": 478.8747427193,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.3701096667,
+        -82.5727862731
       ]
     },
     {
@@ -134,6 +170,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Connerton Blvd",
       "to": "Pleasant Plains Pkwy",
       "roadnums": "",
@@ -149,34 +201,16 @@
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 92,
-      "length_m": 64.1075244296,
-      "coords": [
-        28.1863341398,
-        -82.4068138614
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "desc": "Stopped traffic",
+      "from": "Collier Pkwy / Preakness Blvd",
+      "to": "Collier Pkwy / Preakness Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 83,
+      "length_m": 53.867405962,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1888848712,
+        -82.4377424136
       ]
     },
     {
@@ -197,18 +231,68 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
+      "to": "The Shoppes at New Tampa",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 68,
-      "length_m": 167.252086934,
+      "delay_sec": 328,
+      "length_m": 172.5624004362,
       "coords": [
-        28.3243699858,
-        -82.3590477422
+        28.1833836495,
+        -82.3530543461
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 339,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 88,
+      "length_m": 51.6361372401,
+      "coords": [
+        28.1920753791,
+        -82.3245223477
       ]
     },
     {
@@ -241,6 +325,22 @@
       "coords": [
         28.3250633304,
         -82.3073387757
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Avery Scope Vw",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 76,
+      "length_m": 71.2238447818,
+      "coords": [
+        28.2729386222,
+        -82.2803892806
       ]
     },
     {
@@ -306,43 +406,42 @@
         28.3587625976,
         -82.1907726541
       ]
-    },
+    }
+  ],
+  "fhp": [
     {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "US Highway 301 / Countryside Pl",
-      "to": "US Highway 301",
-      "roadnums": "",
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "20229 US-301   [DADE CITY]",
+      "county": "PASCO",
       "roads": [],
-      "delay_sec": 133,
-      "length_m": 104.0863179921,
       "coords": [
-        28.3473015244,
-        -82.1866608276
+        28.4533256697409,
+        -82.1863835986107
       ]
     },
     {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "5th Ave (20th St)",
-      "to": "C Ave (20th St)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 152,
-      "length_m": 535.449629409,
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[COUNTY LINE RD]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "County Line Road"
+      ],
       "coords": [
-        28.2326894202,
-        -82.1716565504
+        28.171939007466,
+        -82.4613240199101
       ]
     }
   ],
-  "fhp": [],
   "monitored_roads_active": [
-    "SR 54"
+    "County Line Road",
+    "SR 54",
+    "US 19"
   ],
   "overlap": []
 }
