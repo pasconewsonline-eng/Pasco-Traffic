@@ -1,35 +1,17 @@
 {
-  "generated": "2026-07-12T11:43:53.093307Z",
+  "generated": "2026-07-12T12:41:30.476731Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 48,
-      "length_m": 147.862,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -40,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -79,8 +61,8 @@
       "delay_sec": null,
       "length_m": 39.1190238243,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.1606050398,
+        -82.5336059049
       ]
     },
     {
@@ -95,8 +77,8 @@
       "delay_sec": null,
       "length_m": 39.1190238243,
       "coords": [
-        28.1606050398,
-        -82.5336059049
+        28.1606291303,
+        -82.5335012988
       ]
     },
     {
@@ -149,6 +131,56 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Longacre Ln",
+      "to": "West Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 161,
+      "length_m": 347.1269073505,
+      "coords": [
+        28.2790285585,
+        -82.3550566152
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "The Shoppes at New Tampa",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 148,
+      "length_m": 172.5624004362,
+      "coords": [
+        28.1833836495,
+        -82.3530543461
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 349,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -181,6 +213,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 66,
+      "length_m": 292.3762000086,
+      "coords": [
+        28.3046302357,
+        -82.2915982321
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -198,17 +246,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "19th St",
-      "to": "17th St",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Ware Ln",
+      "to": "Happy Hill Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 182,
-      "length_m": 204.328758953,
+      "delay_sec": 84,
+      "length_m": 234.4215786121,
       "coords": [
-        28.3687323377,
-        -82.2003669157
+        28.3445576171,
+        -82.2364600613
       ]
     },
     {
@@ -231,9 +279,9 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "desc": "Vehicle Crash w/injuries",
       "location": "COUNTY LINE RD  x[FARMSWORTH BLVD]    [SPRING HILL]",
       "county": "PASCO",
       "roads": [
@@ -247,7 +295,7 @@
   ],
   "monitored_roads_active": [
     "County Line Road",
-    "US 19"
+    "SR 54"
   ],
   "overlap": []
 }
