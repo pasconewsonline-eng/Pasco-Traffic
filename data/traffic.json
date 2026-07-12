@@ -1,6 +1,24 @@
 {
-  "generated": "2026-07-12T10:36:06.781124Z",
+  "generated": "2026-07-12T11:43:53.093307Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 48,
+      "length_m": 147.862,
+      "coords": [
+        28.2088647008,
+        -82.739621015
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +29,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -102,8 +120,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -118,8 +136,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -182,15 +200,15 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "State Road 56",
-      "to": "Castaway Loop",
+      "from": "19th St",
+      "to": "17th St",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 163,
-      "length_m": 305.2872272185,
+      "delay_sec": 182,
+      "length_m": 204.328758953,
       "coords": [
-        28.193777235,
-        -82.2668387606
+        28.3687323377,
+        -82.2003669157
       ]
     },
     {
@@ -210,7 +228,26 @@
       ]
     }
   ],
-  "fhp": [],
-  "monitored_roads_active": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "COUNTY LINE RD  x[FARMSWORTH BLVD]    [SPRING HILL]",
+      "county": "PASCO",
+      "roads": [
+        "County Line Road"
+      ],
+      "coords": [
+        28.4336649099693,
+        -82.5322034084609
+      ]
+    }
+  ],
+  "monitored_roads_active": [
+    "County Line Road",
+    "US 19"
+  ],
   "overlap": []
 }
