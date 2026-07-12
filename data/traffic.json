@@ -1,38 +1,38 @@
 {
-  "generated": "2026-07-12T22:53:08.297156Z",
+  "generated": "2026-07-12T23:57:34.908434Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 111,
-      "length_m": 130.738,
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 164.52,
       "coords": [
-        28.1885522733,
-        -82.7400367574
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 76,
+      "length_m": 147.8622545944,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -53,20 +53,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "US Highway 19",
-      "to": "Fox Hollow Dr",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 203,
-      "length_m": 140.5369908734,
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
       "coords": [
-        28.3013378548,
-        -82.7039328829
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -135,40 +133,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 66,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 52,
-      "length_m": 64.1075244296,
-      "coords": [
-        28.1863341398,
-        -82.4068138614
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -202,17 +166,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Progress Pkwy",
-      "roadnums": "FL-54",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "The Shoppes at New Tampa",
+      "to": "Central Pasco",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 144,
-      "length_m": 148.1805505708,
+      "delay_sec": 166,
+      "length_m": 158.0254936265,
       "coords": [
-        28.2324641116,
-        -82.3715723172
+        28.1827788539,
+        -82.3530677572
       ]
     },
     {
@@ -245,6 +209,22 @@
       "coords": [
         28.3250633304,
         -82.3073387757
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Epperson Blvd",
+      "to": "Epperson Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 190,
+      "length_m": 1149.4461529502,
+      "coords": [
+        28.2777866827,
+        -82.2861989453
       ]
     },
     {
@@ -289,16 +269,32 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 116.0479724319,
+      "length_m": 790.749280209,
       "coords": [
-        28.3285072609,
-        -82.1459368482
+        28.3284965627,
+        -82.1428147569
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "I-75 SB [MM275]  x[MM275]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.1903829249012,
+        -82.3859243792106
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "SR 54",
+    "I-75",
     "US 19"
   ],
   "overlap": []
