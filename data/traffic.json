@@ -1,17 +1,53 @@
 {
-  "generated": "2026-07-16T23:38:44.534551Z",
+  "generated": "2026-07-17T01:12:05.025901Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 93,
+      "length_m": 160.841,
+      "coords": [
+        28.1961161437,
+        -82.739878507
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 164,
+      "length_m": 163.4622817046,
+      "coords": [
+        28.2103975129,
+        -82.7394694702
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -22,8 +58,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -51,18 +87,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Port Richey",
+      "to": "Hicks Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
+      "delay_sec": 68,
+      "length_m": 134.7034537677,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.3671243618,
+        -82.6503275946
       ]
     },
     {
@@ -83,18 +119,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 65,
-      "length_m": 138.9274305032,
+      "delay_sec": null,
+      "length_m": 39.1190238243,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.1606291303,
+        -82.5335012988
       ]
     },
     {
@@ -150,31 +186,15 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "from": "The Shoppes at New Tampa",
+      "to": "Central Pasco",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 74,
-      "length_m": 216.8347243815,
+      "delay_sec": 339,
+      "length_m": 158.0254936265,
       "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Mansfield Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 56,
-      "length_m": 383.0819437651,
-      "coords": [
-        28.1960919874,
-        -82.3326078668
+        28.1827788539,
+        -82.3530677572
       ]
     },
     {
@@ -259,22 +279,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 56",
-      "to": "Sunflower Hill Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 79,
-      "length_m": 40.9785665332,
-      "coords": [
-        28.1961603935,
-        -82.2255407884
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -309,28 +313,15 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash w/injuries",
+      "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
-      "desc": "Hit and Run Crash w/injuries",
-      "location": "4813 SHAW DR x[WAVERLY AVE]    [ZEPHYRHILLS]",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "PINON DR x[NORMANDY BLVD]    [HOLIDAY]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.2293474352218,
-        -82.1944415110026
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "FOX HOLLOW DR x[WOODRIDGE CT]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3009556829161,
-        -82.6711082945516
+        28.1835929380764,
+        -82.7577906810982
       ]
     },
     {
@@ -347,36 +338,11 @@
         28.2374419587176,
         -82.304998665018
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "3116 LAND O LAKES BLVD   [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2030878480457,
-        -82.4632546565163
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CORTEZ BLVD x[GROVE RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.5338513658322,
-        -82.483548049096
-      ]
     }
   ],
   "monitored_roads_active": [
-    "SR 54"
+    "SR 54",
+    "US 19"
   ],
   "overlap": []
 }
