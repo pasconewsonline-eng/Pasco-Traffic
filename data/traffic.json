@@ -1,13 +1,13 @@
 {
-  "generated": "2026-07-18T11:29:57.177531Z",
+  "generated": "2026-07-18T12:31:43.586971Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -36,17 +36,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Mitchell Ranch Rd",
-      "to": "Griswold Loop",
-      "roadnums": "",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
       "roads": [],
-      "delay_sec": 175,
-      "length_m": 227.2988285372,
+      "delay_sec": 112,
+      "length_m": 117.9521747299,
       "coords": [
-        28.2076764461,
-        -82.6853331045
+        28.2804971037,
+        -82.6980668918
       ]
     },
     {
@@ -63,40 +63,6 @@
       "coords": [
         28.294694039,
         -82.6759641484
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "Foray Ln / Hunting Creek Loop",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 195,
-      "length_m": 270.7524334838,
-      "coords": [
-        28.2080921558,
-        -82.676163973
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
       ]
     },
     {
@@ -120,15 +86,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 39.1190238243,
+      "length_m": 201.6231279231,
       "coords": [
-        28.1606050398,
-        -82.5336059049
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -145,6 +111,22 @@
       "coords": [
         28.1606291303,
         -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606050398,
+        -82.5336059049
       ]
     },
     {
@@ -193,6 +175,40 @@
       "coords": [
         28.2237925064,
         -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 64,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 158,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
       ]
     },
     {
@@ -269,10 +285,10 @@
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1978.451002288,
+      "length_m": 1570.4039134247,
       "coords": [
-        28.3100456571,
-        -82.2558256104
+        28.3100576855,
+        -82.2580853715
       ]
     },
     {
@@ -293,6 +309,45 @@
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "ROACH&#39;S RUN x[LAND O LAKES BLVD]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2724492270531,
+        -82.4814010889223
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-56 EB x[WYNDFIELDS BLVD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1960625647782,
+        -82.2767009732933
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "1621 LAND O LAKES BLVD   [LUTZ]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1803978612209,
+        -82.4652399197847
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Fatality",
