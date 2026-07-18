@@ -1,13 +1,13 @@
 {
-  "generated": "2026-07-18T01:06:32.595731Z",
+  "generated": "2026-07-18T10:20:17.963350Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -115,6 +115,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Hale Rd / Tamney Ln",
+      "to": "Oakville Dr / Balance Cv",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 181,
+      "length_m": 410.2062837764,
+      "coords": [
+        28.221497852,
+        -82.447910668
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -159,70 +175,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 57,
-      "length_m": 216.8347243815,
-      "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Pink Flamingo Ln",
-      "to": "Emmy Ln",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 412.0851831436,
-      "coords": [
-        28.2430400332,
-        -82.351384671
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Emmy Ln",
-      "to": "Pink Flamingo Ln",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 412.0851831436,
-      "coords": [
-        28.2430400332,
-        -82.351384671
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Old Pasco Rd",
-      "to": "Halo Bend Ct",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 90,
-      "length_m": 67.1961238716,
-      "coords": [
-        28.252639643,
-        -82.3497632757
       ]
     },
     {
@@ -291,24 +243,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "State Road 54 / Mowrey Rd",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 278,
-      "length_m": 148.9721108783,
-      "coords": [
-        28.2178017817,
-        -82.251135768
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -321,22 +255,6 @@
       "coords": [
         28.3100483137,
         -82.2703256324
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Allen Rd",
-      "to": "Sand Dollar Way",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 98,
-      "length_m": 242.9257192185,
-      "coords": [
-        28.2251375926,
-        -82.2028908744
       ]
     },
     {
@@ -359,68 +277,18 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Fatality",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SR-54 x[STARNES DR]    [ODESSA]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.186171559069,
-        -82.5527274896741
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "US-19 x[SUNRAY DR]    [HOLIDAY]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
-      "coords": [
-        28.1979025647782,
-        -82.7395635966642
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "HERON ISLAND DR x[SR-54]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.2085798199385,
-        -82.6792037859343
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "CLINTON AVE x[HILLTOP FARMS DR]    [DADE CITY]",
+      "desc": "Fatality",
+      "location": "TROUBLE CREEK RD x[SPIKE HORN DR]    [NEW PORT RICHEY]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.3285727316645,
-        -82.181453547346
+        28.2296233377251,
+        -82.6771585242416
       ]
     }
   ],
-  "monitored_roads_active": [
-    "SR 54",
-    "US 19"
-  ],
-  "overlap": [
-    "SR 54"
-  ]
+  "monitored_roads_active": [],
+  "overlap": []
 }
