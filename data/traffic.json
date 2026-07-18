@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T10:20:17.963350Z",
+  "generated": "2026-07-18T11:29:57.177531Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,6 +35,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Mitchell Ranch Rd",
+      "to": "Griswold Loop",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 175,
+      "length_m": 227.2988285372,
+      "coords": [
+        28.2076764461,
+        -82.6853331045
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -51,18 +67,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Tipton Ave",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "Foray Ln / Hunting Creek Loop",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 195,
+      "length_m": 270.7524334838,
       "coords": [
-        28.3286776211,
-        -82.6600170747
+        28.2080921558,
+        -82.676163973
       ]
     },
     {
@@ -79,6 +97,22 @@
       "coords": [
         28.3286802772,
         -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Canton Ave",
+      "to": "Tipton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286776211,
+        -82.6600170747
       ]
     },
     {
@@ -115,22 +149,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hale Rd / Tamney Ln",
-      "to": "Oakville Dr / Balance Cv",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 181,
-      "length_m": 410.2062837764,
-      "coords": [
-        28.221497852,
-        -82.447910668
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -150,8 +168,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -166,8 +184,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -246,15 +264,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Curley Rd / Curley St",
+      "from": "Wirt Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 1978.451002288,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3100456571,
+        -82.2558256104
       ]
     },
     {
@@ -289,6 +307,8 @@
       ]
     }
   ],
-  "monitored_roads_active": [],
+  "monitored_roads_active": [
+    "SR 54"
+  ],
   "overlap": []
 }
