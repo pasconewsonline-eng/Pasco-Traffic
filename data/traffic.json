@@ -1,51 +1,17 @@
 {
-  "generated": "2026-07-17T23:35:52.166901Z",
+  "generated": "2026-07-18T01:06:32.595731Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hillsdale Dr",
-      "to": "Woodsville Dr / Tamargo Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 154,
-      "length_m": 215.861,
-      "coords": [
-        28.2195357985,
-        -82.7450377361
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 65,
-      "length_m": 160.8409771858,
-      "coords": [
-        28.1961161437,
-        -82.739878507
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -56,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -88,22 +54,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Canton Ave",
       "to": "Tipton Ave",
       "roadnums": "",
@@ -117,34 +67,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Fencepost Dr",
-      "to": "Gunn Hwy",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 161,
-      "length_m": 212.4090349789,
-      "coords": [
-        28.1963789824,
-        -82.5932300702
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 39.1190238243,
+      "length_m": 201.6231279231,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -168,6 +102,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Pleasant Plains Pkwy",
       "to": "Connerton Blvd",
       "roadnums": "",
@@ -177,22 +127,6 @@
       "coords": [
         28.282311591,
         -82.4456214026
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
       ]
     },
     {
@@ -213,14 +147,30 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "Central Pasco",
       "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 136,
+      "delay_sec": 57,
       "length_m": 216.8347243815,
       "coords": [
         28.1854623588,
@@ -257,6 +207,22 @@
       "coords": [
         28.2430400332,
         -82.351384671
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Old Pasco Rd",
+      "to": "Halo Bend Ct",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 90,
+      "length_m": 67.1961238716,
+      "coords": [
+        28.252639643,
+        -82.3497632757
       ]
     },
     {
@@ -325,6 +291,24 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "State Road 54 / Mowrey Rd",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 278,
+      "length_m": 148.9721108783,
+      "coords": [
+        28.2178017817,
+        -82.251135768
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -342,49 +326,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "21st St",
-      "to": "Dade City",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Allen Rd",
+      "to": "Sand Dollar Way",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 79,
-      "length_m": 57.8944383055,
+      "delay_sec": 98,
+      "length_m": 242.9257192185,
       "coords": [
-        28.3584407087,
-        -82.204297693
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Eiland Blvd",
-      "to": "Picketts Mill Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 40.6911385006,
-      "coords": [
-        28.2495349695,
-        -82.2004138544
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Picketts Mill Ave",
-      "to": "Eiland Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 66.5895052474,
-      "coords": [
-        28.2495148862,
-        -82.2003816679
+        28.2251375926,
+        -82.2028908744
       ]
     },
     {
@@ -405,6 +357,21 @@
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-54 x[STARNES DR]    [ODESSA]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.186171559069,
+        -82.5527274896741
+      ]
+    },
     {
       "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -437,19 +404,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "PLEASANT PLAINS PKWY x[SENTIERO DR]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2836356960913,
-        -82.4610546212391
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Hit and Run Crash",
       "severity": "reported",
       "desc": "Hit and Run Crash",
@@ -467,6 +421,6 @@
     "US 19"
   ],
   "overlap": [
-    "US 19"
+    "SR 54"
   ]
 }
