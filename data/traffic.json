@@ -1,22 +1,40 @@
 {
-  "generated": "2026-07-19T21:55:40.010481Z",
+  "generated": "2026-07-19T22:56:35.679091Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Suwannee Dr",
-      "to": "US Highway 19 / Trouble Creek Rd",
-      "roadnums": "",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 203,
-      "length_m": 184.819,
+      "delay_sec": 59,
+      "length_m": 147.862,
       "coords": [
-        28.2240057214,
-        -82.7317876235
+        28.2088647008,
+        -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 76,
+      "length_m": 163.4622817046,
+      "coords": [
+        28.2103975129,
+        -82.7394694702
       ]
     },
     {
@@ -53,24 +71,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Scenic Dr",
-      "to": "US Highway 19 / Regency Park Blvd",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 126,
-      "length_m": 115.8654326632,
-      "coords": [
-        28.3065668133,
-        -82.702252479
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -83,22 +83,6 @@
       "coords": [
         28.294694039,
         -82.6759641484
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
       ]
     },
     {
@@ -119,18 +103,52 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hudson Ave",
-      "to": "Fairwinds Rd / Lucille Dr",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 166,
-      "length_m": 469.6163955359,
+      "delay_sec": null,
+      "length_m": 201.6231279231,
       "coords": [
-        28.3563768047,
-        -82.6102580742
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "US Highway 19",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 78,
+      "length_m": 70.252615638,
+      "coords": [
+        28.3984284541,
+        -82.6601686195
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
       ]
     },
     {
@@ -154,38 +172,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
-      "coords": [
-        28.1606291303,
-        -82.5335012988
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 78,
-      "length_m": 138.9274305032,
-      "coords": [
-        28.1935157196,
-        -82.4993326381
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Pleasant Plains Pkwy",
       "to": "Connerton Blvd",
       "roadnums": "",
@@ -199,52 +185,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Connerton Blvd",
-      "to": "Central Pasco",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 231,
-      "length_m": 217.8665779417,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2848502858,
-        -82.4437519029
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Collier Pkwy",
-      "to": "Madaca Ln",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 201,
-      "length_m": 129.6005453309,
-      "coords": [
-        28.1879568157,
-        -82.4399257317
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Livingston Ave",
-      "to": "E County Line Rd / Turtle Lakes Ln",
-      "roadnums": "",
-      "roads": [
-        "County Line Road"
-      ],
-      "delay_sec": 110,
-      "length_m": 80.2761204608,
-      "coords": [
-        28.1699578759,
-        -82.425594689
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -265,18 +217,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Old Pasco Rd",
       "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 67,
+      "length_m": 65.4019376834,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2380055615,
+        -82.3667805508
       ]
     },
     {
@@ -309,22 +261,6 @@
       "coords": [
         28.3250633304,
         -82.3073387757
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Johnston Rd (Lake Iola Rd/CR-577)",
-      "to": "CR-578/Old Saint Joe Rd/Jessamine Rd (Curley Rd/CR-577)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 169,
-      "length_m": 718.2482707403,
-      "coords": [
-        28.3896482592,
-        -82.2884238377
       ]
     },
     {
@@ -380,38 +316,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Wirt Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1978.451002288,
-      "coords": [
-        28.3100576855,
-        -82.2580853715
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Lane Rd",
-      "to": "Allen Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 144,
-      "length_m": 495.7938407347,
-      "coords": [
-        28.215364967,
-        -82.2018622472
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "FL-35A/Old Lakeland Hwy (US-98)",
       "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
@@ -424,9 +328,25 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "7532 SR-52   [HUDSON]",
+      "county": "PASCO",
+      "roads": [
+        "SR 52"
+      ],
+      "coords": [
+        28.3315060693896,
+        -82.69013
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "County Line Road",
+    "SR 52",
     "US 19"
   ],
   "overlap": []
