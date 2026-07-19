@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T10:36:50.281332Z",
+  "generated": "2026-07-19T11:42:33.566474Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -54,22 +54,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Canton Ave",
       "to": "Tipton Ave",
       "roadnums": "",
@@ -86,15 +70,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 39.1190238243,
+      "length_m": 201.6231279231,
       "coords": [
-        28.1606291303,
-        -82.5335012988
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Shady Hills Rd",
+      "to": "Garson Loop",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 285,
+      "length_m": 673.7538780094,
+      "coords": [
+        28.3992263829,
+        -82.5545338408
       ]
     },
     {
@@ -118,6 +118,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606291303,
+        -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Pleasant Plains Pkwy",
       "to": "Connerton Blvd",
       "roadnums": "",
@@ -134,8 +150,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -150,8 +166,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -258,7 +274,21 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "LAND O LAKES BLVD x[EHREN CUTOFF]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.241807448397,
+        -82.4604286479664
+      ]
+    }
+  ],
   "monitored_roads_active": [],
   "overlap": []
 }
