@@ -1,13 +1,13 @@
 {
-  "generated": "2026-07-19T12:38:03.614271Z",
+  "generated": "2026-07-19T14:12:54.423384Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -31,6 +31,22 @@
       "coords": [
         28.2361628496,
         -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 190,
+      "length_m": 145.8132968764,
+      "coords": [
+        28.217041414,
+        -82.7163448051
       ]
     },
     {
@@ -51,18 +67,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Vixen Ln",
+      "to": "Little Rd",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 163,
+      "length_m": 500.7621394181,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.3245295801,
+        -82.6695402578
       ]
     },
     {
@@ -83,20 +101,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Endeavor Ave / Short Ave",
-      "to": "State Road 54 / Duck Slough Blvd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 149,
-      "length_m": 71.514472911,
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
       "coords": [
-        28.1936498017,
-        -82.6350524143
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -181,20 +197,36 @@
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "Central Pasco",
-      "to": "State Road 54",
+      "to": "Northwood Palms Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 84,
+      "length_m": 216.8347243815,
+      "coords": [
+        28.1854623588,
+        -82.3684716836
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Birds Eye Dr",
+      "to": "County Line Rd",
       "roadnums": "",
       "roads": [
-        "SR 54"
+        "County Line Road"
       ],
-      "delay_sec": 202,
-      "length_m": 136.8344006788,
+      "delay_sec": 163,
+      "length_m": 495.0633388789,
       "coords": [
-        28.2375911498,
-        -82.3475289956
+        28.1801314848,
+        -82.3305465892
       ]
     },
     {
@@ -266,6 +298,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Curley Rd / Curley St",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -297,30 +345,17 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "INGLESIDE DR x[PALM AVE]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2956460693895,
-        -82.6987338505275
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "SR-589 NB [MM27]  x[MM27]    [LAND O LAKES]",
+      "desc": "Vehicle Crash",
+      "location": "22850 SR-54   [LUTZ]",
       "county": "PASCO",
       "roads": [
-        "Suncoast Parkway"
+        "SR 54"
       ],
       "coords": [
-        28.3090062758015,
-        -82.5502131099569
+        28.185941559069,
+        -82.4373505962614
       ]
     },
     {
@@ -338,8 +373,9 @@
     }
   ],
   "monitored_roads_active": [
-    "SR 54",
-    "Suncoast Parkway"
+    "County Line Road",
+    "Little Road",
+    "SR 54"
   ],
   "overlap": []
 }
