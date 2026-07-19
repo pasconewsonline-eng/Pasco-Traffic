@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T11:42:33.566474Z",
+  "generated": "2026-07-19T12:38:03.614271Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -54,22 +54,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Tipton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286776211,
-        -82.6600170747
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Tipton Ave",
       "to": "Canton Ave",
       "roadnums": "",
@@ -83,34 +67,36 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Shady Hills Rd",
-      "to": "Garson Loop",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Canton Ave",
+      "to": "Tipton Ave",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 285,
-      "length_m": 673.7538780094,
+      "delay_sec": null,
+      "length_m": 201.6231279231,
       "coords": [
-        28.3992263829,
-        -82.5545338408
+        28.3286776211,
+        -82.6600170747
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Endeavor Ave / Short Ave",
+      "to": "State Road 54 / Duck Slough Blvd",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 149,
+      "length_m": 71.514472911,
       "coords": [
-        28.1606050398,
-        -82.5336059049
+        28.1936498017,
+        -82.6350524143
       ]
     },
     {
@@ -127,6 +113,22 @@
       "coords": [
         28.1606291303,
         -82.5335012988
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 39.1190238243,
+      "coords": [
+        28.1606050398,
+        -82.5336059049
       ]
     },
     {
@@ -175,6 +177,24 @@
       "coords": [
         28.2237925064,
         -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 202,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
       ]
     },
     {
@@ -277,6 +297,34 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "INGLESIDE DR x[PALM AVE]    [PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2956460693895,
+        -82.6987338505275
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "SR-589 NB [MM27]  x[MM27]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "coords": [
+        28.3090062758015,
+        -82.5502131099569
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -289,6 +337,9 @@
       ]
     }
   ],
-  "monitored_roads_active": [],
+  "monitored_roads_active": [
+    "SR 54",
+    "Suncoast Parkway"
+  ],
   "overlap": []
 }
