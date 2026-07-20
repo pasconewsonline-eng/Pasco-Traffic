@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T22:56:35.679091Z",
+  "generated": "2026-07-20T00:02:51.986831Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -7,16 +7,16 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
+      "to": "State Road 54",
+      "roadnums": "",
       "roads": [
-        "US 19"
+        "SR 54"
       ],
-      "delay_sec": 59,
-      "length_m": 147.862,
+      "delay_sec": 86,
+      "length_m": 160.678,
       "coords": [
-        28.2088647008,
-        -82.739621015
+        28.2160435848,
+        -82.7377944306
       ]
     },
     {
@@ -25,16 +25,14 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 76,
-      "length_m": 163.4622817046,
+      "to": "Trouble Creek Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 52,
+      "length_m": 187.590344576,
       "coords": [
-        28.2103975129,
-        -82.7394694702
+        28.2255479908,
+        -82.7331045882
       ]
     },
     {
@@ -128,11 +126,11 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 78,
+      "delay_sec": 113,
       "length_m": 70.252615638,
       "coords": [
-        28.3984284541,
-        -82.6601686195
+        28.3984029427,
+        -82.6602088526
       ]
     },
     {
@@ -169,6 +167,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Nouveau Ave",
+      "to": "Lafuente Ct",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 133,
+      "length_m": 185.8779043812,
+      "coords": [
+        28.3342592917,
+        -82.5105670706
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -193,10 +207,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 35.377783473,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2240258834,
+        -82.3811370745
       ]
     },
     {
@@ -219,16 +233,16 @@
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Old Pasco Rd",
-      "to": "Wesley Chapel Blvd",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Central Pasco",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 67,
-      "length_m": 65.4019376834,
+      "delay_sec": 65,
+      "length_m": 74.4899119108,
       "coords": [
-        28.2380055615,
-        -82.3667805508
+        28.239055614,
+        -82.3378180578
       ]
     },
     {
@@ -261,6 +275,38 @@
       "coords": [
         28.3250633304,
         -82.3073387757
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Curley Rd",
+      "to": "Curley Rd / Overpass Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 110,
+      "length_m": 137.0854748619,
+      "coords": [
+        28.2677204141,
+        -82.2841846063
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Leonard Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 107.4078571863,
+      "coords": [
+        28.312117619,
+        -82.2743234649
       ]
     },
     {
@@ -300,15 +346,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Curley Rd / Curley St",
+      "from": "Leonard Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 2916.8119763769,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3100818161,
+        -82.2663398698
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-52/Meridian Ave (14th St)",
+      "to": "FL-578/Lock St (14th St)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 254,
+      "length_m": 500.9755094005,
+      "coords": [
+        28.3705978306,
+        -82.1957427874
       ]
     },
     {
@@ -328,25 +390,9 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "7532 SR-52   [HUDSON]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52"
-      ],
-      "coords": [
-        28.3315060693896,
-        -82.69013
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
-    "SR 52",
+    "SR 54",
     "US 19"
   ],
   "overlap": []
