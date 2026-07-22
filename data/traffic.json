@@ -1,6 +1,24 @@
 {
-  "generated": "2026-07-21T23:12:36.685869Z",
+  "generated": "2026-07-22T00:09:35.084843Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 70,
+      "length_m": 130.738,
+      "coords": [
+        28.1885522733,
+        -82.7400367574
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
@@ -12,11 +30,29 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 71,
-      "length_m": 160.841,
+      "delay_sec": 57,
+      "length_m": 160.8409771858,
       "coords": [
         28.1961161437,
         -82.739878507
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 64,
+      "length_m": 163.4622817046,
+      "coords": [
+        28.2103975129,
+        -82.7394694702
       ]
     },
     {
@@ -60,11 +96,11 @@
       "to": "Congress St",
       "roadnums": "County Hwy-524",
       "roads": [],
-      "delay_sec": 63,
-      "length_m": 139.8768034468,
+      "delay_sec": 60,
+      "length_m": 110.8882967126,
       "coords": [
-        28.2805386612,
-        -82.7061121777
+        28.2805064782,
+        -82.7078153805
       ]
     },
     {
@@ -133,34 +169,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Harpers Run",
-      "to": "Cypress Ranch Blvd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 73,
-      "length_m": 158.1694732652,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1927217876,
-        -82.524136366
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 91,
-      "length_m": 138.9274305032,
-      "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -181,34 +201,50 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Saxony Way",
+      "to": "Cypress Ridge Blvd / Oak Myrtle Ln",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 172,
+      "length_m": 175.597776848,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1923436207,
+        -82.373122634
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Wesley Chapel Blvd",
-      "to": "Lexington Oaks Blvd / Post Oak Blvd",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 198,
-      "length_m": 160.9542436895,
+      "delay_sec": 87,
+      "length_m": 216.8347243815,
       "coords": [
-        28.2360233563,
-        -82.3715146497
+        28.1854623588,
+        -82.3684716836
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Mansfield Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 70,
+      "length_m": 383.0819437651,
+      "coords": [
+        28.1960919874,
+        -82.3326078668
       ]
     },
     {
@@ -225,6 +261,40 @@
       "coords": [
         28.1895420112,
         -82.322395356
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Boyette Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 51,
+      "length_m": 189.7650728047,
+      "coords": [
+        28.2733074239,
+        -82.3204386845
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 52 / Uradco Pl",
+      "to": "Corporate Lake Blvd",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 182,
+      "length_m": 180.9997400938,
+      "coords": [
+        28.3269771062,
+        -82.3154926911
       ]
     },
     {
@@ -261,22 +331,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Sterncastle Xing",
-      "to": "Capstan Ct / Mizzen Way",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 220,
-      "length_m": 358.6121736327,
-      "coords": [
-        28.1888701695,
-        -82.2609204665
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -285,10 +339,10 @@
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 1805.1332551475,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3100737725,
+        -82.2726685419
       ]
     },
     {
@@ -305,6 +359,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wirt Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 1011.2318236075,
+      "coords": [
+        28.3100885313,
+        -82.2525238111
       ]
     },
     {
@@ -354,24 +424,27 @@
         28.3132414706,
         -82.1725376561
       ]
-    }
-  ],
-  "fhp": [
+    },
     {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "9116 CHANTILLY LN   [PORT RICHEY]",
-      "county": "PASCO",
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "CR-535/Chancey Rd (FL-39)",
+      "to": "Jerry Rd (FL-39)",
+      "roadnums": "FL-39",
       "roads": [],
+      "delay_sec": 229,
+      "length_m": 1395.0183842782,
       "coords": [
-        28.2893256960913,
-        -82.6883196557011
+        28.1990638449,
+        -82.1698795869
       ]
     }
   ],
+  "fhp": [],
   "monitored_roads_active": [
+    "SR 52",
     "US 19"
   ],
   "overlap": []
