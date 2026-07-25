@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T10:35:45.363407Z",
+  "generated": "2026-07-25T11:48:53.913423Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -54,6 +54,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Little Rd",
       "to": "Tipton Ave",
       "roadnums": "",
@@ -72,15 +88,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 201.6231279231,
+      "length_m": 39.1190238243,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.1606291303,
+        -82.5335012988
       ]
     },
     {
@@ -97,22 +113,6 @@
       "coords": [
         28.1606050398,
         -82.5336059049
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "W Lutz Lake Fern Rd",
-      "to": "W Lutz Lake Fern Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 39.1190238243,
-      "coords": [
-        28.1606291303,
-        -82.5335012988
       ]
     },
     {
@@ -150,33 +150,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Baycrest Dr",
-      "to": "Bruce B Downs Blvd / Aronwood Blvd",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 56",
+      "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 223,
-      "length_m": 79.003847744,
+      "delay_sec": 320,
+      "length_m": 526.5609197809,
       "coords": [
-        28.1760022649,
-        -82.3537463561
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Midnight Star Loop",
-      "to": "Raindance Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 169,
-      "length_m": 237.7304530332,
-      "coords": [
-        28.174497554,
-        -82.3416804388
+        28.188572442,
+        -82.3496157542
       ]
     },
     {
@@ -280,8 +264,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -296,8 +280,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -308,25 +292,8 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "I-75 NB [MM290]  x[MM290]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.39306390426,
-        -82.3192373489685
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
-    "I-75",
     "Little Road"
   ],
   "overlap": []
