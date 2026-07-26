@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T12:05:05.921286Z",
+  "generated": "2026-07-26T13:57:28.279114Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,6 +35,58 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 117.9521747299,
+      "coords": [
+        28.2804971037,
+        -82.6980668918
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Seven Springs Blvd/Rowan Rd (FL-54)",
+      "to": "CR-1/Little Rd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 267,
+      "length_m": 489.8506286395,
+      "coords": [
+        28.2169837307,
+        -82.6850809769
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Seven Springs Blvd/Rowan Rd (FL-54)",
+      "to": "CR-1/Little Rd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": null,
+      "length_m": 629.6998109539,
+      "coords": [
+        28.2152067601,
+        -82.6824336366
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -47,6 +99,22 @@
       "coords": [
         28.294694039,
         -82.6759641484
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -70,31 +138,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 201.6231279231,
+      "length_m": 55.9480836986,
       "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hathaway Dr",
-      "to": "New Brighton Ct",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 187,
-      "length_m": 399.9546277783,
-      "coords": [
-        28.2733785118,
-        -82.6336147503
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -115,18 +167,68 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Cypress Ridge Blvd / Oak Myrtle Ln",
+      "to": "Saxony Way",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 200,
+      "length_m": 175.597776848,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.192479034,
+        -82.372917445
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 89,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "The Shoppes at New Tampa",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 161,
+      "length_m": 158.0254936265,
+      "coords": [
+        28.1827788539,
+        -82.3530677572
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 341,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
       ]
     },
     {
@@ -179,18 +281,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "State Road 56",
-      "to": "Castaway Loop",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Wirt Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 194,
-      "length_m": 285.3130623213,
+      "delay_sec": null,
+      "length_m": 390.1037400232,
       "coords": [
-        28.193981054,
-        -82.267010422
+        28.3100684594,
+        -82.2692447021
       ]
     },
     {
@@ -215,14 +317,14 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
+      "to": "Wirt Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 2035.3018048011,
       "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.3100590138,
+        -82.2583884611
       ]
     },
     {
@@ -239,6 +341,22 @@
       "coords": [
         28.3587625976,
         -82.1907726541
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 301 / Countryside Pl",
+      "to": "US Highway 301",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 259,
+      "length_m": 104.0863179921,
+      "coords": [
+        28.3473015244,
+        -82.1866608276
       ]
     },
     {
@@ -277,6 +395,19 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "TRILBY RD x[PENNACOOK DR]    [DADE CITY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.4299837373737,
+        -82.2451023780373
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "Fatality",
       "severity": "reported",
       "desc": "Fatality",
@@ -292,7 +423,10 @@
     }
   ],
   "monitored_roads_active": [
+    "Little Road",
     "SR 54"
   ],
-  "overlap": []
+  "overlap": [
+    "SR 54"
+  ]
 }
