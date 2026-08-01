@@ -1,6 +1,22 @@
 {
-  "generated": "2026-08-01T10:42:19.306026Z",
+  "generated": "2026-08-01T11:48:25.326968Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 79,
+      "length_m": 164.52,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +27,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -115,6 +131,24 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 206,
+      "length_m": 136.8344006788,
+      "coords": [
+        28.2375911498,
+        -82.3475289956
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -147,6 +181,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Pool Compass Loop",
+      "to": "Epperson Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 299,
+      "length_m": 810.3081889648,
+      "coords": [
+        28.2668083991,
+        -82.2935723379
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -163,18 +213,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 56",
+      "to": "Tributary Ct",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "delay_sec": 235,
+      "length_m": 218.6379348214,
       "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.1951760358,
+        -82.2554018214
       ]
     },
     {
@@ -191,6 +241,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -229,21 +295,6 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Hit and Run Crash w/roadblock",
-      "location": "RIDGE RD x[TOWN CENTER RD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.2729268686869,
-        -82.6188168910955
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Hit and Run Crash w/injuries",
       "severity": "reported",
       "desc": "Hit and Run Crash w/injuries",
@@ -257,7 +308,7 @@
     }
   ],
   "monitored_roads_active": [
-    "Ridge Road"
+    "SR 54"
   ],
   "overlap": []
 }
