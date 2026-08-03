@@ -1,24 +1,6 @@
 {
-  "generated": "2026-08-03T20:39:23.744658Z",
+  "generated": "2026-08-03T21:48:38.219559Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "US-19 (Moog Rd)",
-      "to": "Strauber Memorial Hwy (Moog Rd)",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": null,
-      "length_m": 301.355,
-      "coords": [
-        28.2095566554,
-        -82.7590683714
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -31,10 +13,28 @@
         "US 19"
       ],
       "delay_sec": null,
-      "length_m": 301.3549812061,
+      "length_m": 301.355,
       "coords": [
         28.2095579849,
         -82.7588967101
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "US-19 (Moog Rd)",
+      "to": "Strauber Memorial Hwy (Moog Rd)",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": null,
+      "length_m": 301.3549812061,
+      "coords": [
+        28.2095566554,
+        -82.7590683714
       ]
     },
     {
@@ -352,8 +352,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -368,8 +368,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -560,8 +560,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -576,8 +576,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -591,6 +591,90 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "BRUCE B DOWNS BLVD x[VANGUARD ST]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.193712551603,
+        -82.3535716548793
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "I-75 NB [MM291]  x[MM291]    [DADE CITY]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.4028256697409,
+        -82.3093557602891
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "I-75 NB [MM285]  x[MM285]    [SAN ANTONIO]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.3194398199385,
+        -82.3249875209323
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "I-75 NB [MM285]  x[MM285]    [SAN ANTONIO]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.3196978348704,
+        -82.3248288973336
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "CORTEZ BLVD x[TWIN DOLPHIN DR]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.5338062626263,
+        -82.4962895950369
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "MASSACHUSETTS AVE x[OSTEEN RD]    [NEW PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2590499868248,
+        -82.6825198536817
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -600,49 +684,6 @@
       "coords": [
         28.2093825384278,
         -82.3532665013286
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "MONDON HILL RD x[MCINTYRE RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.5558044971454,
-        -82.3631534909424
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "LAND O LAKES BLVD x[SR-54]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.191749007466,
-        -82.4658122202044
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "US-19 x[REGENCY PARK BLVD]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
-      "coords": [
-        28.3061562889767,
-        -82.7016384173096
       ]
     },
     {
@@ -674,72 +715,15 @@
         28.3245809793588,
         -82.3580330789407
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CORTEZ BLVD x[GROVE RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.5339172419851,
-        -82.4834576686755
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-589 NB [MM33]  x[MM33]    [SPRING HILL]",
-      "county": "PASCO",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "coords": [
-        28.3913699868248,
-        -82.5305902021505
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "GALL BLVD x[CHANCEY RD]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2081407861221,
-        -82.1849330035612
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-56 x[MEADOW POINTE BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1975619718928,
-        -82.2982008778756
-      ]
     }
   ],
   "monitored_roads_active": [
+    "I-75",
     "Little Road",
     "Ridge Road",
     "SR 52",
     "SR 54",
-    "Suncoast Parkway",
     "US 19"
   ],
-  "overlap": [
-    "SR 54",
-    "US 19"
-  ]
+  "overlap": []
 }
