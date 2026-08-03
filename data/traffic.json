@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T23:12:17.850717Z",
+  "generated": "2026-08-03T00:14:29.798032Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -36,15 +36,15 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
       "to": "Darlington Rd",
       "roadnums": "US-19 S",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 84,
+      "delay_sec": 62,
       "length_m": 160.8409771858,
       "coords": [
         28.1961161437,
@@ -57,32 +57,14 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Darlington Rd",
+      "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 70,
-      "length_m": 164.5198566414,
+      "delay_sec": 68,
+      "length_m": 187.590344576,
       "coords": [
-        28.1938684697,
-        -82.7399120347
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 83,
-      "length_m": 163.4622817046,
-      "coords": [
-        28.2103975129,
-        -82.7394694702
+        28.2255479908,
+        -82.7331045882
       ]
     },
     {
@@ -90,8 +72,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -106,8 +88,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -138,22 +120,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Canton Ave",
       "to": "Tipton Ave",
       "roadnums": "",
@@ -167,70 +133,68 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Xenia St",
-      "to": "Sholtz St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 172,
-      "length_m": 166.4505097234,
-      "coords": [
-        28.299402658,
-        -82.6137368992
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Stella Way",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 103,
-      "length_m": 61.1217673391,
-      "coords": [
-        28.1945188566,
-        -82.4831146613
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 75,
-      "length_m": 147.6256764512,
-      "coords": [
-        28.1866264804,
-        -82.4030587688
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 201.6231279231,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-54/Exit 19 (FL-589)",
+      "to": "Springhill Toll Plaza (FL-589)",
+      "roadnums": "FL-589 N",
+      "roads": [],
+      "delay_sec": 268,
+      "length_m": 2028.6412221607,
+      "coords": [
+        28.2455170487,
+        -82.55017391
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 47,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "County Line Rd (FL-597)",
+      "to": "US-41/Land O Lakes Blvd (Dale Mabry Hwy/FL-597)",
+      "roadnums": "FL-597",
+      "roads": [
+        "County Line Road"
+      ],
+      "delay_sec": 136,
+      "length_m": 329.014549091,
+      "coords": [
+        28.184068972,
+        -82.4669395998
       ]
     },
     {
@@ -251,18 +215,70 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Central Pasco",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 95,
-      "length_m": 174.3139248514,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1903466789,
-        -82.3411748424
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Pink Flamingo Ln",
+      "to": "Market Grove Ln",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 133,
+      "length_m": 168.9227332925,
+      "coords": [
+        28.2421763944,
+        -82.3517092183
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "FL-56 (I-75)",
+      "to": "Overpass Rd (I-75)",
+      "roadnums": "I-75 N",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 93,
+      "length_m": 4744.0159561657,
+      "coords": [
+        28.2329964772,
+        -82.3571634903
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-56 (I-75)",
+      "roadnums": "I-75 S",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 177,
+      "length_m": 6998.9037688115,
+      "coords": [
+        28.2407440943,
+        -82.3517320171
       ]
     },
     {
@@ -283,22 +299,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 117,
-      "length_m": 376.0272204491,
-      "coords": [
-        28.1983798744,
-        -82.3157837108
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -311,6 +311,22 @@
       "coords": [
         28.3250633304,
         -82.3073387757
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Baclan Dr",
+      "to": "Sotra St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 161,
+      "length_m": 570.3097627715,
+      "coords": [
+        28.2603563757,
+        -82.300079377
       ]
     },
     {
@@ -334,22 +350,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Curley Rd / Curley St",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -363,34 +363,50 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "US Highway 301",
-      "to": "US Highway 301",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 70,
-      "length_m": 97.0335940945,
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
       "coords": [
-        28.3930827951,
-        -82.1956462278
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "7th St",
-      "to": "Gall Blvd",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Gall Blvd",
+      "to": "7th St",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 85,
-      "length_m": 78.2260901411,
+      "delay_sec": 101,
+      "length_m": 77.5716630586,
       "coords": [
-        28.2322092634,
-        -82.1802557125
+        28.2318766527,
+        -82.1798399701
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US-301/Gall Blvd (C Ave)",
+      "to": "20th St (C Ave)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 127,
+      "length_m": 261.9991907407,
+      "coords": [
+        28.2264532689,
+        -82.1788703516
       ]
     },
     {
@@ -430,22 +446,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Duck Lake Canal Rd",
-      "to": "Auton Rd / Singletary Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 116.0479724319,
-      "coords": [
-        28.3285206891,
-        -82.1447513118
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Auton Rd / Singletary Rd",
       "to": "Santa Gertrudis Dr",
       "roadnums": "",
@@ -461,6 +461,34 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "BROAD ST x[YONTZ RD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.5785992007027,
+        -82.3754262357771
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-589 NB [MM23]  x[MM23]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "coords": [
+        28.2509660825648,
+        -82.5491321537764
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "Hit and Run Crash w/injuries",
       "severity": "reported",
       "desc": "Hit and Run Crash w/injuries",
@@ -473,24 +501,13 @@
         28.2170352964427,
         -82.6663491491808
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "SPRING HILL DR x[ANDERSON SNOW RD]    [SPRING HILL]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.4780609661836,
-        -82.4877419657541
-      ]
     }
   ],
   "monitored_roads_active": [
+    "County Line Road",
+    "I-75",
     "Little Road",
-    "SR 54",
+    "Suncoast Parkway",
     "US 19"
   ],
   "overlap": []
