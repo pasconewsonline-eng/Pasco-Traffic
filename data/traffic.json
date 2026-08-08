@@ -1,6 +1,58 @@
 {
-  "generated": "2026-08-08T13:12:23.345379Z",
+  "generated": "2026-08-08T13:58:55.932608Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 78,
+      "length_m": 164.52,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 85,
+      "length_m": 147.8622545944,
+      "coords": [
+        28.2088647008,
+        -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Leisure Ln",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 222,
+      "length_m": 159.7672596023,
+      "coords": [
+        28.2388786122,
+        -82.7285931126
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +63,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -31,6 +83,22 @@
       "coords": [
         28.2361628496,
         -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 51,
+      "length_m": 139.8768034468,
+      "coords": [
+        28.2805386612,
+        -82.7061121777
       ]
     },
     {
@@ -90,7 +158,7 @@
       "to": "Denton Ave",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 245,
+      "delay_sec": 158,
       "length_m": 308.5740958457,
       "coords": [
         28.3918060467,
@@ -99,18 +167,68 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 55,
+      "length_m": 49.7785347827,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1897257437,
+        -82.6164727524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 54",
+      "to": "Old Gunn Hwy",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 85,
+      "length_m": 45.179690071,
+      "coords": [
+        28.1935465992,
+        -82.5927566603
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Hays Rd",
+      "to": "Hays Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 162,
+      "length_m": 580.2028900932,
+      "coords": [
+        28.3701244171,
+        -82.5716288999
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Stonegate Trl",
+      "to": "Stonegate Trl",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 187,
+      "length_m": 638.4189513435,
+      "coords": [
+        28.3736515512,
+        -82.566279234
       ]
     },
     {
@@ -131,18 +249,34 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
+      "desc": "Backed up traffic",
+      "from": "Williamsburg Dr",
+      "to": "Williamsburg Dr",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 107,
-      "length_m": 167.252086934,
+      "delay_sec": 128,
+      "length_m": 180.5045769133,
       "coords": [
-        28.3243699858,
-        -82.3590477422
+        28.1853027777,
+        -82.3511312023
       ]
     },
     {
@@ -195,6 +329,24 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 227,
+      "length_m": 581.1007493376,
+      "coords": [
+        28.2104418306,
+        -82.2460865095
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -227,6 +379,38 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Althea Ln",
+      "to": "Eiland Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 172,
+      "length_m": 85.980883393,
+      "coords": [
+        28.2448558966,
+        -82.2132696822
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Maisie Rd",
+      "to": "Massey Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 60,
+      "length_m": 112.4753199537,
+      "coords": [
+        28.2493325118,
+        -82.1961826697
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -239,38 +423,6 @@
       "coords": [
         28.3587625976,
         -82.1907726541
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "9th Ave",
-      "to": "7th Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 256,
-      "length_m": 219.0368609135,
-      "coords": [
-        28.2364900563,
-        -82.1811006084
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 659.3798845262,
-      "coords": [
-        28.3132414706,
-        -82.1725376561
       ]
     },
     {
@@ -288,9 +440,38 @@
         28.3132414706,
         -82.1725376561
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 659.3798845262,
+      "coords": [
+        28.3132414706,
+        -82.1725376561
+      ]
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-56 x[ANCIENT OAKS BLVD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1858219587176,
+        -82.3603460435226
+      ]
+    },
     {
       "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -306,37 +487,15 @@
         28.2805943170839,
         -82.6760777281873
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "8012 US-98   [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2767794202899,
-        -82.1072151278582
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "EHREN CUTOFF x[DUPREE LAKES BLVD]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2492654896794,
-        -82.4507228318939
-      ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road"
+    "Ridge Road",
+    "SR 54",
+    "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "Ridge Road"
+  ]
 }
