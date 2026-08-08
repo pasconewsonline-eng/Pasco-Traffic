@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T11:30:55.043516Z",
+  "generated": "2026-08-08T12:02:39.856385Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,6 +35,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 77,
+      "length_m": 145.8132968764,
+      "coords": [
+        28.217041414,
+        -82.7163448051
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -47,22 +63,6 @@
       "coords": [
         28.294694039,
         -82.6759641484
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
       ]
     },
     {
@@ -83,18 +83,66 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
       "from": "New Port Richey",
       "to": "New Port Richey",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 100,
-      "length_m": 49.7785347827,
+      "delay_sec": 89,
+      "length_m": 83.6582008461,
       "coords": [
-        28.1897257437,
-        -82.6164727524
+        28.1895205868,
+        -82.617737414
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Tuscany Hillside Rd",
+      "to": "Glowing Grove Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 288,
+      "length_m": 196.6555460514,
+      "coords": [
+        28.2010366162,
+        -82.5484184042
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Stump Field Way",
+      "to": "Winglewood Cir",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 192,
+      "length_m": 349.7641807501,
+      "coords": [
+        28.1697339128,
+        -82.4874920264
       ]
     },
     {
@@ -134,17 +182,31 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "State Road 52",
-      "to": "Bellamy Brothers Blvd / State Road 52",
+      "from": "Old Pasco Rd",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
-      "roads": [
-        "SR 52"
-      ],
-      "delay_sec": 67,
-      "length_m": 163.8064669196,
+      "roads": [],
+      "delay_sec": 57,
+      "length_m": 65.4019376834,
       "coords": [
-        28.3245121672,
-        -82.3568536952
+        28.2380055615,
+        -82.3667805508
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "The Shoppes at New Tampa",
+      "to": "Central Pasco",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 111,
+      "length_m": 158.0254936265,
+      "coords": [
+        28.1827788539,
+        -82.3530677572
       ]
     },
     {
@@ -317,8 +379,6 @@
       ]
     }
   ],
-  "monitored_roads_active": [
-    "SR 52"
-  ],
+  "monitored_roads_active": [],
   "overlap": []
 }
