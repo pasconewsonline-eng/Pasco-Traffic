@@ -1,22 +1,86 @@
 {
-  "generated": "2026-08-08T23:04:31.351104Z",
+  "generated": "2026-08-08T23:44:49.556278Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Moog Rd",
+      "to": "Darlington Rd",
       "roadnums": "US-19 S",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 136,
-      "length_m": 163.462,
+      "delay_sec": 80,
+      "length_m": 160.841,
       "coords": [
-        28.2103975129,
-        -82.7394694702
+        28.1961161437,
+        -82.739878507
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 65,
+      "length_m": 164.5198566414,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Trouble Creek Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 62,
+      "length_m": 187.590344576,
+      "coords": [
+        28.2255479908,
+        -82.7331045882
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Grand Blvd",
+      "to": "Basswood Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 255,
+      "length_m": 342.4485958473,
+      "coords": [
+        28.1780862896,
+        -82.7256735281
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -40,54 +104,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Jennita Dr",
-      "to": "John Casson Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 276,
-      "length_m": 263.4079721379,
-      "coords": [
-        28.3568636303,
-        -82.7112056927
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "San Miguel Dr",
-      "to": "Embassy Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 224,
-      "length_m": 360.3823814465,
-      "coords": [
-        28.2893993244,
-        -82.6892384008
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Mapleton Ln / Monarch Dr",
       "to": "Morehead Ln / Saybrook Dr",
       "roadnums": "",
@@ -97,6 +113,24 @@
       "coords": [
         28.294694039,
         -82.6759641484
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Little Rd",
+      "to": "Rancho del Rio Dr / Schwartz St",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 70,
+      "length_m": 38.9593130465,
+      "coords": [
+        28.2342664935,
+        -82.6658991591
       ]
     },
     {
@@ -134,19 +168,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US Highway 19",
-      "to": "US Highway 19",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "State Road 54",
+      "to": "Old Gunn Hwy",
       "roadnums": "",
       "roads": [
-        "US 19"
+        "SR 54"
       ],
-      "delay_sec": 190,
-      "length_m": 70.252615638,
+      "delay_sec": 59,
+      "length_m": 45.179690071,
       "coords": [
-        28.3984284541,
-        -82.6601686195
+        28.1935465992,
+        -82.5927566603
       ]
     },
     {
@@ -154,113 +188,33 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "New Port Richey",
-      "roadnums": "",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 50,
-      "length_m": 49.7785347827,
+      "delay_sec": 51,
+      "length_m": 138.9274305032,
       "coords": [
-        28.1897793784,
-        -82.6159684971
+        28.1935157196,
+        -82.4993326381
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 52",
-      "to": "Oak Ramble Dr",
-      "roadnums": "",
+      "desc": "Backed up traffic",
+      "from": "FL-54 (FL-56)",
+      "to": "I-75 (FL-56)",
+      "roadnums": "FL-56",
       "roads": [
-        "SR 52"
+        "I-75"
       ],
-      "delay_sec": 89,
-      "length_m": 162.2448153237,
+      "delay_sec": 166,
+      "length_m": 632.8037766107,
       "coords": [
-        28.3306731533,
-        -82.5470249966
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Maren Way",
-      "to": "Wesley Chapel Blvd / Old Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 194,
-      "length_m": 223.3639461244,
-      "coords": [
-        28.1909059239,
-        -82.4006112531
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Ashley Creek Trl",
-      "to": "Ashley Creek Trl",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 152,
-      "length_m": 113.0723293781,
-      "coords": [
-        28.1899631105,
-        -82.4002411082
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Creek Grass Way",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 233,
-      "length_m": 369.3869113331,
-      "coords": [
-        28.1919036924,
-        -82.3930849746
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Grand Cypress Dr",
-      "to": "Grand Cypress Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 296,
-      "length_m": 321.2066982167,
-      "coords": [
-        28.1931536602,
-        -82.3916768149
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1946194726,
+        -82.3901948944
       ]
     },
     {
@@ -281,82 +235,34 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Old Pasco Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 56,
-      "length_m": 216.152539702,
-      "coords": [
-        28.2374154748,
-        -82.3673277214
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 70,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Wesley Chapel Blvd",
-      "to": "Village Market",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 163,
-      "length_m": 228.6909268335,
-      "coords": [
-        28.2348753545,
-        -82.3528867081
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
-      "from": "Central Pasco",
+      "from": "Village Market",
       "to": "Central Pasco",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 97,
-      "length_m": 51.6361372401,
+      "delay_sec": 180,
+      "length_m": 89.9240611858,
       "coords": [
-        28.1920444992,
-        -82.3239966348
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Mansfield Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 191,
-      "length_m": 147.002605757,
-      "coords": [
-        28.1920753791,
-        -82.3245223477
+        28.2359925629,
+        -82.3525420442
       ]
     },
     {
@@ -402,7 +308,7 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 163,
+      "delay_sec": 174,
       "length_m": 294.9190138194,
       "coords": [
         28.2232694743,
@@ -459,22 +365,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "McIntosh Rd (US-301)",
-      "to": "FL-56 (Gall Blvd/US-301)",
-      "roadnums": "US-301 S US-301 N",
-      "roads": [],
-      "delay_sec": 201,
-      "length_m": 1082.3348747762,
-      "coords": [
-        28.1890417873,
-        -82.2044854477
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -525,15 +415,17 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Hit and Run Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SEVEN SPRINGS BLVD x[JENNER AVE]    [NEW PORT RICHEY]",
+      "desc": "Hit and Run Crash",
+      "location": "SR-52 x[HAYS RD]    [LAND O LAKES]",
       "county": "PASCO",
-      "roads": [],
+      "roads": [
+        "SR 52"
+      ],
       "coords": [
-        28.2075409661836,
-        -82.6942937860134
+        28.3296913790075,
+        -82.5691764274728
       ]
     },
     {
@@ -551,8 +443,11 @@
     }
   ],
   "monitored_roads_active": [
+    "I-75",
+    "Little Road",
     "Ridge Road",
     "SR 52",
+    "SR 54",
     "US 19"
   ],
   "overlap": []
