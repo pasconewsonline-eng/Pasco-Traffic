@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T09:39:44.524609Z",
+  "generated": "2026-08-08T10:13:34.816341Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -54,22 +54,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Tipton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286776211,
-        -82.6600170747
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Tipton Ave",
       "to": "Canton Ave",
       "roadnums": "",
@@ -79,6 +63,22 @@
       "coords": [
         28.3286802772,
         -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Canton Ave",
+      "to": "Tipton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286776211,
+        -82.6600170747
       ]
     },
     {
@@ -211,22 +211,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Gall Blvd",
-      "to": "Autumn Rock Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 172,
-      "length_m": 178.1848480038,
-      "coords": [
-        28.2008649439,
-        -82.1900712564
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -258,25 +242,7 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-589 NB [MM19]  x[MM19]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "coords": [
-        28.1932496003513,
-        -82.5455202039076
-      ]
-    }
-  ],
-  "monitored_roads_active": [
-    "Suncoast Parkway"
-  ],
+  "fhp": [],
+  "monitored_roads_active": [],
   "overlap": []
 }
