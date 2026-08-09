@@ -1,38 +1,56 @@
 {
-  "generated": "2026-08-09T22:40:49.327002Z",
+  "generated": "2026-08-09T23:11:46.076611Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Rain",
+      "kind": "Traffic Jam",
       "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
+      "to": "Darlington Rd",
       "roadnums": "US-19 S",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 63,
-      "length_m": 130.738,
+      "delay_sec": 79,
+      "length_m": 160.841,
       "coords": [
-        28.1885522733,
-        -82.7400367574
+        28.1961161437,
+        -82.739878507
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
+      "kind": "Traffic Jam",
       "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Darlington Rd",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 69,
+      "length_m": 147.8622545944,
+      "coords": [
+        28.2088647008,
+        -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 56,
-      "length_m": 164.5198566414,
+      "delay_sec": null,
+      "length_m": 158.7983712618,
       "coords": [
-        28.1938684697,
-        -82.7399120347
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -56,56 +74,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "US Highway 19",
-      "to": "US Highway 19",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 70,
-      "length_m": 127.6552585516,
-      "coords": [
-        28.3282940337,
-        -82.699249746
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Regency Park Blvd",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 76,
-      "length_m": 117.9521747299,
-      "coords": [
-        28.2804971037,
-        -82.6980668918
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Mapleton Ln / Monarch Dr",
       "to": "Morehead Ln / Saybrook Dr",
       "roadnums": "",
@@ -115,38 +83,6 @@
       "coords": [
         28.294694039,
         -82.6759641484
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "New Port Richey",
-      "to": "FL-54",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 70,
-      "length_m": 90.9604090037,
-      "coords": [
-        28.2059866301,
-        -82.6713815943
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 201.6231279231,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
       ]
     },
     {
@@ -167,34 +103,36 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hillary Cir",
-      "to": "Lake Brooker Ct",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 260,
-      "length_m": 268.9542890209,
+      "delay_sec": null,
+      "length_m": 201.6231279231,
       "coords": [
-        28.16163095,
-        -82.4753563717
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 84,
+      "length_m": 64.1075244296,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1863341398,
+        -82.4068138614
       ]
     },
     {
@@ -204,6 +142,22 @@
       "desc": "Closed",
       "from": "Compark Dr / Scarborough Dr",
       "to": "Wesley Chapel Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 35.377783473,
+      "coords": [
+        28.2240258834,
+        -82.3811370745
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -295,6 +249,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Sand Dollar Way",
+      "to": "Pure Water Wy",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 158,
+      "length_m": 531.9595241927,
+      "coords": [
+        28.2272525629,
+        -82.1967164292
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -311,18 +281,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Fair Lawns Dr",
-      "to": "Gall Blvd",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
-      "delay_sec": 100,
-      "length_m": 257.1656131056,
+      "delay_sec": null,
+      "length_m": 659.3798845262,
       "coords": [
-        28.2473463083,
-        -82.1898727729
+        28.3132414706,
+        -82.1725376561
       ]
     },
     {
@@ -346,31 +316,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 659.3798845262,
-      "coords": [
-        28.3132414706,
-        -82.1725376561
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Lytton Hall Dr",
-      "to": "Harmon Grove Ct",
+      "from": "Auton Rd / Singletary Rd",
+      "to": "Duck Lake Canal Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 181,
-      "length_m": 382.05951082,
+      "delay_sec": null,
+      "length_m": 674.7013077771,
       "coords": [
-        28.2027103334,
-        -82.1605441585
+        28.3284965627,
+        -82.1428147569
       ]
     }
   ],
@@ -386,19 +340,6 @@
       "coords": [
         28.3242374352218,
         -82.691079766354
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "FIRE - BRUSH/FOREST",
-      "severity": "reported",
-      "desc": "FIRE - BRUSH/FOREST",
-      "location": "CORTEZ BLVD x[CEDAR LN]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.535688440931,
-        -82.3380802679784
       ]
     },
     {
@@ -421,36 +362,6 @@
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 SB [MM305]  x[MM305]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.5752366490997,
-        -82.2219495841455
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "I-75 SB [MM305]  x[MM305]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.5750609793588,
-        -82.2218498149268
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
       "location": "I-75 SB [MM293]  x[MM293]    [DADE CITY]",
       "county": "PASCO",
       "roads": [
@@ -460,40 +371,11 @@
         28.4227809661836,
         -82.2856317930178
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 SB [MM277]  x[MM277]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.2157233377251,
-        -82.3704509624958
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 NB [MM305]  x[MM305]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.5749780281072,
-        -82.221769053137
-      ]
     }
   ],
   "monitored_roads_active": [
     "I-75",
+    "SR 54",
     "Suncoast Parkway",
     "US 19"
   ],
