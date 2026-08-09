@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08T23:44:49.556278Z",
+  "generated": "2026-08-09T00:36:27.040185Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -12,7 +12,7 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 80,
+      "delay_sec": 63,
       "length_m": 160.841,
       "coords": [
         28.1961161437,
@@ -22,17 +22,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "US Highway 19",
+      "to": "US Highway 19",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "US 19"
+      ],
       "delay_sec": 65,
-      "length_m": 164.5198566414,
+      "length_m": 52.0703253067,
       "coords": [
-        28.1938684697,
-        -82.7399120347
+        28.1880199077,
+        -82.7398570494
       ]
     },
     {
@@ -44,27 +46,11 @@
       "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 62,
+      "delay_sec": 57,
       "length_m": 187.590344576,
       "coords": [
         28.2255479908,
         -82.7331045882
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Grand Blvd",
-      "to": "Basswood Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 255,
-      "length_m": 342.4485958473,
-      "coords": [
-        28.1780862896,
-        -82.7256735281
       ]
     },
     {
@@ -101,6 +87,38 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "Main St / S Bank St",
+      "roadnums": "County Hwy-595",
+      "roads": [],
+      "delay_sec": 193,
+      "length_m": 216.67291901,
+      "coords": [
+        28.2511778757,
+        -82.7208965138
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 76,
+      "length_m": 157.5965365388,
+      "coords": [
+        28.2170306307,
+        -82.7140904085
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -113,24 +131,6 @@
       "coords": [
         28.294694039,
         -82.6759641484
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Little Rd",
-      "to": "Rancho del Rio Dr / Schwartz St",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": 70,
-      "length_m": 38.9593130465,
-      "coords": [
-        28.2342664935,
-        -82.6658991591
       ]
     },
     {
@@ -168,69 +168,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "State Road 54",
-      "to": "Old Gunn Hwy",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 59,
-      "length_m": 45.179690071,
-      "coords": [
-        28.1935465992,
-        -82.5927566603
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 51,
-      "length_m": 138.9274305032,
-      "coords": [
-        28.1935157196,
-        -82.4993326381
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-54 (FL-56)",
-      "to": "I-75 (FL-56)",
-      "roadnums": "FL-56",
-      "roads": [
-        "I-75"
-      ],
-      "delay_sec": 166,
-      "length_m": 632.8037766107,
-      "coords": [
-        28.1946194726,
-        -82.3901948944
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "desc": "Stopped traffic",
+      "from": "US Highway 41",
+      "to": "Thorncrest Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 85,
+      "length_m": 174.3693015981,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.3290128808,
+        -82.4997322873
       ]
     },
     {
@@ -251,18 +199,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Village Market",
-      "to": "Central Pasco",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 180,
-      "length_m": 89.9240611858,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2359925629,
-        -82.3525420442
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Wesley Chapel Blvd",
+      "to": "Lexington Oaks Blvd / Post Oak Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 322,
+      "length_m": 160.9542436895,
+      "coords": [
+        28.2360233563,
+        -82.3715146497
       ]
     },
     {
@@ -299,24 +263,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-54/Morris Bridge Rd (FL-54)",
-      "to": "Foxwood Blvd/Ronnoch Blvd (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 174,
-      "length_m": 294.9190138194,
-      "coords": [
-        28.2232694743,
-        -82.2787826374
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -329,6 +275,24 @@
       "coords": [
         28.2117601254,
         -82.2712094202
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Terrace Blvd",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 154,
+      "length_m": 268.8697120696,
+      "coords": [
+        28.2164124356,
+        -82.2583214059
       ]
     },
     {
@@ -410,9 +374,40 @@
         28.3132414706,
         -82.1725376561
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Auton Rd / Singletary Rd",
+      "to": "Duck Lake Canal Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 790.749280209,
+      "coords": [
+        28.3284965627,
+        -82.1428147569
+      ]
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "OLD BRIDGE RD x[TALAMORE DR]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "Ridge Road"
+      ],
+      "coords": [
+        28.2639355028546,
+        -82.2490019111924
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Hit and Run Crash",
@@ -427,24 +422,9 @@
         28.3296913790075,
         -82.5691764274728
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "GRAND CYPRESS DR x[WESLEY CHAPEL BLVD]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1873944971454,
-        -82.3957210640809
-      ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
-    "Little Road",
     "Ridge Road",
     "SR 52",
     "SR 54",
