@@ -1,20 +1,22 @@
 {
-  "generated": "2026-08-09T12:55:43.584811Z",
+  "generated": "2026-08-09T13:52:07.854893Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.798,
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 82,
+      "length_m": 163.462,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2103975129,
+        -82.7394694702
       ]
     },
     {
@@ -31,6 +33,38 @@
       "coords": [
         28.2361628496,
         -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 135,
+      "length_m": 157.5965365388,
+      "coords": [
+        28.2170306307,
+        -82.7140904085
       ]
     },
     {
@@ -86,15 +120,33 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "New Port Richey",
+      "from": "US Highway 19",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 182,
+      "length_m": 70.252615638,
+      "coords": [
+        28.3984284541,
+        -82.6601686195
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Scotch Pine Dr",
+      "to": "Bloomington Ct / Clear Oak Cir",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 212,
-      "length_m": 133.0486571773,
+      "delay_sec": 183,
+      "length_m": 539.5352176203,
       "coords": [
-        28.189430752,
-        -82.61831543
+        28.324584549,
+        -82.6248667256
       ]
     },
     {
@@ -102,33 +154,33 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "New Port Richey",
+      "from": "Mentmore Blvd",
+      "to": "State Road 54",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 103,
-      "length_m": 49.7785347827,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 58,
+      "length_m": 282.2350202623,
       "coords": [
-        28.1897793784,
-        -82.6159684971
+        28.1946878797,
+        -82.5055714563
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "Old Gunn Hwy",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Trinidad Dr",
+      "to": "Frith St",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 109,
-      "length_m": 45.179690071,
+      "roads": [],
+      "delay_sec": 267,
+      "length_m": 356.4932086174,
       "coords": [
-        28.1935465992,
-        -82.5927566603
+        28.2256445896,
+        -82.3921260849
       ]
     },
     {
@@ -161,40 +213,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "The Shoppes at New Tampa",
-      "to": "Central Pasco",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 179,
-      "length_m": 158.0254936265,
-      "coords": [
-        28.1827788539,
-        -82.3530677572
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 202,
-      "length_m": 136.8344006788,
-      "coords": [
-        28.2375911498,
-        -82.3475289956
       ]
     },
     {
@@ -282,6 +300,24 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Coats Rd/Dean Dairy Rd (FL-54)",
+      "to": "FL-54/Morris Bridge Rd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": null,
+      "length_m": 98.8916939803,
+      "coords": [
+        28.2227129098,
+        -82.236520411
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "7th St",
       "to": "9th St",
       "roadnums": "",
@@ -291,22 +327,6 @@
       "coords": [
         28.3587625976,
         -82.1907726541
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 659.3798845262,
-      "coords": [
-        28.3132414706,
-        -82.1725376561
       ]
     },
     {
@@ -330,19 +350,63 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 659.3798845262,
+      "coords": [
+        28.3132414706,
+        -82.1725376561
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Auton Rd / Singletary Rd",
       "to": "Duck Lake Canal Rd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 116.0479724319,
+      "length_m": 790.749280209,
       "coords": [
-        28.3285072609,
-        -82.1459368482
+        28.3284965627,
+        -82.1428147569
       ]
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "PARKWOOD ST x[DAN ST]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.3388227316645,
+        -82.6511248737128
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-54 x[LANIER RD]    [ZEPHYRHILLS]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.2218976416337,
+        -82.2378562148274
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Fatality",
@@ -358,7 +422,11 @@
     }
   ],
   "monitored_roads_active": [
-    "SR 54"
+    "Ridge Road",
+    "SR 54",
+    "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "SR 54"
+  ]
 }
