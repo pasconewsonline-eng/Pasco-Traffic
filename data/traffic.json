@@ -1,24 +1,6 @@
 {
-  "generated": "2026-08-10T23:41:17.874642Z",
+  "generated": "2026-08-11T00:34:51.935166Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Strauber Memorial Hwy (Moog Rd)",
-      "to": "US-19 (Moog Rd)",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": null,
-      "length_m": 301.355,
-      "coords": [
-        28.2095579849,
-        -82.7588967101
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -31,7 +13,7 @@
         "US 19"
       ],
       "delay_sec": null,
-      "length_m": 301.3549812061,
+      "length_m": 301.355,
       "coords": [
         28.2095566554,
         -82.7590683714
@@ -39,18 +21,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Strauber Memorial Hwy (Moog Rd)",
+      "to": "US-19 (Moog Rd)",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 69,
-      "length_m": 187.590344576,
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": null,
+      "length_m": 301.3549812061,
       "coords": [
-        28.2255479908,
-        -82.7331045882
+        28.2095579849,
+        -82.7588967101
       ]
     },
     {
@@ -152,19 +136,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Harpers Run",
-      "to": "State Road 54 / Ballantrae Blvd",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Vine Cliff Ave",
+      "to": "Vine Cliff Ave",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 168,
-      "length_m": 105.126816418,
+      "roads": [],
+      "delay_sec": 58,
+      "length_m": 264.1506754216,
       "coords": [
-        28.1938107739,
-        -82.5249785796
+        28.3925114862,
+        -82.6196981088
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Springhill Toll Plaza (FL-589)",
+      "to": "FL-54/Exit 19 (FL-589)",
+      "roadnums": "FL-589 S",
+      "roads": [],
+      "delay_sec": 80,
+      "length_m": 2864.0721125363,
+      "coords": [
+        28.2317237874,
+        -82.5506513432
       ]
     },
     {
@@ -217,18 +215,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Oakwood Preserve Dr",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "delay_sec": 69,
+      "length_m": 157.2090814636,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.1983195955,
+        -82.3121090844
       ]
     },
     {
@@ -245,6 +243,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -363,19 +377,6 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "1846 SPECK DR   [HOLIDAY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1862113658322,
-        -82.7473790211354
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Hit and Run Crash",
       "severity": "reported",
       "desc": "Hit and Run Crash",
@@ -416,37 +417,10 @@
         28.1771143039087,
         -82.7404911383036
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "26301 LEXINGTON OAKS BLVD   [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.236243544137,
-        -82.381198647026
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "EMBASSY BLVD x[COLLAGE LN]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2909749099693,
-        -82.6848909963472
-      ]
     }
   ],
   "monitored_roads_active": [
     "SR 52",
-    "SR 54",
     "US 19"
   ],
   "overlap": [
