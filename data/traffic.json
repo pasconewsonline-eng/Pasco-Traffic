@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T15:39:51.272650Z",
+  "generated": "2026-08-11T16:37:09.515518Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,38 +35,6 @@
       "coords": [
         28.2095566554,
         -82.7590683714
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 71,
-      "length_m": 164.3537887319,
-      "coords": [
-        28.1869724563,
-        -82.7400635795
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 86,
-      "length_m": 164.5198566414,
-      "coords": [
-        28.1938684697,
-        -82.7399120347
       ]
     },
     {
@@ -115,6 +83,40 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Siesta Ln",
+      "to": "Ridge Rd",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 138,
+      "length_m": 149.7214809074,
+      "coords": [
+        28.2804836695,
+        -82.7155937866
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 62,
+      "length_m": 145.8132968764,
+      "coords": [
+        28.217041414,
+        -82.7163448051
       ]
     },
     {
@@ -168,19 +170,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 60,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 100,
-      "length_m": 147.6256764512,
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 68,
+      "length_m": 232.4399715588,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.1859478974,
+        -82.4341858044
       ]
     },
     {
@@ -218,17 +234,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Old Pasco Rd",
-      "to": "Wesley Chapel Blvd",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 57,
-      "length_m": 65.4019376834,
+      "delay_sec": 148,
+      "length_m": 216.8347243815,
       "coords": [
-        28.2380055615,
-        -82.3667805508
+        28.1854623588,
+        -82.3684716836
       ]
     },
     {
@@ -237,14 +253,48 @@
       "severity": "moderate",
       "desc": "Backed up traffic",
       "from": "Central Pasco",
-      "to": "Gateway Blvd",
-      "roadnums": "FL-54",
+      "to": "Bonterra Loop",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 87,
-      "length_m": 161.5492489731,
+      "delay_sec": 117,
+      "length_m": 252.7904439366,
       "coords": [
-        28.2378741196,
-        -82.3605350271
+        28.1855388246,
+        -82.3658203199
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 52",
+      "to": "Bellamy Brothers Blvd / State Road 52",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 123,
+      "length_m": 163.8064669196,
+      "coords": [
+        28.3245121672,
+        -82.3568536952
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Old Pasco Rd (FL-52)",
+      "to": "CR-581/Bellamy Brothers Blvd (FL-52)",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 112,
+      "length_m": 732.0540604511,
+      "coords": [
+        28.324604692,
+        -82.3544558003
       ]
     },
     {
@@ -261,24 +311,6 @@
       "coords": [
         28.1895420112,
         -82.322395356
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-56 (Morris Bridge Rd)",
-      "to": "FL-54 (Morris Bridge Rd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 127,
-      "length_m": 374.053341164,
-      "coords": [
-        28.2069603255,
-        -82.2459604457
       ]
     },
     {
@@ -382,8 +414,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -398,8 +430,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -408,91 +440,53 @@
         28.3132414706,
         -82.1725376561
       ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Starline Dr",
-      "to": "Old Lakeland Hwy",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 306,
-      "length_m": 874.2468212759,
-      "coords": [
-        28.2947221585,
-        -82.1537393942
-      ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "S36515 R-54 x[COATS RD]    [ZEPHYRHILLS]",
+      "desc": "Vehicle Crash",
+      "location": "SR-56 x[PASEO DR]    [WESLEY CHAPEL]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.230079007466,
-        -82.2130766486606
+        28.1861033377251,
+        -82.3506104677851
       ]
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "2228 US-19   [HOLIDAY]",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "FRED ST x[LITEWOOD DR]    [HUDSON]",
       "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
+      "roads": [],
       "coords": [
-        28.1908984277558,
-        -82.7399626329794
+        28.3516646903821,
+        -82.6523584464063
       ]
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 SB [MM296]  x[MM296]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.4624586341678,
-        -82.2760024756192
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "US-19 x[COUNTRY CLUB DR]    [HUDSON]",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[CARSON DR]    [LAND O LAKES]",
       "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
+      "roads": [],
       "coords": [
-        28.3443664822134,
-        -82.6988815633402
+        28.1937746903821,
+        -82.4652475736295
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Ridge Road",
-    "SR 54",
+    "SR 52",
     "US 19"
   ],
-  "overlap": [
-    "US 19"
-  ]
+  "overlap": []
 }
