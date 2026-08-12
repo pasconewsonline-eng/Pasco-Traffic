@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T15:42:05.988759Z",
+  "generated": "2026-08-12T16:38:17.188874Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,22 +35,6 @@
       "coords": [
         28.209571428,
         -82.7600473777
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 52,
-      "length_m": 164.5198566414,
-      "coords": [
-        28.1938684697,
-        -82.7399120347
       ]
     },
     {
@@ -106,15 +90,15 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "Perrine Ranch Rd",
-      "to": "Tarragon Ln",
-      "roadnums": "",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 50,
-      "length_m": 70.3997412444,
+      "delay_sec": 80,
+      "length_m": 145.8132968764,
       "coords": [
-        28.1949627632,
-        -82.7143479005
+        28.217041414,
+        -82.7163448051
       ]
     },
     {
@@ -139,11 +123,13 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Tipton Ave",
-      "to": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "Little Road"
+      ],
       "delay_sec": null,
-      "length_m": 201.6231279231,
+      "length_m": 406.7373297242,
       "coords": [
         28.3286802772,
         -82.6620770112
@@ -154,12 +140,14 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
+      "from": "Little Rd",
       "to": "Chicago Ave / Seminole Dr",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "Little Road"
+      ],
       "delay_sec": null,
-      "length_m": 411.1224270577,
+      "length_m": 616.2366288588,
       "coords": [
         28.3286776211,
         -82.6600170747
@@ -168,17 +156,51 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Gunn Hwy",
+      "to": "Gunn Hwy",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 260,
+      "length_m": 170.8395678727,
+      "coords": [
+        28.1935706822,
+        -82.5936981157
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 103,
-      "length_m": 138.9274305032,
+      "delay_sec": 68,
+      "length_m": 232.4399715588,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.1859478974,
+        -82.4341858044
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 120,
+      "length_m": 147.6256764512,
+      "coords": [
+        28.1866264804,
+        -82.4030587688
       ]
     },
     {
@@ -219,10 +241,26 @@
       "severity": "moderate",
       "desc": "Stopped traffic",
       "from": "Central Pasco",
+      "to": "Lexington Oaks Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 49,
+      "length_m": 155.3333701937,
+      "coords": [
+        28.2360488329,
+        -82.3687895253
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
       "to": "Bellamy Brothers Blvd",
       "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 79,
+      "delay_sec": 82,
       "length_m": 167.252086934,
       "coords": [
         28.3243699858,
@@ -248,19 +286,51 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "major",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Morris Bridge Rd",
+      "to": "Meadow Pointe Blvd",
       "roadnums": "FL-56",
+      "roads": [],
+      "delay_sec": 126,
+      "length_m": 253.9671538823,
+      "coords": [
+        28.1978407616,
+        -82.2964235261
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "FL-54 (Morris Bridge Rd)",
+      "roadnums": "",
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 54,
-      "length_m": 216.169075331,
+      "delay_sec": 151,
+      "length_m": 557.2284690622,
       "coords": [
-        28.1960852649,
-        -82.2490838781
+        28.2044417144,
+        -82.2458933904
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -281,18 +351,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Handcart Rd (Eiland Blvd/CR-54)",
+      "to": "Geiger Rd (Eiland Blvd/CR-54)",
+      "roadnums": "County Hwy-54",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "delay_sec": 265,
+      "length_m": 1178.0611106269,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.2445782617,
+        -82.213267
       ]
     },
     {
@@ -329,22 +399,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US Highway 301",
-      "to": "US Highway 301",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 125,
-      "length_m": 97.0335940945,
-      "coords": [
-        28.3930827951,
-        -82.1956462278
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -368,7 +422,7 @@
       "to": "US Highway 301",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 234,
+      "delay_sec": 209,
       "length_m": 104.0863179921,
       "coords": [
         28.3473015244,
@@ -385,10 +439,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1383.6908219203,
+      "length_m": 630.2182264253,
       "coords": [
-        28.206697439,
-        -82.1841207757
+        28.1971728873,
+        -82.1840885892
       ]
     },
     {
@@ -440,10 +494,43 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "LIVINGSTON RD x[SR-54]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.1860372419851,
+        -82.4275788516257
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Patrol Car Crash",
+      "severity": "reported",
+      "desc": "Patrol Car Crash",
+      "location": "SR-56 x[SILVER MAPLE PKWY]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1889666622749,
+        -82.3768110645632
+      ]
+    }
+  ],
   "monitored_roads_active": [
+    "Little Road",
     "Ridge Road",
+    "SR 54",
     "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "SR 54"
+  ]
 }
