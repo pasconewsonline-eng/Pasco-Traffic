@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-13T00:07:20.159292Z",
+  "generated": "2026-08-13T10:09:44.754366Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -47,6 +47,22 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Carlsbad St",
+      "to": "Seven Springs Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 397.2630539232,
+      "coords": [
+        28.2081364744,
+        -82.6940677182
       ]
     },
     {
@@ -135,18 +151,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "State Road 56",
+      "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 73,
-      "length_m": 216.8347243815,
+      "delay_sec": null,
+      "length_m": 124.7857215352,
       "coords": [
-        28.1854623588,
-        -82.3684716836
+        28.188572442,
+        -82.3496157542
       ]
     },
     {
@@ -175,10 +191,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 370.7900713318,
+      "length_m": 170.4400284043,
       "coords": [
-        28.1888621168,
-        -82.3486394301
+        28.188695818,
+        -82.3475035146
       ]
     },
     {
@@ -195,22 +211,6 @@
       "coords": [
         28.1895420112,
         -82.322395356
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Meadow Pointe Blvd",
-      "roadnums": "FL-56",
-      "roads": [],
-      "delay_sec": 67,
-      "length_m": 253.9671538823,
-      "coords": [
-        28.1978407616,
-        -82.2964235261
       ]
     },
     {
@@ -243,6 +243,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 56",
+      "to": "Gall Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 66,
+      "length_m": 192.1725279642,
+      "coords": [
+        28.1925984162,
+        -82.2013526275
       ]
     },
     {
@@ -303,10 +319,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1729.9787284493,
+      "length_m": 1672.4971569474,
       "coords": [
-        28.2069951899,
-        -82.1837975695
+        28.2068033618,
+        -82.1840590849
       ]
     },
     {
@@ -361,79 +377,22 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-56 x[BRUCE B DOWNS BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1858003864734,
-        -82.353905020019
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Fire - Structure",
-      "severity": "reported",
-      "desc": "Fire - Structure",
-      "location": "14142 SULLIVAN ST   [SPRING HILL]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.4546552964427,
-        -82.4929737396612
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "location": "SUNLAKE BLVD N x[RIDGE RD]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.2830772419851,
-        -82.5307747931342
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "WIREGRASS RANCH BLVD x[SR-54]    [WESLEY CHAPEL]",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "SR-54 x[WIREGRASS RANCH BLVD]    [WESLEY CHAPEL]",
       "county": "PASCO",
       "roads": [
         "SR 54"
       ],
       "coords": [
-        28.2378921519543,
-        -82.3438541866758
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "REDLEAF DR x[SR-54]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.2171401932367,
-        -82.7213277434733
+        28.2377207992973,
+        -82.343759452185
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road",
     "SR 54"
   ],
   "overlap": []
