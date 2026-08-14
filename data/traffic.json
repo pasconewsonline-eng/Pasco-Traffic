@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T17:38:37.925016Z",
+  "generated": "2026-08-14T18:33:38.477605Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -454,8 +454,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -470,8 +470,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -485,45 +485,15 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Fire - Vehicle",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Fire - Vehicle",
-      "location": "SR-589 SB [MM33]  x[MM33]    [SPRING HILL]",
-      "county": "PASCO",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "coords": [
-        28.3916578348704,
-        -82.531692708394
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-56 x[GALL BLVD]    [ZEPHYRHILLS]",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[SWANS LANDING DR]    [LAND O LAKES]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.1924762758015,
-        -82.2014053280034
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "RIDGE RD x[SPEROS PKWY]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.2793555028546,
-        -82.5399610001816
+        28.2084729249012,
+        -82.4622895282043
       ]
     }
   ],
@@ -531,10 +501,7 @@
     "Little Road",
     "Ridge Road",
     "SR 54",
-    "Suncoast Parkway",
     "US 19"
   ],
-  "overlap": [
-    "Ridge Road"
-  ]
+  "overlap": []
 }
