@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14T20:15:13.206187Z",
+  "generated": "2026-08-14T20:55:58.667435Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -422,22 +422,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Central Ave (Crystal Springs Rd)",
-      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 630.2182264253,
-      "coords": [
-        28.1971728873,
-        -82.1840885892
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
       "to": "Central Ave (Crystal Springs Rd)",
       "roadnums": "",
@@ -454,15 +438,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "from": "Central Ave (Crystal Springs Rd)",
+      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 659.3798845262,
+      "length_m": 630.2182264253,
       "coords": [
-        28.3132414706,
-        -82.1725376561
+        28.1971728873,
+        -82.1840885892
       ]
     },
     {
@@ -480,22 +464,36 @@
         28.3132414706,
         -82.1725376561
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 659.3798845262,
+      "coords": [
+        28.3132414706,
+        -82.1725376561
+      ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "8445 LITTLE RD   [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "Little Road"
-      ],
+      "desc": "Vehicle Crash w/injuries",
+      "location": "SPRING LAKE HWY x[HALSEY RD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
       "coords": [
-        28.2795162889767,
-        -82.6758439456856
+        28.5078127580149,
+        -82.3032418745905
       ]
     },
     {
@@ -512,35 +510,6 @@
         28.3305982476943,
         -82.5589231339507
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-54 x[MORRIS BRIDGE RD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54",
-        "Ridge Road"
-      ],
-      "coords": [
-        28.2185643302591,
-        -82.2463390972081
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "PRINCETON DR x[CORNELL CT]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3408558893281,
-        -82.6923800099204
-      ]
     }
   ],
   "monitored_roads_active": [
@@ -550,9 +519,5 @@
     "SR 54",
     "US 19"
   ],
-  "overlap": [
-    "Little Road",
-    "Ridge Road",
-    "SR 54"
-  ]
+  "overlap": []
 }
