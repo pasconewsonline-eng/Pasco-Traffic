@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T21:23:34.467000Z",
+  "generated": "2026-08-15T21:46:59.394916Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -12,11 +12,29 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 84,
+      "delay_sec": 79,
       "length_m": 130.738,
       "coords": [
         28.1885522733,
         -82.7400367574
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 44,
+      "length_m": 147.8622545944,
+      "coords": [
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -65,40 +83,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 61,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "US Highway 19",
-      "to": "US Highway 19",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 68,
-      "length_m": 127.6552585516,
-      "coords": [
-        28.3282940337,
-        -82.699249746
       ]
     },
     {
@@ -156,65 +140,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 111,
-      "length_m": 138.9274305032,
-      "coords": [
-        28.1935157196,
-        -82.4993326381
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 156,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "Creek Grass Way",
+      "from": "Central Pasco",
       "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 111,
-      "length_m": 513.7154057343,
+      "delay_sec": 60,
+      "length_m": 253.0461847268,
       "coords": [
-        28.1917427912,
-        -82.3930353537
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-56 exit [275]",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 69,
-      "length_m": 233.1832299147,
-      "coords": [
-        28.1951224037,
-        -82.385352166
+        28.1929162265,
+        -82.3828764871
       ]
     },
     {
@@ -254,33 +190,15 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 123,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-56 (Morris Bridge Rd)",
-      "to": "FL-54 (Morris Bridge Rd)",
+      "from": "Pink Flamingo Ln",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 311,
-      "length_m": 805.0567493724,
+      "roads": [],
+      "delay_sec": 158,
+      "length_m": 276.9305772398,
       "coords": [
-        28.2040755554,
-        -82.2459792211
+        28.2383676166,
+        -82.3573606327
       ]
     },
     {
@@ -349,6 +267,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Zephyrhills",
+      "to": "Zephyrhills",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 94,
+      "length_m": 120.6778205233,
+      "coords": [
+        28.2673985447,
+        -82.1881802991
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -384,8 +318,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -400,8 +334,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -456,19 +390,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CORTEZ BLVD x[RALEY RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.5231519587176,
-        -82.2973320937166
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
@@ -481,24 +402,10 @@
         28.3395778348704,
         -82.6168433254547
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "PAUL S BUCHMAN HWY x[BAY AVE]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1816833245498,
-        -82.1578388565087
-      ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road",
     "SR 52",
     "US 19"
   ],
