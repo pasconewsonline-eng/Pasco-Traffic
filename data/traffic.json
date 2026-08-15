@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-15T13:18:06.623666Z",
+  "generated": "2026-08-15T13:52:13.749300Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -47,38 +47,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 60,
-      "length_m": 145.8132968764,
-      "coords": [
-        28.217041414,
-        -82.7163448051
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 70,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
       ]
     },
     {
@@ -136,33 +104,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "New Port Richey",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Land O Lakes Blvd / Carriker Rd",
+      "to": "Nolen Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 255,
-      "length_m": 114.5296787305,
+      "delay_sec": 165,
+      "length_m": 395.6279966942,
       "coords": [
-        28.1894213696,
-        -82.6182456926
+        28.2471182987,
+        -82.4710822717
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
+      "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "FL-52 (US-41)",
-      "to": "CR-583/Ehren Cutoff (US-41)",
-      "roadnums": "FL-45 US-41 S",
-      "roads": [],
-      "delay_sec": 452,
-      "length_m": 1189.5192727691,
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 76,
+      "length_m": 147.6256764512,
       "coords": [
-        28.2641101063,
-        -82.4771789327
+        28.1866264804,
+        -82.4030587688
       ]
     },
     {
@@ -199,6 +169,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 87,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -218,33 +204,17 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "State Road 56",
-      "to": "Castaway Loop",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 202,
-      "length_m": 140.3213760014,
-      "coords": [
-        28.1946181429,
-        -82.267434211
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 66,
-      "length_m": 239.4547861413,
+      "delay_sec": 145,
+      "length_m": 400.7147802001,
       "coords": [
-        28.1958250849,
-        -82.2469112888
+        28.2101360383,
+        -82.2460757807
       ]
     },
     {
@@ -329,22 +299,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Dairy Rd",
-      "to": "Gall Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 156,
-      "length_m": 197.1838296952,
-      "coords": [
-        28.2591145037,
-        -82.1870779111
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -421,24 +375,12 @@
         28.2610154896794,
         -82.4756598849741
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "TIMBER OAKS AVE x[PONDEROSA AVE]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3147511594203,
-        -82.6680062202385
-      ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road"
+    "Ridge Road",
+    "SR 54"
   ],
   "overlap": []
 }
