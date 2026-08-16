@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-16T22:23:14.497056Z",
+  "generated": "2026-08-16T22:47:38.341083Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -12,7 +12,7 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 74,
+      "delay_sec": 95,
       "length_m": 163.462,
       "coords": [
         28.2103975129,
@@ -21,11 +21,27 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Darlington Rd",
+      "to": "Grand Blvd / Perrine Ranch Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 64,
+      "length_m": 139.990438836,
+      "coords": [
+        28.1952725882,
+        -82.7248930053
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -40,8 +56,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -105,34 +121,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Creek Grass Way",
-      "to": "State Road 56",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 154,
-      "length_m": 308.3767138441,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1906511243,
-        -82.3929736629
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Grand Cypress Dr",
-      "to": "Grand Cypress Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 263,
-      "length_m": 283.9406288325,
-      "coords": [
-        28.1931563197,
-        -82.3915306345
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -156,15 +156,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 3037.5892591652,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -181,22 +181,6 @@
       "coords": [
         28.3100027091,
         -82.2720596805
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100483137,
-        -82.2703256324
       ]
     },
     {
