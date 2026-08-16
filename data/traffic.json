@@ -1,24 +1,6 @@
 {
-  "generated": "2026-08-16T13:53:24.668570Z",
+  "generated": "2026-08-16T14:25:36.350796Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 74,
-      "length_m": 147.862,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -29,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -85,6 +67,24 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Little Rd",
+      "to": "Mitchell Blvd",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 55,
+      "length_m": 76.5147167611,
+      "coords": [
+        28.187484806,
+        -82.6676077262
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -117,38 +117,6 @@
       "coords": [
         28.3286776211,
         -82.6600170747
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Success Dr",
-      "to": "Merchant Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 191,
-      "length_m": 262.0958127344,
-      "coords": [
-        28.1986119033,
-        -82.6301815227
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Livingston Rd",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 124,
-      "length_m": 232.4399715588,
-      "coords": [
-        28.1859478974,
-        -82.4341858044
       ]
     },
     {
@@ -314,8 +282,7 @@
   ],
   "fhp": [],
   "monitored_roads_active": [
-    "Little Road",
-    "US 19"
+    "Little Road"
   ],
   "overlap": []
 }
