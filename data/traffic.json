@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-16T21:22:21.825938Z",
+  "generated": "2026-08-16T21:45:50.357243Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -47,6 +47,22 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 52,
+      "length_m": 117.9521747299,
+      "coords": [
+        28.2804971037,
+        -82.6980668918
       ]
     },
     {
@@ -88,29 +104,13 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Springhill Toll Plaza (FL-589)",
-      "to": "FL-54/Exit 19 (FL-589)",
-      "roadnums": "FL-589 S",
-      "roads": [],
-      "delay_sec": 265,
-      "length_m": 2799.0487122328,
-      "coords": [
-        28.2313201331,
-        -82.550648661
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "Grand Parkview Blvd",
       "to": "Mentmore Blvd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 58,
+      "delay_sec": 44,
       "length_m": 138.9274305032,
       "coords": [
         28.1935157196,
@@ -120,19 +120,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "I-75 (FL-56)",
-      "to": "FL-54 (FL-56)",
-      "roadnums": "FL-56",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "State Road 52",
+      "to": "Citation Rd",
+      "roadnums": "",
       "roads": [
-        "I-75"
+        "SR 52"
       ],
-      "delay_sec": 149,
-      "length_m": 780.4131870121,
+      "delay_sec": 175,
+      "length_m": 274.027572968,
       "coords": [
-        28.1938845004,
-        -82.3928931966
+        28.3268201717,
+        -82.4694756285
       ]
     },
     {
@@ -169,22 +169,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Old Pasco Rd",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 73,
-      "length_m": 65.4019376834,
-      "coords": [
-        28.2380055615,
-        -82.3667805508
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -197,6 +181,24 @@
       "coords": [
         28.2202452616,
         -82.2461736813
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Zephyrhills",
+      "to": "Morris Bridge Rd",
+      "roadnums": "FL-56",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 60,
+      "length_m": 239.4547861413,
+      "coords": [
+        28.1958250849,
+        -82.2469112888
       ]
     },
     {
@@ -328,40 +330,11 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SUNCOAST PKWY SB (SR-589 SB) [MM22]  x[MM22]    [ODESSA]",
-      "county": "PASCO",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "coords": [
-        28.2361370750988,
-        -82.5505374414434
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "WESLEY CHAPEL BLVD x[GATEWAY BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2377662889767,
-        -82.3614686472917
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
-    "Suncoast Parkway"
+    "Ridge Road",
+    "SR 52"
   ],
   "overlap": []
 }
