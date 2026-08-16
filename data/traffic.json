@@ -1,20 +1,22 @@
 {
-  "generated": "2026-08-16T14:50:16.326368Z",
+  "generated": "2026-08-16T15:23:47.706685Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Darlington Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 128,
-      "length_m": 164.52,
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 77,
+      "length_m": 147.862,
       "coords": [
-        28.1938684697,
-        -82.7399120347
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -63,22 +65,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 55,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
       ]
     },
     {
@@ -136,33 +122,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Hale Rd (US-41)",
-      "to": "FL-54 (US-41)",
-      "roadnums": "FL-45 US-41 S",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 142,
-      "length_m": 534.5928919564,
+      "delay_sec": 127,
+      "length_m": 83.6582008461,
       "coords": [
-        28.193164372,
-        -82.4655461922
+        28.1895205868,
+        -82.617737414
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Sun Vista Dr",
+      "to": "Grand Cypress Dr",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 109,
-      "length_m": 126.905205149,
+      "delay_sec": 179,
+      "length_m": 164.0833740291,
       "coords": [
-        28.1859934811,
-        -82.4282353237
+        28.189091433,
+        -82.3937166348
       ]
     },
     {
@@ -200,17 +186,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Gateway Blvd",
-      "roadnums": "FL-54",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Gateway Blvd",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 61,
-      "length_m": 161.5492489731,
+      "delay_sec": 208,
+      "length_m": 203.1707300171,
       "coords": [
-        28.2378741196,
-        -82.3605350271
+        28.2380685502,
+        -82.3574303701
       ]
     },
     {
@@ -243,24 +229,6 @@
       "coords": [
         28.3100027091,
         -82.2720596805
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Coats Rd/Dean Dairy Rd (FL-54)",
-      "to": "FL-54/Morris Bridge Rd (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 144,
-      "length_m": 383.5712013463,
-      "coords": [
-        28.2231943649,
-        -82.2357868269
       ]
     },
     {
@@ -332,8 +300,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -348,8 +316,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -361,6 +329,21 @@
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "US-19 x[SUNRAY DR]    [HOLIDAY]",
+      "county": "PASCO",
+      "roads": [
+        "US 19"
+      ],
+      "coords": [
+        28.1980913658322,
+        -82.7398374782133
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Vehicle Crash w/roadblock",
@@ -380,10 +363,11 @@
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road",
-    "SR 52"
+    "SR 52",
+    "US 19"
   ],
   "overlap": [
-    "Little Road"
+    "Little Road",
+    "US 19"
   ]
 }
