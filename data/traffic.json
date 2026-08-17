@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T15:40:57.398109Z",
+  "generated": "2026-08-17T15:59:54.936013Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -10,7 +10,7 @@
       "to": "Mile Stretch Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 122,
+      "delay_sec": 93,
       "length_m": 164.354,
       "coords": [
         28.1869724563,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -38,8 +38,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -104,17 +104,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Timber Ridge Way",
-      "to": "Timber Ridge Way",
-      "roadnums": "",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 206,
-      "length_m": 279.5043723231,
+      "delay_sec": 74,
+      "length_m": 138.9274305032,
       "coords": [
-        28.2620756738,
-        -82.4648005381
+        28.1935157196,
+        -82.4993326381
       ]
     },
     {
@@ -122,15 +122,17 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Sun Vista Dr",
-      "to": "Sun Vista Dr",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 376,
-      "length_m": 159.8311265642,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 130,
+      "length_m": 147.6256764512,
       "coords": [
-        28.1894669519,
-        -82.3941632226
+        28.1866264804,
+        -82.4030587688
       ]
     },
     {
@@ -168,19 +170,69 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "FL-56 (I-75)",
+      "to": "FL-54/Exit 279 (I-75)",
+      "roadnums": "I-75 N",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 106,
+      "length_m": 1627.3073841942,
+      "coords": [
+        28.2110814804,
+        -82.3736832157
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "FL-56 (Morris Bridge Rd)",
-      "to": "FL-54 (Morris Bridge Rd)",
-      "roadnums": "",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-56 (I-75)",
+      "roadnums": "I-75 S",
       "roads": [
-        "Ridge Road"
+        "I-75"
       ],
-      "delay_sec": 183,
-      "length_m": 403.7873138106,
+      "delay_sec": 519,
+      "length_m": 2915.4628748145,
       "coords": [
-        28.2022623961,
-        -82.2468589857
+        28.2244308946,
+        -82.3640970007
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Hueland Pond Blvd",
+      "to": "State Road 56 / Wiregrass Ranch Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 113,
+      "length_m": 322.9656808552,
+      "coords": [
+        28.1973861554,
+        -82.3293181375
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "McKendree Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 65,
+      "length_m": 124.0869931932,
+      "coords": [
+        28.3252014528,
+        -82.3132651165
       ]
     },
     {
@@ -194,27 +246,29 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 200,
-      "length_m": 859.3011672386,
+      "delay_sec": 195,
+      "length_m": 701.5050983846,
       "coords": [
-        28.2114275249,
-        -82.2461173549
+        28.2108937222,
+        -82.2461012616
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "FL-54 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 841,
+      "length_m": 962.6794398596,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.2038583118,
+        -82.2460771218
       ]
     },
     {
@@ -231,6 +285,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -263,6 +333,22 @@
       "coords": [
         28.2495148862,
         -82.2003816679
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Meridian Ave",
+      "to": "7th St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 202,
+      "length_m": 167.9298438078,
+      "coords": [
+        28.3638882751,
+        -82.190194638
       ]
     },
     {
@@ -302,8 +388,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -318,8 +404,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -333,17 +419,43 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "BROAD ST x[POWELL RD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.4921760693896,
+        -82.4287737693315
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "US-301 x[OWENSBORO RD]    [DADE CITY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.4399755028546,
+        -82.1900052687392
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "Fire - Vehicle",
       "severity": "reported",
       "desc": "Fire - Vehicle",
-      "location": "I-75 NB [MM299]  x[MM299]    [BROOKSVILLE]",
-      "county": "HERNANDO",
+      "location": "I-75 SB [MM277]  x[MM277]    [LUTZ]",
+      "county": "PASCO",
       "roads": [
         "I-75"
       ],
       "coords": [
-        28.4954892007027,
-        -82.2482522673629
+        28.2158907729469,
+        -82.3703297802504
       ]
     },
     {
@@ -363,7 +475,10 @@
   "monitored_roads_active": [
     "I-75",
     "Little Road",
-    "Ridge Road"
+    "Ridge Road",
+    "SR 54"
   ],
-  "overlap": []
+  "overlap": [
+    "I-75"
+  ]
 }
