@@ -1,20 +1,22 @@
 {
-  "generated": "2026-08-17T23:37:11.911118Z",
+  "generated": "2026-08-17T23:59:00.962781Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.798,
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 82,
+      "length_m": 163.462,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2103975129,
+        -82.7394694702
       ]
     },
     {
@@ -38,6 +40,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -47,6 +65,24 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 19",
+      "to": "Delmar Dr",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 137,
+      "length_m": 227.645870904,
+      "coords": [
+        28.3569668961,
+        -82.6983914391
       ]
     },
     {
@@ -87,18 +123,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 67,
-      "length_m": 138.9274305032,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -119,50 +155,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
       "from": "Central Pasco",
       "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 119,
+      "delay_sec": 123,
       "length_m": 216.8347243815,
       "coords": [
         28.1854623588,
         -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
       ]
     },
     {
@@ -179,6 +183,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -223,10 +243,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1729.9787284493,
+      "length_m": 2027.2011218091,
       "coords": [
-        28.2069951899,
-        -82.1837975695
+        28.2069133472,
+        -82.1839424088
       ]
     },
     {
@@ -239,10 +259,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1743.4629476431,
+      "length_m": 2040.6853410029,
       "coords": [
-        28.2070166108,
-        -82.1837224677
+        28.2069951899,
+        -82.1837975695
       ]
     },
     {
@@ -306,40 +326,13 @@
         28.3714915854194,
         -82.543105800914
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "DUCK SLOUGH BLVD x[GARDEN LAKES BLVD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1830745234958,
-        -82.634798255965
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "I-75 NB [ENT]  x[MM275]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.1898970750988,
-        -82.3858156206511
-      ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
     "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "US 19"
+  ]
 }
