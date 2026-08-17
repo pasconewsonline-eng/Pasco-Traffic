@@ -1,6 +1,22 @@
 {
-  "generated": "2026-08-17T16:38:30.119189Z",
+  "generated": "2026-08-17T17:04:24.357185Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 114,
+      "length_m": 164.52,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +27,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -52,17 +68,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "FL-54",
-      "roadnums": "",
+      "to": "Madison St",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 64,
-      "length_m": 90.9604090037,
+      "delay_sec": 70,
+      "length_m": 157.5965365388,
       "coords": [
-        28.2059866301,
-        -82.6713815943
+        28.2170306307,
+        -82.7140904085
       ]
     },
     {
@@ -104,33 +120,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Livingston Rd",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
       "to": "Livingston Rd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 59,
-      "length_m": 232.4399715588,
+      "delay_sec": 73,
+      "length_m": 126.905205149,
       "coords": [
-        28.1859478974,
-        -82.4341858044
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1859934811,
+        -82.4282353237
       ]
     },
     {
@@ -151,18 +151,36 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Lexington Oaks Blvd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 59,
-      "length_m": 155.3333701937,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2360488329,
-        -82.3687895253
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "CR-581/Bruce B Downs Blvd (FL-56)",
+      "to": "I-75 (FL-56)",
+      "roadnums": "FL-56",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 146,
+      "length_m": 722.5395245753,
+      "coords": [
+        28.1911607229,
+        -82.3790476337
       ]
     },
     {
@@ -174,43 +192,11 @@
       "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 59,
+      "delay_sec": 96,
       "length_m": 65.4019376834,
       "coords": [
         28.2380055615,
         -82.3667805508
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 60,
-      "length_m": 216.8347243815,
-      "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 103,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
       ]
     },
     {
@@ -224,27 +210,11 @@
       "roads": [
         "I-75"
       ],
-      "delay_sec": 378,
-      "length_m": 1662.114482001,
+      "delay_sec": 645,
+      "length_m": 3274.5273885657,
       "coords": [
-        28.2383582385,
-        -82.3649673775
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-54 exit [279]",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 103,
-      "length_m": 522.6099917719,
-      "coords": [
-        28.2391253217,
-        -82.353219302
+        28.2336697399,
+        -82.370748879
       ]
     },
     {
@@ -258,27 +228,27 @@
       "roads": [
         "I-75"
       ],
-      "delay_sec": 1773,
-      "length_m": 6480.147088245,
+      "delay_sec": 484,
+      "length_m": 5087.3246711918,
       "coords": [
-        28.2368628978,
-        -82.3547052458
+        28.2324560622,
+        -82.3580030218
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Claridge Pl",
-      "to": "State Road 56",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Mansfield Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 163,
-      "length_m": 393.3782268488,
+      "delay_sec": 157,
+      "length_m": 383.0819437651,
       "coords": [
-        28.1960946468,
-        -82.298488827
+        28.1960919874,
+        -82.3326078668
       ]
     },
     {
@@ -292,7 +262,7 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 340,
+      "delay_sec": 678,
       "length_m": 1030.7777698003,
       "coords": [
         28.2131722812,
@@ -310,29 +280,11 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 744,
-      "length_m": 1188.5500330794,
+      "delay_sec": 340,
+      "length_m": 1419.5394065479,
       "coords": [
         28.2038583118,
         -82.2460771218
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 67,
-      "length_m": 239.4547861413,
-      "coords": [
-        28.1958250849,
-        -82.2469112888
       ]
     },
     {
@@ -401,6 +353,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "17th St",
+      "to": "15th St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 202,
+      "length_m": 164.4787070628,
+      "coords": [
+        28.3614890997,
+        -82.1988836541
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -425,26 +393,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1632.4330734056,
+      "length_m": 630.2182264253,
       "coords": [
-        28.206697439,
-        -82.1841207757
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 659.3798845262,
-      "coords": [
-        28.3132414706,
-        -82.1725376561
+        28.1971728873,
+        -82.1840885892
       ]
     },
     {
@@ -462,9 +414,38 @@
         28.3132414706,
         -82.1725376561
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 659.3798845262,
+      "coords": [
+        28.3132414706,
+        -82.1725376561
+      ]
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "WIREGRASS RANCH BLVD [NOF]  x[SR-56]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1983347167325,
+        -82.3306322299322
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Vehicle Crash",
@@ -482,21 +463,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "I-75 SB [MM278]  x[MM278]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.2274154765042,
-        -82.3617943425593
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -508,19 +474,6 @@
       "coords": [
         28.3308523583663,
         -82.6775102304432
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "BROAD ST x[POWELL RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.4921760693896,
-        -82.4287737693315
       ]
     },
     {
