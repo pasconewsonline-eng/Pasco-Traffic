@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T23:01:28.338965Z",
+  "generated": "2026-08-17T23:37:11.911118Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -47,38 +47,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 70,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Regency Park Blvd",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 92,
-      "length_m": 117.9521747299,
-      "coords": [
-        28.2804971037,
-        -82.6980668918
       ]
     },
     {
@@ -135,22 +103,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Station Ln",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 96,
-      "length_m": 115.9977378631,
-      "coords": [
-        28.1953704702,
-        -82.4649802461
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -187,48 +139,14 @@
       "severity": "moderate",
       "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
+      "to": "Northwood Palms Rd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 89,
-      "length_m": 167.252086934,
+      "delay_sec": 119,
+      "length_m": 216.8347243815,
       "coords": [
-        28.3243699858,
-        -82.3590477422
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Meadow Pointe Blvd",
-      "roadnums": "FL-56",
-      "roads": [],
-      "delay_sec": 181,
-      "length_m": 237.7906183672,
-      "coords": [
-        28.1978528765,
-        -82.2962760046
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 175,
-      "length_m": 239.4547861413,
-      "coords": [
-        28.1958250849,
-        -82.2469112888
+        28.1854623588,
+        -82.3684716836
       ]
     },
     {
@@ -363,15 +281,17 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SHADY HILLS RD x[LANCER RD]    [SPRING HILL]",
+      "desc": "Vehicle Crash",
+      "location": "US-19 x[HOLIDAY HILLS BLVD]    [PORT RICHEY]",
       "county": "PASCO",
-      "roads": [],
+      "roads": [
+        "US 19"
+      ],
       "coords": [
-        28.4252500131752,
-        -82.551195465223
+        28.2904519587176,
+        -82.7111622646582
       ]
     },
     {
@@ -419,7 +339,7 @@
   "monitored_roads_active": [
     "I-75",
     "Little Road",
-    "Ridge Road"
+    "US 19"
   ],
   "overlap": []
 }
