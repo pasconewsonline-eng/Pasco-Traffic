@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T14:17:25.291057Z",
+  "generated": "2026-08-18T15:02:19.199144Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -10,7 +10,7 @@
       "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 110,
+      "delay_sec": 111,
       "length_m": 164.52,
       "coords": [
         28.1938684697,
@@ -68,6 +68,22 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 85,
+      "length_m": 110.8882967126,
+      "coords": [
+        28.2805064782,
+        -82.7078153805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
       "from": "Trouble Creek Rd (Little Rd/CR-1)",
@@ -76,7 +92,7 @@
       "roads": [
         "Little Road"
       ],
-      "delay_sec": 191,
+      "delay_sec": 182,
       "length_m": 967.3658205282,
       "coords": [
         28.2335946377,
@@ -121,87 +137,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Duck Slough Blvd",
-      "to": "New Port Richey",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 376,
-      "length_m": 263.8501711133,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.19253939,
-        -82.6390019671
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Moon Lake Rd",
-      "to": "Port Richey",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 457,
-      "length_m": 510.8302366574,
-      "coords": [
-        28.3333835553,
-        -82.6110157982
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 52",
-      "to": "Suncoast Pkwy S",
-      "roadnums": "",
-      "roads": [
-        "SR 52",
-        "Suncoast Parkway"
-      ],
-      "delay_sec": 63,
-      "length_m": 255.0120529934,
-      "coords": [
-        28.3306047597,
-        -82.5535762921
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 74,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 69,
-      "length_m": 147.6256764512,
-      "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -222,66 +169,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "FL-54 (Morris Bridge Rd)",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 59,
-      "length_m": 216.8347243815,
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 204,
+      "length_m": 530.3976995718,
       "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Curley Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 54,
-      "length_m": 175.8496424936,
-      "coords": [
-        28.2405911678,
-        -82.3136325791
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.2114275249,
+        -82.2461173549
       ]
     },
     {
@@ -302,18 +203,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Handcart Rd (Eiland Blvd/CR-54)",
-      "to": "Dean Dairy Rd (Eiland Blvd/CR-54)",
-      "roadnums": "County Hwy-54",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 254,
-      "length_m": 971.5248977411,
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
       "coords": [
-        28.2445782617,
-        -82.2159612789
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -417,8 +318,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -433,8 +334,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -460,65 +361,11 @@
         28.1749958893281,
         -82.7476119699475
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "CLINTON AVE x[CIRCLE B RD]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3287072419851,
-        -82.2185413368271
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "US-301 [SOF]  x[CLINTON AVE]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3282082476943,
-        -82.1875644208831
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash w/injuries",
-      "severity": "reported",
-      "desc": "Hit and Run Crash w/injuries",
-      "location": "4233 ONORIO ST   [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2204374352218,
-        -82.690270677896
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "CIRCLE B RD x[CLINTON AVE]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3285507861221,
-        -82.2187030843252
-      ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 52",
-    "SR 54",
-    "Suncoast Parkway",
+    "Ridge Road",
     "US 19"
   ],
   "overlap": []
