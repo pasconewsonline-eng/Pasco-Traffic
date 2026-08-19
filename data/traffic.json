@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T09:36:27.091206Z",
+  "generated": "2026-08-19T10:04:11.253467Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -87,22 +87,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Springhill Toll Plaza (FL-589)",
-      "to": "FL-54/Exit 19 (FL-589)",
-      "roadnums": "FL-589 S",
-      "roads": [],
-      "delay_sec": 146,
-      "length_m": 1714.190865022,
-      "coords": [
-        28.206932109,
-        -82.5480656937
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -131,24 +115,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-56 (Morris Bridge Rd)",
-      "to": "Cross Creek Blvd (Morris Bridge Rd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 170,
-      "length_m": 1004.7099340927,
-      "coords": [
-        28.1709355201,
-        -82.2605758026
       ]
     },
     {
@@ -313,6 +279,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "FL-39/Paul S Buchman Hwy (US-301)",
+      "to": "FL-56 (Gall Blvd/US-301)",
+      "roadnums": "US-301 S US-301 N",
+      "roads": [],
+      "delay_sec": 147,
+      "length_m": 879.1367482637,
+      "coords": [
+        28.2117708354,
+        -82.1813513949
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -363,7 +345,6 @@
   ],
   "monitored_roads_active": [
     "Little Road",
-    "Ridge Road",
     "SR 52"
   ],
   "overlap": []
