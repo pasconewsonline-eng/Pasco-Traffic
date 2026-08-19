@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T14:36:01.671929Z",
+  "generated": "2026-08-19T15:13:04.157245Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -86,8 +86,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -104,8 +104,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -643,8 +643,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -659,8 +659,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -699,22 +699,6 @@
         28.5333917786561,
         -82.5117725763434
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-52 x[LITTLE RD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52",
-        "Little Road"
-      ],
-      "coords": [
-        28.3309423583663,
-        -82.666380414796
-      ]
     }
   ],
   "monitored_roads_active": [
@@ -724,8 +708,5 @@
     "SR 54",
     "Suncoast Parkway"
   ],
-  "overlap": [
-    "Little Road",
-    "SR 52"
-  ]
+  "overlap": []
 }
