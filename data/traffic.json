@@ -1,58 +1,6 @@
 {
-  "generated": "2026-08-18T23:58:45.416492Z",
+  "generated": "2026-08-19T09:36:27.091206Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 62,
-      "length_m": 130.738,
-      "coords": [
-        28.1885522733,
-        -82.7400367574
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Darlington Rd",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 48,
-      "length_m": 160.8409771858,
-      "coords": [
-        28.1961161437,
-        -82.739878507
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 51,
-      "length_m": 187.590344576,
-      "coords": [
-        28.2255479908,
-        -82.7331045882
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -63,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -139,6 +87,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Springhill Toll Plaza (FL-589)",
+      "to": "FL-54/Exit 19 (FL-589)",
+      "roadnums": "FL-589 S",
+      "roads": [],
+      "delay_sec": 146,
+      "length_m": 1714.190865022,
+      "coords": [
+        28.206932109,
+        -82.5480656937
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -172,17 +136,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "Cross Creek Blvd (Morris Bridge Rd)",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 100,
-      "length_m": 216.8347243815,
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 170,
+      "length_m": 1004.7099340927,
       "coords": [
-        28.1854623588,
-        -82.3684716836
+        28.1709355201,
+        -82.2605758026
       ]
     },
     {
@@ -254,15 +220,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "to": "Central Ave (Crystal Springs Rd)",
-      "roadnums": "",
+      "from": "US-98 Byp (Dade City) (South) (US-301 Bus/US-301)",
+      "to": "FL-52/Meridian Ave (US-301 Bus/US-301)",
+      "roadnums": "US-301 Bus S FL-35 FL-700 US-301 Bus N US-98 Bus E US-98 Bus W",
       "roads": [],
       "delay_sec": null,
-      "length_m": 40.2663598779,
+      "length_m": 183.2987200267,
       "coords": [
-        28.1792020973,
-        -82.1840255573
+        28.3638628292,
+        -82.1891056612
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-52/Meridian Ave (US-98 Bus/US-98)",
+      "to": "US-98/US-301 (South) (US-98 Bus/US-98)",
+      "roadnums": "US-301 Bus S FL-35 FL-700 US-301 Bus N US-98 Bus E US-98 Bus W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 102.0106394974,
+      "coords": [
+        28.363362612,
+        -82.1891096845
       ]
     },
     {
@@ -279,6 +261,22 @@
       "coords": [
         28.179564204,
         -82.1840295806
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "to": "Central Ave (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 40.2663598779,
+      "coords": [
+        28.1792020973,
+        -82.1840255573
       ]
     },
     {
@@ -318,8 +316,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -334,8 +332,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -349,108 +347,24 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "REGENCY PARK BLVD x[BIMINI DR]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.28293,
-        -82.696956557516
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "2388 N FLORIDA AVE   [HERNANDO]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.8973505928854,
-        -82.3726494209941
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-52 x[PASCO RD]    [SAN ANTONIO]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52"
-      ],
-      "coords": [
-        28.3257597935881,
-        -82.3205461908378
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-52 x[FRESCO LN]    [SAN ANTONIO]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52"
-      ],
-      "coords": [
-        28.3256896135266,
-        -82.3189793313388
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
-      "location": "US-98 x[TRILBY RD]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.4640566622749,
-        -82.1833241067812
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 NB [ENT FROM SR 52]  x[MM285]    [SAN ANTONIO]",
+      "location": "SR-52 x[EHREN CUTOFF]    [LAND O LAKES]",
       "county": "PASCO",
       "roads": [
-        "SR 52",
-        "I-75"
+        "SR 52"
       ],
       "coords": [
-        28.3196292138779,
-        -82.3249688593324
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "location": "DEAN DAIRY RD x[ARBOR OAKS DR]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2414617654809,
-        -82.2133649954587
+        28.3232296003513,
+        -82.4165577592552
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
-    "SR 52",
-    "US 19"
+    "Ridge Road",
+    "SR 52"
   ],
   "overlap": []
 }
