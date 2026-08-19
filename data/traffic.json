@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T15:48:23.631185Z",
+  "generated": "2026-08-19T16:33:56.095279Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -643,8 +643,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -659,8 +659,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -677,14 +677,40 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "3638 MORRIS BRIDGE RD   [WESLEY CHAPEL]",
+      "location": "SR-54 x[ASTURIAN PKWY]    [ODESSA]",
       "county": "PASCO",
       "roads": [
-        "Ridge Road"
+        "SR 54"
       ],
       "coords": [
-        28.2101047167325,
-        -82.2459708603716
+        28.1918052832675,
+        -82.5708368038955
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "EAGLESTON BLVD x[BRUCE B DOWNS BLVD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.22106609574,
+        -82.3536067254478
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[BELL LAKE RD]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2187143302591,
+        -82.4581468926721
       ]
     }
   ],
@@ -692,9 +718,8 @@
     "Little Road",
     "Ridge Road",
     "SR 52",
+    "SR 54",
     "Suncoast Parkway"
   ],
-  "overlap": [
-    "Ridge Road"
-  ]
+  "overlap": []
 }
