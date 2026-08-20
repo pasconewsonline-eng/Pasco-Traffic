@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T23:59:04.388357Z",
+  "generated": "2026-08-20T09:36:52.887888Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -86,6 +86,24 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": null,
+      "length_m": 406.7373297242,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Little Rd",
       "to": "Tipton Ave",
       "roadnums": "",
@@ -104,33 +122,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 103,
-      "length_m": 138.9274305032,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -154,33 +154,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 3037.5892591652,
       "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 49,
-      "length_m": 239.4547861413,
-      "coords": [
-        28.1958250849,
-        -82.2469112888
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -197,22 +179,6 @@
       "coords": [
         28.3100483137,
         -82.2703256324
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
       ]
     },
     {
@@ -245,6 +211,38 @@
       "coords": [
         28.2495148862,
         -82.2003816679
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "US-98 Byp (Dade City) (South) (US-301 Bus/US-301)",
+      "to": "FL-52/Meridian Ave (US-301 Bus/US-301)",
+      "roadnums": "US-301 Bus S FL-35 FL-700 US-301 Bus N US-98 Bus E US-98 Bus W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 183.2987200267,
+      "coords": [
+        28.3638628292,
+        -82.1891056612
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-52/Meridian Ave (US-98 Bus/US-98)",
+      "to": "US-98/US-301 (South) (US-98 Bus/US-98)",
+      "roadnums": "US-301 Bus S FL-35 FL-700 US-301 Bus N US-98 Bus E US-98 Bus W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.6249264738,
+      "coords": [
+        28.3634631424,
+        -82.1891070023
       ]
     },
     {
@@ -316,8 +314,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -332,8 +330,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -344,57 +342,9 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-54 x[OLD COUNTY ROAD 54]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.216243544137,
-        -82.6837138958957
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "MORRIS BRIDGE RD [NOF]  x[SR-56]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.1961341106719,
-        -82.2477473868424
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "CENTRAL AVE x[HENNA ST]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1791139306105,
-        -82.1717044691288
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
-    "Little Road",
-    "Ridge Road",
-    "SR 54"
+    "Little Road"
   ],
-  "overlap": [
-    "Ridge Road"
-  ]
+  "overlap": []
 }
