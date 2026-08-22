@@ -1,22 +1,56 @@
 {
-  "generated": "2026-08-22T19:35:49.711743Z",
+  "generated": "2026-08-22T19:57:07.378341Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 81,
+      "length_m": 130.738,
+      "coords": [
+        28.1885522733,
+        -82.7400367574
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
       "from": "New Port Richey",
-      "to": "Marine Pkwy",
-      "roadnums": "US-19 S",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 106,
+      "length_m": 164.5198566414,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 82,
-      "length_m": 111.864,
+      "delay_sec": 66,
+      "length_m": 147.8622545944,
       "coords": [
-        28.232953572,
-        -82.7294473962
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -24,8 +58,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -40,8 +74,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -69,36 +103,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 50,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hudson Ave (Little Rd/CR-1)",
-      "to": "Fivay Rd (Little Rd/CR-1)",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Clayton Blvd (Fivay Rd)",
+      "to": "CR-1/Little Rd (Fivay Rd)",
+      "roadnums": "County Hwy-1",
       "roads": [
         "Little Road"
       ],
-      "delay_sec": 479,
-      "length_m": 487.6363359402,
+      "delay_sec": null,
+      "length_m": 214.2659436154,
       "coords": [
-        28.3413027684,
-        -82.6658656315
+        28.3401266134,
+        -82.6669157163
       ]
     },
     {
@@ -106,17 +124,17 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
-      "roadnums": "",
+      "from": "CR-1/Little Rd (Fivay Rd)",
+      "to": "Clayton Blvd (Fivay Rd)",
+      "roadnums": "County Hwy-1",
       "roads": [
         "Little Road"
       ],
       "delay_sec": null,
-      "length_m": 406.7373297242,
+      "length_m": 214.2659436154,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.3401775904,
+        -82.6669948415
       ]
     },
     {
@@ -139,8 +157,58 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": null,
+      "length_m": 406.7373297242,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Livingston Rd (FL-54)",
+      "to": "Collier Pkwy (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 125,
+      "length_m": 789.4678066975,
+      "coords": [
+        28.1860833188,
+        -82.4358219519
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 59,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
       "desc": "Stopped traffic",
       "from": "State Road 54",
       "to": "State Road 54 / Cypress Creek Rd",
@@ -148,7 +216,7 @@
       "roads": [
         "SR 54"
       ],
-      "delay_sec": 100,
+      "delay_sec": 123,
       "length_m": 147.6256764512,
       "coords": [
         28.1866264804,
@@ -160,31 +228,15 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Grand Cypress Dr",
+      "from": "Grand Cypress Dr",
+      "to": "Sun Vista Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 222,
-      "length_m": 170.3468132576,
+      "delay_sec": 126,
+      "length_m": 185.007474985,
       "coords": [
-        28.1935009447,
-        -82.3958409443
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
-      "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.1889224749,
+        -82.3937045649
       ]
     },
     {
@@ -208,15 +260,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -237,15 +289,31 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "FL-56 (FL-54)",
       "to": "Old Pasco Rd (FL-54)",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 289,
-      "length_m": 1568.9199788563,
+      "delay_sec": 171,
+      "length_m": 1581.4225492957,
       "coords": [
         28.2287599282,
         -82.3746139422
@@ -254,17 +322,49 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Old Pasco Rd",
+      "to": "Lexington Oaks Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 64,
-      "length_m": 216.152539702,
+      "delay_sec": 68,
+      "length_m": 155.3333701937,
       "coords": [
-        28.2374154748,
-        -82.3673277214
+        28.2360488329,
+        -82.3687895253
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Old Pasco Rd",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 50,
+      "length_m": 65.4019376834,
+      "coords": [
+        28.2380055615,
+        -82.3667805508
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Lajuana Blvd",
+      "to": "Champions Path Way",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 189,
+      "length_m": 167.5029363173,
+      "coords": [
+        28.1977388927,
+        -82.3412553087
       ]
     },
     {
@@ -278,27 +378,11 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 202,
-      "length_m": 652.5449510518,
+      "delay_sec": 155,
+      "length_m": 374.053341164,
       "coords": [
-        28.2041439564,
-        -82.245952399
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.2069603255,
+        -82.2459604457
       ]
     },
     {
@@ -315,6 +399,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -465,9 +565,24 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
+      "desc": "Vehicle Crash",
+      "location": "SR-52 x[BELLAMY BROTHERS BLVD]    [SAN ANTONIO]",
+      "county": "PASCO",
+      "roads": [
+        "SR 52"
+      ],
+      "coords": [
+        28.3246194071146,
+        -82.3579677602939
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "location": "LITTLE RD x[FIVAY RD]    [HUDSON]",
       "county": "PASCO",
       "roads": [
@@ -493,21 +608,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "US-19 SB x[RIDGE CREST DR]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
-      "coords": [
-        28.2842966622749,
-        -82.7148447061031
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Hit and Run Crash w/injuries",
       "severity": "reported",
       "desc": "Hit and Run Crash w/injuries",
@@ -517,21 +617,6 @@
       "coords": [
         28.1940943170839,
         -82.1801309744531
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 SB [MM305]  x[MM305]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.5751954765042,
-        -82.2218778750196
       ]
     },
     {
@@ -567,11 +652,11 @@
     "I-75",
     "Little Road",
     "Ridge Road",
+    "SR 52",
     "SR 54",
     "US 19"
   ],
   "overlap": [
-    "Little Road",
-    "US 19"
+    "Little Road"
   ]
 }
