@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T23:28:35.427346Z",
+  "generated": "2026-08-22T23:49:14.484674Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -12,7 +12,7 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 85,
+      "delay_sec": 84,
       "length_m": 147.862,
       "coords": [
         28.2088647008,
@@ -22,13 +22,13 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
       "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 115,
+      "delay_sec": 79,
       "length_m": 187.590344576,
       "coords": [
         28.2255479908,
@@ -40,8 +40,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -56,8 +56,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -140,8 +140,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -156,8 +156,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -201,18 +201,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Gateway Blvd",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "delay_sec": 129,
+      "length_m": 173.4981166613,
       "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.2380685502,
+        -82.3574303701
       ]
     },
     {
@@ -229,6 +229,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -281,6 +297,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 98 Byp",
+      "to": "8th St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 207,
+      "length_m": 209.4198888649,
+      "coords": [
+        28.3724512694,
+        -82.1885423973
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -321,10 +353,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 2027.2011218091,
+      "length_m": 1729.9787284493,
       "coords": [
-        28.2069133472,
-        -82.1839424088
+        28.2069951899,
+        -82.1837975695
       ]
     },
     {
@@ -382,38 +414,18 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "SCENIC DR x[US-19]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
+      "location": "COMMERCIAL WAY x[NORTHCLIFFE BLVD]    [SPRING HILL]",
+      "county": "HERNANDO",
+      "roads": [],
       "coords": [
-        28.2977235309618,
-        -82.7069944518638
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-54 x[LAND O LAKES BLVD]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.1916833509003,
-        -82.4659711551399
+        28.510189007466,
+        -82.5801677504702
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 54",
     "US 19"
   ],
-  "overlap": [
-    "US 19"
-  ]
+  "overlap": []
 }
