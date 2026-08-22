@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T22:58:47.698509Z",
+  "generated": "2026-08-22T23:28:35.427346Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -7,11 +7,29 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 85,
+      "length_m": 147.862,
+      "coords": [
+        28.2088647008,
+        -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
       "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 71,
-      "length_m": 187.59,
+      "delay_sec": 115,
+      "length_m": 187.590344576,
       "coords": [
         28.2255479908,
         -82.7331045882
@@ -70,8 +88,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -88,8 +106,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -99,6 +117,22 @@
       "coords": [
         28.3286802772,
         -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Trinity Blvd / Blue Fox Way",
+      "to": "Trinity Blvd / Blue Fox Way",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 137,
+      "length_m": 69.4947226328,
+      "coords": [
+        28.1856474281,
+        -82.6349370793
       ]
     },
     {
@@ -163,54 +197,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 114,
-      "length_m": 216.8347243815,
-      "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 66,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Curley Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 53,
-      "length_m": 175.8496424936,
-      "coords": [
-        28.2405911678,
-        -82.3136325791
       ]
     },
     {
@@ -396,14 +382,14 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "SR-54 x[CROSSING BLVD]    [ODESSA]",
+      "location": "SCENIC DR x[US-19]    [PORT RICHEY]",
       "county": "PASCO",
       "roads": [
-        "SR 54"
+        "US 19"
       ],
       "coords": [
-        28.1878970487484,
-        -82.5479906807295
+        28.2977235309618,
+        -82.7069944518638
       ]
     },
     {
@@ -424,7 +410,10 @@
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 54"
+    "SR 54",
+    "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "US 19"
+  ]
 }
