@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T14:23:56.084630Z",
+  "generated": "2026-08-22T14:48:49.270186Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -7,32 +7,16 @@
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "US-19 S",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 85,
-      "length_m": 130.738,
+      "delay_sec": 70,
+      "length_m": 147.862,
       "coords": [
-        28.1885522733,
-        -82.7400367574
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 65,
-      "length_m": 164.3537887319,
-      "coords": [
-        28.1869724563,
-        -82.7400635795
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -44,7 +28,7 @@
       "to": "Sunset Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 170,
+      "delay_sec": 190,
       "length_m": 66.1039162109,
       "coords": [
         28.2568211997,
@@ -104,35 +88,50 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "Port Richey",
-      "to": "Little Rd",
-      "roadnums": "County Hwy-1",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": 69,
-      "length_m": 118.4034052087,
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 145.8132968764,
       "coords": [
-        28.3311023276,
-        -82.6653949038
+        28.217041414,
+        -82.7163448051
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 77,
+      "length_m": 110.8882967126,
+      "coords": [
+        28.2805064782,
+        -82.7078153805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
       "from": "Little Rd",
-      "to": "Tipton Ave",
+      "to": "Ridge Rd",
       "roadnums": "",
       "roads": [
-        "Little Road"
+        "Little Road",
+        "Ridge Road"
       ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
+      "delay_sec": 198,
+      "length_m": 162.7566272921,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.2785645545,
+        -82.675099136
       ]
     },
     {
@@ -155,20 +154,68 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
       "roads": [
-        "SR 54"
+        "Little Road"
       ],
-      "delay_sec": 66,
-      "length_m": 147.6256764512,
+      "delay_sec": null,
+      "length_m": 406.7373297242,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 69,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 64,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Mossy Oak Cir",
+      "to": "Golden Eagle Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 71,
+      "length_m": 230.8474495492,
+      "coords": [
+        28.2090684911,
+        -82.405024828
       ]
     },
     {
@@ -192,22 +239,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Compark Dr / Scarborough Dr",
       "to": "Wesley Chapel Blvd",
       "roadnums": "",
@@ -221,34 +252,50 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Meadow Pointe Blvd",
-      "roadnums": "FL-56",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 104,
-      "length_m": 253.9671538823,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1978407616,
-        -82.2964235261
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "delay_sec": 92,
+      "length_m": 167.252086934,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Meadow Pointe Blvd",
+      "roadnums": "FL-56",
+      "roads": [],
+      "delay_sec": 155,
+      "length_m": 237.7906183672,
+      "coords": [
+        28.1978528765,
+        -82.2962760046
       ]
     },
     {
@@ -265,6 +312,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -412,29 +475,11 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "8863 LITTLE RD   [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "Little Road"
-      ],
-      "coords": [
-        28.285292551603,
-        -82.6759385724861
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
     "Little Road",
-    "SR 54",
+    "Ridge Road",
     "US 19"
   ],
-  "overlap": [
-    "Little Road"
-  ]
+  "overlap": []
 }
