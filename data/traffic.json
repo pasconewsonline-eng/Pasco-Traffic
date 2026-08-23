@@ -1,42 +1,6 @@
 {
-  "generated": "2026-08-23T19:35:34.406133Z",
+  "generated": "2026-08-23T19:56:52.637713Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 79,
-      "length_m": 130.738,
-      "coords": [
-        28.1885522733,
-        -82.7400367574
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 45,
-      "length_m": 147.8622545944,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -47,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -87,20 +51,54 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 87,
+      "length_m": 157.5965365388,
+      "coords": [
+        28.2170306307,
+        -82.7140904085
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Scenic Dr",
+      "to": "US Highway 19",
       "roadnums": "",
       "roads": [
-        "Little Road"
+        "US 19"
       ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
+      "delay_sec": 173,
+      "length_m": 184.086319032,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.3022685404,
+        -82.7046222106
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-52 (US-19)",
+      "to": "Regency Park Blvd/Cinema Dr (US-19)",
+      "roadnums": "County Hwy-595 US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 212,
+      "length_m": 752.3771988635,
+      "coords": [
+        28.3202098971,
+        -82.6993717865
       ]
     },
     {
@@ -123,18 +121,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Gunn Hwy",
-      "to": "New Port Richey",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 78,
-      "length_m": 25.3674986639,
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": null,
+      "length_m": 406.7373297242,
       "coords": [
-        28.1930785296,
-        -82.5925045327
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -148,11 +148,45 @@
       "roads": [
         "County Line Road"
       ],
-      "delay_sec": 275,
-      "length_m": 630.5920803818,
+      "delay_sec": 300,
+      "length_m": 790.1233580539,
       "coords": [
         28.1832965432,
         -82.4673969165
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 72,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 68,
+      "length_m": 147.6256764512,
+      "coords": [
+        28.1866264804,
+        -82.4030587688
       ]
     },
     {
@@ -221,18 +255,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
       "from": "Central Pasco",
-      "to": "Old Pasco Rd",
+      "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 68,
-      "length_m": 123.8402360784,
+      "delay_sec": 61,
+      "length_m": 216.8347243815,
       "coords": [
-        28.2380404158,
-        -82.3660214856
+        28.1854623588,
+        -82.3684716836
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Old Pasco Rd (FL-54)",
+      "to": "CR-577/Curley Rd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 141,
+      "length_m": 890.0445700431,
+      "coords": [
+        28.2363961995,
+        -82.3530865326
       ]
     },
     {
@@ -256,22 +306,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Leonard Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -281,6 +315,22 @@
       "coords": [
         28.3100818161,
         -82.2663398698
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -336,22 +386,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Central Ave",
-      "to": "Central Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 40.2663598779,
-      "coords": [
-        28.179564204,
-        -82.1840295806
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
       "to": "Central Ave (Crystal Springs Rd)",
       "roadnums": "",
@@ -361,6 +395,22 @@
       "coords": [
         28.1792020973,
         -82.1840255573
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Central Ave",
+      "to": "Central Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 40.2663598779,
+      "coords": [
+        28.179564204,
+        -82.1840295806
       ]
     },
     {
@@ -449,14 +499,14 @@
       "kind": "Hit and Run Crash",
       "severity": "reported",
       "desc": "Hit and Run Crash",
-      "location": "US-19 x[NEW YORK AVE]    [HUDSON]",
+      "location": "US-19 x[RANCH RD]    [PORT RICHEY]",
       "county": "PASCO",
       "roads": [
         "US 19"
       ],
       "coords": [
-        28.3751658761528,
-        -82.682995559461
+        28.3168958761528,
+        -82.6991655509266
       ]
     },
     {
@@ -476,9 +526,9 @@
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
+      "desc": "Vehicle Crash",
       "location": "6807 23RD ST   [ZEPHYRHILLS]",
       "county": "PASCO",
       "roads": [],
@@ -512,6 +562,7 @@
   ],
   "overlap": [
     "Little Road",
+    "SR 54",
     "US 19"
   ]
 }
