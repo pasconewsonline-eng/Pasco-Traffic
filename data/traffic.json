@@ -1,22 +1,38 @@
 {
-  "generated": "2026-08-23T20:31:20.411188Z",
+  "generated": "2026-08-23T20:59:30.052802Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Rain",
-      "severity": "moderate",
-      "desc": "Heavy rain; Backed up traffic",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 84,
+      "length_m": 164.354,
+      "coords": [
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
       "from": "New Port Richey",
       "to": "Moog Rd",
-      "roadnums": "US-19 S",
+      "roadnums": "US-19 N",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 118,
-      "length_m": 163.462,
+      "delay_sec": 60,
+      "length_m": 147.8622545944,
       "coords": [
-        28.2103975129,
-        -82.7394694702
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -24,8 +40,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -40,8 +56,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -137,18 +153,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 57,
+      "length_m": 253.0461847268,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.1929162265,
+        -82.3828764871
       ]
     },
     {
@@ -169,34 +185,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Old Pasco Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 64,
-      "length_m": 216.152539702,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2374154748,
-        -82.3673277214
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Gateway Blvd",
-      "roadnums": "FL-54",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 78,
-      "length_m": 161.5492489731,
+      "delay_sec": 84,
+      "length_m": 167.252086934,
       "coords": [
-        28.2378741196,
-        -82.3605350271
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -218,53 +234,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 56,
-      "length_m": 216.169075331,
-      "coords": [
-        28.1960852649,
-        -82.2490838781
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "FL-54 (Morris Bridge Rd)",
-      "to": "FL-56 (Morris Bridge Rd)",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "FL-54 (Morris Bridge Rd)",
       "roadnums": "",
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 278,
-      "length_m": 701.5050983846,
+      "delay_sec": 173,
+      "length_m": 557.2284690622,
       "coords": [
-        28.2108937222,
-        -82.2461012616
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.2044417144,
+        -82.2458933904
       ]
     },
     {
@@ -281,6 +263,22 @@
       "coords": [
         28.3100818161,
         -82.2663398698
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -397,18 +395,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
-      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "20th St (5th Ave)",
+      "to": "US-301/Gall Blvd (5th Ave)",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 659.3798845262,
+      "delay_sec": 187,
+      "length_m": 296.1271222713,
       "coords": [
-        28.3132414706,
-        -82.1725376561
+        28.233857458,
+        -82.1809155359
       ]
     },
     {
@@ -426,9 +424,40 @@
         28.3132414706,
         -82.1725376561
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "roadnums": "FL-35 FL-700 US-98 E US-98 W",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 659.3798845262,
+      "coords": [
+        28.3132414706,
+        -82.1725376561
+      ]
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "COUNTY LINE RD x[ANDERSON SNOW RD]    [SPRING HILL]",
+      "county": "HERNANDO",
+      "roads": [
+        "County Line Road"
+      ],
+      "coords": [
+        28.4338949099693,
+        -82.4902445448852
+      ]
+    },
     {
       "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -471,43 +500,15 @@
         28.2092378612209,
         -82.2459470755798
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "6807 23RD ST   [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2564292270531,
-        -82.1672397113549
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "NEW YORK AVE x[LITTLE RD]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [
-        "Little Road"
-      ],
-      "coords": [
-        28.3750890206412,
-        -82.6576001745756
-      ]
     }
   ],
   "monitored_roads_active": [
+    "County Line Road",
     "Little Road",
     "Ridge Road",
     "US 19"
   ],
   "overlap": [
-    "Little Road",
     "Ridge Road",
     "US 19"
   ]
