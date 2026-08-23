@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23T11:46:50.386233Z",
+  "generated": "2026-08-23T12:44:13.584718Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -122,8 +122,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -138,8 +138,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -147,22 +147,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 61,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
       ]
     },
     {
@@ -342,9 +326,26 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-589 SB [MM32]  x[MM32]    [SPRING HILL]",
+      "county": "PASCO",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "coords": [
+        28.38096,
+        -82.5401553104606
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "Little Road"
+    "Little Road",
+    "Suncoast Parkway"
   ],
   "overlap": []
 }
