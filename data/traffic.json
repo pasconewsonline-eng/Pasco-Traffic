@@ -1,6 +1,24 @@
 {
-  "generated": "2026-08-23T19:03:53.742867Z",
+  "generated": "2026-08-23T19:35:34.406133Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 79,
+      "length_m": 130.738,
+      "coords": [
+        28.1885522733,
+        -82.7400367574
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
@@ -12,8 +30,8 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 90,
-      "length_m": 147.862,
+      "delay_sec": 45,
+      "length_m": 147.8622545944,
       "coords": [
         28.2088647008,
         -82.739621015
@@ -106,17 +124,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
+      "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "Sun Vista Dr",
-      "to": "Grand Cypress Dr",
+      "from": "Gunn Hwy",
+      "to": "New Port Richey",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 198,
-      "length_m": 185.007474985,
+      "delay_sec": 78,
+      "length_m": 25.3674986639,
       "coords": [
-        28.1889224749,
-        -82.3937045649
+        28.1930785296,
+        -82.5925045327
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "County Line Rd (FL-597)",
+      "to": "US-41/Land O Lakes Blvd (Dale Mabry Hwy/FL-597)",
+      "roadnums": "FL-597",
+      "roads": [
+        "County Line Road"
+      ],
+      "delay_sec": 275,
+      "length_m": 630.5920803818,
+      "coords": [
+        28.1832965432,
+        -82.4673969165
       ]
     },
     {
@@ -185,18 +221,34 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 68,
+      "length_m": 123.8402360784,
+      "coords": [
+        28.2380404158,
+        -82.3660214856
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
       "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
+      "to": "Leonard Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 73.3820311205,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3122490431,
+        -82.2743288293
       ]
     },
     {
@@ -213,6 +265,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Leonard Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 2916.8119763769,
+      "coords": [
+        28.3100818161,
+        -82.2663398698
       ]
     },
     {
@@ -268,22 +336,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "to": "Central Ave (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 40.2663598779,
-      "coords": [
-        28.1792020973,
-        -82.1840255573
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Central Ave",
       "to": "Central Ave",
       "roadnums": "",
@@ -293,6 +345,22 @@
       "coords": [
         28.179564204,
         -82.1840295806
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "to": "Central Ave (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 40.2663598779,
+      "coords": [
+        28.1792020973,
+        -82.1840255573
       ]
     },
     {
@@ -363,6 +431,64 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "CURLEY RD x[SR-54]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.240656455863,
+        -82.3120173066592
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "US-19 x[NEW YORK AVE]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [
+        "US 19"
+      ],
+      "coords": [
+        28.3751658761528,
+        -82.682995559461
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "MORRIS BRIDGE RD x[GILLIAM LN]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "Ridge Road"
+      ],
+      "coords": [
+        28.2092378612209,
+        -82.2459470755798
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "6807 23RD ST   [ZEPHYRHILLS]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2564292270531,
+        -82.1672397113549
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
       "desc": "Vehicle Crash w/roadblock",
@@ -378,10 +504,14 @@
     }
   ],
   "monitored_roads_active": [
+    "County Line Road",
     "Little Road",
+    "Ridge Road",
+    "SR 54",
     "US 19"
   ],
   "overlap": [
-    "Little Road"
+    "Little Road",
+    "US 19"
   ]
 }
