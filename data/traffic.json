@@ -1,6 +1,24 @@
 {
-  "generated": "2026-08-23T19:56:52.637713Z",
+  "generated": "2026-08-23T20:31:20.411188Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 118,
+      "length_m": 163.462,
+      "coords": [
+        28.2103975129,
+        -82.7394694702
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +29,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -51,76 +69,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
-      "severity": "moderate",
-      "desc": "Heavy rain; Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 87,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Scenic Dr",
-      "to": "US Highway 19",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 173,
-      "length_m": 184.086319032,
-      "coords": [
-        28.3022685404,
-        -82.7046222106
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-52 (US-19)",
-      "to": "Regency Park Blvd/Cinema Dr (US-19)",
-      "roadnums": "County Hwy-595 US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 212,
-      "length_m": 752.3771988635,
-      "coords": [
-        28.3202098971,
-        -82.6993717865
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -139,54 +87,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "County Line Rd (FL-597)",
-      "to": "US-41/Land O Lakes Blvd (Dale Mabry Hwy/FL-597)",
-      "roadnums": "FL-597",
-      "roads": [
-        "County Line Road"
-      ],
-      "delay_sec": 300,
-      "length_m": 790.1233580539,
-      "coords": [
-        28.1832965432,
-        -82.4673969165
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 72,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
-        "SR 54"
+        "Little Road"
       ],
-      "delay_sec": 68,
-      "length_m": 147.6256764512,
+      "delay_sec": null,
+      "length_m": 406.7373297242,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -226,8 +140,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -242,8 +156,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -255,34 +169,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
-      "severity": "moderate",
-      "desc": "Heavy rain; Backed up traffic",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 61,
-      "length_m": 216.8347243815,
+      "delay_sec": 64,
+      "length_m": 216.152539702,
       "coords": [
-        28.1854623588,
-        -82.3684716836
+        28.2374154748,
+        -82.3673277214
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
-      "from": "Old Pasco Rd (FL-54)",
-      "to": "CR-577/Curley Rd (FL-54)",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Gateway Blvd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 141,
-      "length_m": 890.0445700431,
+      "delay_sec": 78,
+      "length_m": 161.5492489731,
       "coords": [
-        28.2363961995,
-        -82.3530865326
+        28.2378741196,
+        -82.3605350271
       ]
     },
     {
@@ -303,18 +217,38 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Leonard Rd",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 2916.8119763769,
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Morris Bridge Rd",
+      "roadnums": "FL-56",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 56,
+      "length_m": 216.169075331,
       "coords": [
-        28.3100818161,
-        -82.2663398698
+        28.1960852649,
+        -82.2490838781
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 278,
+      "length_m": 701.5050983846,
+      "coords": [
+        28.2108937222,
+        -82.2461012616
       ]
     },
     {
@@ -331,6 +265,22 @@
       "coords": [
         28.3100027091,
         -82.2720596805
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Leonard Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 2916.8119763769,
+      "coords": [
+        28.3100818161,
+        -82.2663398698
       ]
     },
     {
@@ -481,17 +431,15 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CURLEY RD x[SR-54]    [WESLEY CHAPEL]",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-56 x[MEADOW POINTE BLVD]    [WESLEY CHAPEL]",
       "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
+      "roads": [],
       "coords": [
-        28.240656455863,
-        -82.3120173066592
+        28.197707448397,
+        -82.2981884510319
       ]
     },
     {
@@ -554,15 +502,13 @@
     }
   ],
   "monitored_roads_active": [
-    "County Line Road",
     "Little Road",
     "Ridge Road",
-    "SR 54",
     "US 19"
   ],
   "overlap": [
     "Little Road",
-    "SR 54",
+    "Ridge Road",
     "US 19"
   ]
 }
