@@ -1,40 +1,6 @@
 {
-  "generated": "2026-08-22T23:49:14.484674Z",
+  "generated": "2026-08-23T09:29:58.268891Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 84,
-      "length_m": 147.862,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 79,
-      "length_m": 187.590344576,
-      "coords": [
-        28.2255479908,
-        -82.7331045882
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -45,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -121,18 +87,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Trinity Blvd / Blue Fox Way",
-      "to": "Trinity Blvd / Blue Fox Way",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 137,
-      "length_m": 69.4947226328,
+      "delay_sec": null,
+      "length_m": 104.4002288785,
       "coords": [
-        28.1856474281,
-        -82.6349370793
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -156,15 +122,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 104.4002288785,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -181,38 +147,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Gateway Blvd",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 129,
-      "length_m": 173.4981166613,
-      "coords": [
-        28.2380685502,
-        -82.3574303701
       ]
     },
     {
@@ -297,22 +231,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US Highway 98 Byp",
-      "to": "8th St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 207,
-      "length_m": 209.4198888649,
-      "coords": [
-        28.3724512694,
-        -82.1885423973
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -353,10 +271,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1729.9787284493,
+      "length_m": 2027.2011218091,
       "coords": [
-        28.2069951899,
-        -82.1837975695
+        28.2069133472,
+        -82.1839424088
       ]
     },
     {
@@ -411,21 +329,20 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "COMMERCIAL WAY x[NORTHCLIFFE BLVD]    [SPRING HILL]",
-      "county": "HERNANDO",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "BRIDGEGATE DR x[MAYSVILLE CT]    [WESLEY CHAPEL]",
+      "county": "PASCO",
       "roads": [],
       "coords": [
-        28.510189007466,
-        -82.5801677504702
+        28.2601946903821,
+        -82.3013067442081
       ]
     }
   ],
   "monitored_roads_active": [
-    "Little Road",
-    "US 19"
+    "Little Road"
   ],
   "overlap": []
 }
