@@ -1,17 +1,33 @@
 {
-  "generated": "2026-08-23T23:50:16.105783Z",
+  "generated": "2026-08-24T09:50:32.655391Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Ensign Loop",
+      "to": "Floramar Ter",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 188,
+      "length_m": 279.388,
+      "coords": [
+        28.2339406093,
+        -82.7512805776
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -22,8 +38,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -54,8 +70,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -72,8 +88,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -138,22 +154,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
-      "coords": [
-        28.2237925064,
-        -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Wesley Chapel Blvd",
       "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
@@ -170,15 +170,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 3037.5892591652,
+      "length_m": 55.9480836986,
       "coords": [
-        28.3100027091,
-        -82.2720596805
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -195,6 +195,22 @@
       "coords": [
         28.3100483137,
         -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100027091,
+        -82.2720596805
       ]
     },
     {
@@ -303,10 +319,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 2027.2011218091,
+      "length_m": 1929.6554667654,
       "coords": [
-        28.2069133472,
-        -82.1839424088
+        28.2061569647,
+        -82.1841382101
       ]
     },
     {
@@ -348,29 +364,19 @@
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "PROSPECT RD [EOF]  x[HANDCART RD]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
+      "location": "MARINER BLVD x[COUNTY LINE RD]    [SPRING HILL]",
+      "county": "HERNANDO",
+      "roads": [
+        "County Line Road"
+      ],
       "coords": [
-        28.310281559069,
-        -82.2454968900092
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "location": "ROSELAWN DR x[BONITA RD]    [HOLIDAY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1879535177866,
-        -82.7479115723429
+        28.4338445103206,
+        -82.5486378404576
       ]
     }
   ],
   "monitored_roads_active": [
+    "County Line Road",
     "Little Road"
   ],
   "overlap": []
