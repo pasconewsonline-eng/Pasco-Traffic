@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T09:37:32.786197Z",
+  "generated": "2026-08-25T10:12:32.906548Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -54,24 +54,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Tipton Ave",
       "to": "Little Rd",
       "roadnums": "",
@@ -90,15 +72,71 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "Little Road"
+      ],
       "delay_sec": null,
-      "length_m": 104.4002288785,
+      "length_m": 406.7373297242,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Murcott Way",
+      "to": "State Road 52",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 168,
+      "length_m": 90.304040437,
+      "coords": [
+        28.3299931994,
+        -82.560041757
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "CR-578/County Line Rd (Shady Hills Rd)",
+      "to": "Peace Blvd/Platinum Dr (Shady Hills Rd)",
+      "roadnums": "",
+      "roads": [
+        "County Line Road"
+      ],
+      "delay_sec": 215,
+      "length_m": 1293.2633418372,
+      "coords": [
+        28.3978008421,
+        -82.5512226537
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "FL-54 exit [19]",
+      "to": "Suncoast Pkwy S",
+      "roadnums": "",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "delay_sec": 262,
+      "length_m": 1598.6282251377,
+      "coords": [
+        28.1889894819,
+        -82.5446834281
       ]
     },
     {
@@ -122,15 +160,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -147,6 +185,40 @@
       "coords": [
         28.2237925064,
         -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-56 (Morris Bridge Rd)",
+      "to": "Cross Creek Blvd (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 153,
+      "length_m": 583.4141465853,
+      "coords": [
+        28.1574494343,
+        -82.2716385737
       ]
     },
     {
@@ -183,6 +255,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 56",
+      "to": "Gall Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 70,
+      "length_m": 192.1725279642,
+      "coords": [
+        28.1925984162,
+        -82.2013526275
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -211,6 +299,22 @@
       "coords": [
         28.2495148862,
         -82.2003816679
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "CR-535/Chancey Rd (Gall Blvd/US-301)",
+      "to": "FL-56 (Gall Blvd/US-301)",
+      "roadnums": "US-301 S US-301 N",
+      "roads": [],
+      "delay_sec": 135,
+      "length_m": 1302.5472901733,
+      "coords": [
+        28.1950794833,
+        -82.1985443547
       ]
     },
     {
@@ -311,6 +415,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-39/Paul S Buchman Hwy (US-301)",
+      "to": "CR-535/Chancey Rd (Gall Blvd/US-301)",
+      "roadnums": "US-301 S US-301 N",
+      "roads": [],
+      "delay_sec": 181,
+      "length_m": 794.8012080702,
+      "coords": [
+        28.2119263884,
+        -82.1812320366
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -342,9 +462,27 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "20101 CENTRAL BLVD   [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.3046709661836,
+        -82.4867903698722
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "Little Road"
+    "County Line Road",
+    "Little Road",
+    "Ridge Road",
+    "SR 52",
+    "Suncoast Parkway"
   ],
   "overlap": []
 }
