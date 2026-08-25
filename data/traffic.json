@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T17:34:58.910172Z",
+  "generated": "2026-08-25T18:04:14.789199Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -10,11 +10,29 @@
       "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 94,
+      "delay_sec": 113,
       "length_m": 164.52,
       "coords": [
         28.1938684697,
         -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Moog Rd",
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 91,
+      "length_m": 147.8622545944,
+      "coords": [
+        28.2088647008,
+        -82.739621015
       ]
     },
     {
@@ -67,22 +85,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Gulf Dr (Madison St)",
-      "to": "Main St (Madison St)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 34.0035954677,
-      "coords": [
-        28.2390756992,
-        -82.7154234663
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
@@ -90,7 +92,7 @@
       "to": "Madison St",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 71,
+      "delay_sec": 98,
       "length_m": 145.8132968764,
       "coords": [
         28.217041414,
@@ -100,19 +102,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "US Highway 19",
-      "to": "US Highway 19",
+      "from": "Van Buren St",
+      "to": "Harrison St",
       "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 76,
-      "length_m": 78.1404602163,
+      "roads": [],
+      "delay_sec": 405,
+      "length_m": 203.2588363593,
       "coords": [
-        28.3254267866,
-        -82.6992685214
+        28.2435161539,
+        -82.7095896617
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Firestone Way",
+      "to": "Clock Tower Pkwy",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 179,
+      "length_m": 485.4534609225,
+      "coords": [
+        28.3446836897,
+        -82.68422267
       ]
     },
     {
@@ -154,17 +170,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Hays Rd",
-      "to": "Hays Rd",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Patrick Ave",
+      "to": "Hudson Ave",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 291,
-      "length_m": 667.8709348347,
+      "delay_sec": 603,
+      "length_m": 782.1181121115,
       "coords": [
-        28.3704275377,
-        -82.5711782888
+        28.3644261055,
+        -82.6436515764
       ]
     },
     {
@@ -172,65 +188,97 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "Livingston Rd",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
+      "from": "Denton Ave",
+      "to": "Sunder Berry St",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 54,
-      "length_m": 232.4399715588,
+      "delay_sec": 70,
+      "length_m": 198.8391474024,
       "coords": [
-        28.1859478974,
-        -82.4341858044
+        28.3910161731,
+        -82.6198429481
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Land O Lakes Blvd",
+      "to": "Land O Lakes Blvd / Festive Groves Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 226,
+      "length_m": 169.8680991946,
+      "coords": [
+        28.2700216778,
+        -82.4801843479
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Land O Lakes Blvd / Wilderness Lake Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 125,
+      "length_m": 144.4548758031,
+      "coords": [
+        28.2609786721,
+        -82.4759075657
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Wilderness Lake Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 142,
+      "length_m": 213.6428895955,
+      "coords": [
+        28.2617363642,
+        -82.4757587031
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "CR-583/Ehren Cutoff (US-41)",
+      "to": "FL-52 (US-41)",
+      "roadnums": "FL-45 US-41 N",
+      "roads": [],
+      "delay_sec": 196,
+      "length_m": 707.0994095265,
+      "coords": [
+        28.2586048602,
+        -82.4740139261
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54 / Oak Grove Blvd",
       "roadnums": "",
       "roads": [
         "SR 54"
       ],
-      "delay_sec": 62,
-      "length_m": 147.6256764512,
+      "delay_sec": 112,
+      "length_m": 117.5332658562,
       "coords": [
-        28.1866264804,
-        -82.4030587688
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-56 exit [275]",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 58,
-      "length_m": 233.1832299147,
-      "coords": [
-        28.1951224037,
-        -82.385352166
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
-      "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.1867525183,
+        -82.4133195594
       ]
     },
     {
@@ -254,15 +302,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -283,18 +331,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 65,
-      "length_m": 216.8347243815,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.1854623588,
-        -82.3684716836
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Lexington Oaks Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 88,
+      "length_m": 155.3333701937,
+      "coords": [
+        28.2360488329,
+        -82.3687895253
       ]
     },
     {
@@ -303,64 +367,14 @@
       "severity": "major",
       "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Bonterra Loop",
+      "to": "Northwood Palms Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 159,
-      "length_m": 252.7904439366,
+      "delay_sec": 142,
+      "length_m": 216.8347243815,
       "coords": [
-        28.1855388246,
-        -82.3658203199
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 52",
-      "to": "Bellamy Brothers Blvd / State Road 52",
-      "roadnums": "",
-      "roads": [
-        "SR 52"
-      ],
-      "delay_sec": 69,
-      "length_m": 163.8064669196,
-      "coords": [
-        28.3245121672,
-        -82.3568536952
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Mansfield Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 67,
-      "length_m": 383.0819437651,
-      "coords": [
-        28.1960919874,
-        -82.3326078668
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5892591652,
-      "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.1854623588,
+        -82.3684716836
       ]
     },
     {
@@ -381,18 +395,34 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5892591652,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Handcart Rd",
-      "to": "Handcart Rd",
-      "roadnums": "",
+      "from": "Handcart Rd (Eiland Blvd/CR-54)",
+      "to": "Dean Dairy Rd (Eiland Blvd/CR-54)",
+      "roadnums": "County Hwy-54",
       "roads": [],
-      "delay_sec": 173,
-      "length_m": 220.0934108101,
+      "delay_sec": 193,
+      "length_m": 812.8308601914,
       "coords": [
-        28.2975894215,
-        -82.2443564847
+        28.2445809938,
+        -82.2154838457
       ]
     },
     {
@@ -485,10 +515,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1969.7195503072,
+      "length_m": 1929.6554667654,
       "coords": [
-        28.2067457469,
-        -82.1840979769
+        28.2061569647,
+        -82.1841382101
       ]
     },
     {
@@ -505,6 +535,22 @@
       "coords": [
         28.2070166108,
         -82.1837224677
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "9th St",
+      "to": "12th Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 135,
+      "length_m": 172.6548409146,
+      "coords": [
+        28.2405201318,
+        -82.1808618918
       ]
     },
     {
@@ -541,6 +587,19 @@
     }
   ],
   "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "PLEASANTVIEW BLVD x[GRASSYBEND LOOP]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.301643544137,
+        -82.524404877967
+      ]
+    },
     {
       "source": "FHP",
       "kind": "Vehicle Crash",
@@ -603,21 +662,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-52 x[SILVER PALM BLVD]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52"
-      ],
-      "coords": [
-        28.3307309661836,
-        -82.5591346541033
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
@@ -638,7 +682,6 @@
     "US 19"
   ],
   "overlap": [
-    "SR 52",
     "SR 54"
   ]
 }
