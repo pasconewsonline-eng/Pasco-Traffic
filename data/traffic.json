@@ -1,13 +1,13 @@
 {
-  "generated": "2026-08-29T03:05:57.177721Z",
+  "generated": "2026-08-29T14:14:00.904751Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -22,8 +22,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -51,18 +51,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Rancho del Rio Dr",
-      "to": "Casa Nueva Dr",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Little Rd",
+      "to": "Tipton Ave",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 125,
-      "length_m": 216.732603692,
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": null,
+      "length_m": 406.7373297242,
       "coords": [
-        28.2357538214,
-        -82.6631834224
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -85,20 +87,70 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Tipton Ave",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Endeavor Ave / Short Ave",
+      "to": "State Road 54 / Duck Slough Blvd",
       "roadnums": "",
       "roads": [
-        "Little Road"
+        "SR 54"
       ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
+      "delay_sec": 161,
+      "length_m": 71.514472911,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.1936498017,
+        -82.6350524143
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Gunn Hwy",
+      "to": "Gunn Hwy",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 283,
+      "length_m": 170.8395678727,
+      "coords": [
+        28.1935706822,
+        -82.5936981157
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 48,
+      "length_m": 232.4399715588,
+      "coords": [
+        28.1859478974,
+        -82.4341858044
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 198,
+      "length_m": 64.1075244296,
+      "coords": [
+        28.1863341398,
+        -82.4068138614
       ]
     },
     {
@@ -106,8 +158,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -122,8 +174,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -167,6 +219,56 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Lexington Oaks Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 100,
+      "length_m": 155.3333701937,
+      "coords": [
+        28.2360488329,
+        -82.3687895253
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 53,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 52",
+      "to": "Bellamy Brothers Blvd / State Road 52",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 70,
+      "length_m": 163.8064669196,
+      "coords": [
+        28.3245121672,
+        -82.3568536952
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -199,6 +301,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Handcart Rd",
+      "to": "Handcart Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 168,
+      "length_m": 220.0934108101,
+      "coords": [
+        28.2975894215,
+        -82.2443564847
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -211,6 +329,22 @@
       "coords": [
         28.3587625976,
         -82.1907726541
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "US Highway 301 / Countryside Pl",
+      "to": "US Highway 301",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 156,
+      "length_m": 104.0863179921,
+      "coords": [
+        28.3473015244,
+        -82.1866608276
       ]
     },
     {
@@ -250,8 +384,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -266,8 +400,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -281,15 +415,15 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-56 x[MANSFIELD BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "7240 SHOAL LINE BLVD   [SPRING HILL]",
+      "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.1981200131752,
-        -82.3300529165162
+        28.531843544137,
+        -82.6276594853234
       ]
     },
     {
@@ -297,14 +431,12 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "I-75 NB [MM298]  x[MM298]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
+      "location": "CURLEY RD x[TYNDALL RD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
       "coords": [
-        28.4819101932367,
-        -82.2501808313988
+        28.3027313790075,
+        -82.278477864618
       ]
     },
     {
@@ -312,18 +444,23 @@
       "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
       "desc": "Vehicle Crash w/roadblock",
-      "location": "SUNSHINE GROVE RD x[TAFT ST]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
+      "location": "SR-54 x[RIVER GLEN BLVD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
       "coords": [
-        28.5407760825648,
-        -82.4997054606295
+        28.2232527316645,
+        -82.2790302321395
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
-    "Little Road"
+    "Little Road",
+    "SR 52",
+    "SR 54"
   ],
-  "overlap": []
+  "overlap": [
+    "SR 54"
+  ]
 }
