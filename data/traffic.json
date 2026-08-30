@@ -1,20 +1,36 @@
 {
-  "generated": "2026-08-30T00:43:58.636881Z",
+  "generated": "2026-08-30T14:19:19.422913Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
       "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 104,
+      "delay_sec": 68,
       "length_m": 187.59,
       "coords": [
         28.2255479908,
         -82.7331045882
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -39,22 +55,6 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Grand Blvd",
-      "to": "Aspen St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
       "roads": [],
@@ -63,6 +63,24 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Little Rd",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 80,
+      "length_m": 64.9349609492,
+      "coords": [
+        28.1880909786,
+        -82.6675956563
       ]
     },
     {
@@ -104,17 +122,49 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 100,
+      "length_m": 232.4399715588,
+      "coords": [
+        28.1859478974,
+        -82.4341858044
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
       "from": "Central Pasco",
       "to": "Livingston Rd",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 74,
+      "delay_sec": 64,
       "length_m": 126.905205149,
       "coords": [
         28.1859934811,
         -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "FL-56 exit [275]",
+      "to": "State Road 56",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 69,
+      "length_m": 233.1832299147,
+      "coords": [
+        28.1951224037,
+        -82.385352166
       ]
     },
     {
@@ -154,8 +204,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -170,8 +220,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -179,38 +229,6 @@
       "coords": [
         28.2237925064,
         -82.3808916524
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Bruce B Downs Blvd",
-      "to": "Shumard Oak Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 228,
-      "length_m": 192.1360287314,
-      "coords": [
-        28.1609295959,
-        -82.3518098012
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "State Road 56",
-      "to": "Castaway Loop",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 199,
-      "length_m": 285.3130623213,
-      "coords": [
-        28.193981054,
-        -82.267010422
       ]
     },
     {
@@ -332,49 +350,20 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "I-75 NB [MM282]  x[MM282]    [WESLEY CHAPEL]",
+      "location": "SR-52 x[TRADEWAY BLVD]    [SAN ANTONIO]",
       "county": "PASCO",
       "roads": [
-        "I-75"
+        "SR 52"
       ],
       "coords": [
-        28.276872345191,
-        -82.326066312338
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-589 NB [MM27]  x[MM27]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "coords": [
-        28.3091188142293,
-        -82.5502224398277
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "HICKS RD x[DAN ST]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3385345234958,
-        -82.649810881444
+        28.3253741238472,
+        -82.3206848531723
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
-    "Suncoast Parkway"
+    "SR 52"
   ],
   "overlap": []
 }
