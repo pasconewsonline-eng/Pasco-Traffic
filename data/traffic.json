@@ -1,22 +1,38 @@
 {
-  "generated": "2026-09-04T23:21:45.094470Z",
+  "generated": "2026-09-05T01:17:11.469350Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
+      "desc": "Stopped traffic",
       "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
+      "to": "US Highway 19",
+      "roadnums": "",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 127,
-      "length_m": 147.862,
+      "delay_sec": 68,
+      "length_m": 21.1522,
       "coords": [
-        28.2088647008,
-        -82.739621015
+        28.2470217931,
+        -82.7280392364
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Tammy Ln",
+      "to": "Nancy Ln",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 68,
+      "length_m": 321.066766001,
+      "coords": [
+        28.1888044183,
+        -82.725890787
       ]
     },
     {
@@ -24,8 +40,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -40,8 +56,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -69,68 +85,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 79,
-      "length_m": 145.8132968764,
-      "coords": [
-        28.217041414,
-        -82.7163448051
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 73,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 66,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Regency Park Blvd/Cinema Dr (US-19)",
-      "to": "FL-52 (US-19)",
-      "roadnums": "US-19 N County Hwy-595",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Little Rd",
+      "roadnums": "",
       "roads": [
-        "US 19"
+        "Little Road"
       ],
-      "delay_sec": 333,
-      "length_m": 1035.5615718816,
+      "delay_sec": null,
+      "length_m": 406.7373297242,
       "coords": [
-        28.3202326972,
-        -82.6991773263
+        28.3286802772,
+        -82.6620770112
       ]
     },
     {
@@ -153,106 +121,54 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Little Rd",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 406.7373297242,
-      "coords": [
-        28.3286802772,
-        -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54",
-      "roadnums": "",
+      "from": "CR-524/CR-587 Trk/Ridge Rd (CR-587)",
+      "to": "FL-52 (Moon Lake Rd/CR-587)",
+      "roadnums": "County Hwy-587",
       "roads": [
-        "SR 54"
+        "Ridge Road"
       ],
-      "delay_sec": 86,
-      "length_m": 118.0040205774,
+      "delay_sec": 163,
+      "length_m": 180.3515007952,
       "coords": [
-        28.1968470376,
-        -82.6434142009
+        28.3115141434,
+        -82.6197021321
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "New Port Richey",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 130,
-      "length_m": 165.2499374309,
-      "coords": [
-        28.1870046676,
-        -82.5503254548
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 108,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
+      "from": "FL-52 (Moon Lake Rd/CR-587)",
+      "to": "CR-524/CR-587 Trk/Ridge Rd (CR-587)",
+      "roadnums": "County Hwy-587",
       "roads": [
-        "SR 54"
+        "Ridge Road"
       ],
-      "delay_sec": 82,
-      "length_m": 147.6256764512,
+      "delay_sec": 233,
+      "length_m": 696.2389273417,
       "coords": [
-        28.1866264804,
-        -82.4030587688
+        28.3132240558,
+        -82.6196015493
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-56 exit [275]",
-      "to": "State Road 56",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "W Lutz Lake Fern Rd",
+      "to": "W Lutz Lake Fern Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 81,
-      "length_m": 233.1832299147,
+      "delay_sec": 182,
+      "length_m": 141.2862989851,
       "coords": [
-        28.1951224037,
-        -82.385352166
+        28.1609966205,
+        -82.5344776228
       ]
     },
     {
@@ -260,8 +176,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -276,8 +192,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -322,33 +238,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "from": "Ashley Oaks Cir",
+      "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 109,
-      "length_m": 216.8347243815,
+      "delay_sec": 142,
+      "length_m": 204.6586530531,
       "coords": [
-        28.1854623588,
-        -82.3684716836
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Service Rd",
-      "to": "Pink Flamingo Ln",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 100.1132109379,
-      "coords": [
-        28.2417378528,
-        -82.3525031522
+        28.1856460983,
+        -82.3606718197
       ]
     },
     {
@@ -369,34 +269,36 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Golden Vista Blvd / Nature Walk",
-      "to": "State Road 56",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Service Rd",
+      "to": "Pink Flamingo Ln",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 152,
-      "length_m": 204.3705827646,
+      "delay_sec": null,
+      "length_m": 100.1132109379,
       "coords": [
-        28.1930436606,
-        -82.3381117597
+        28.2417378528,
+        -82.3525031522
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 3037.5898268784,
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Zephyrhills",
+      "to": "Morris Bridge Rd",
+      "roadnums": "FL-56",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 48,
+      "length_m": 239.4547861413,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.1958250849,
+        -82.2469112888
       ]
     },
     {
@@ -420,6 +322,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 3037.5898268784,
+      "coords": [
+        28.3100483137,
+        -82.2703256324
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "7th St",
       "to": "9th St",
       "roadnums": "",
@@ -429,6 +347,22 @@
       "coords": [
         28.3587625976,
         -82.1907726541
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 98 Byp",
+      "to": "8th St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 194,
+      "length_m": 209.4198888649,
+      "coords": [
+        28.3724512694,
+        -82.1885423973
       ]
     },
     {
@@ -483,6 +417,64 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-54 x[COLLIER PKWY]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.1860947035573,
+        -82.4380812333988
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "RIDGE RD x[TOWN CENTER RD]    [NEW PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [
+        "Ridge Road"
+      ],
+      "coords": [
+        28.2731244971454,
+        -82.6188075643821
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "VANDINE RD x[SR-54]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.2407621519543,
+        -82.3204747220511
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "MOON LAKE RD x[IMPERIAL OAKS BLVD]    [NEW PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.3127160693895,
+        -82.6198652641051
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
@@ -511,64 +503,6 @@
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "SR-56 x[MORRIS BRIDGE RD]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.1958366622749,
-        -82.2481304795513
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 SB [MM295]  x[MM295]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.4490933245499,
-        -82.277816535992
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "US-19 x[SAN MARCO DR]    [PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
-      "coords": [
-        28.3242282213439,
-        -82.6995217406657
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "CUMMER RD x[PINE PRODUCTS RD]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.4574607992973,
-        -82.1798972009083
-      ]
-    },
-    {
-      "source": "FHP",
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
@@ -581,53 +515,9 @@
         28.2407703864734,
         -82.3201825735077
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash w/roadblock",
-      "severity": "reported",
-      "desc": "Hit and Run Crash w/roadblock",
-      "location": "SR-56 x[MORRIS BRIDGE RD]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.1957927448397,
-        -82.2479130136325
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "WESLEY CHAPEL BLVD x[PONDSIDE DR]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.194325103206,
-        -82.39913319845
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-54 x[LAND O LAKES BLVD]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.1915656960913,
-        -82.4656718620722
-      ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
     "Ridge Road",
     "SR 52",
@@ -635,7 +525,6 @@
     "US 19"
   ],
   "overlap": [
-    "SR 54",
-    "US 19"
+    "Ridge Road"
   ]
 }
