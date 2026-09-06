@@ -1,16 +1,16 @@
 {
-  "generated": "2026-09-06T15:48:58.975800Z",
+  "generated": "2026-09-06T18:06:38.727411Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "New Port Richey",
       "to": "Mile Stretch Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 81,
+      "delay_sec": 101,
       "length_m": 164.354,
       "coords": [
         28.1869724563,
@@ -26,7 +26,7 @@
       "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 100,
+      "delay_sec": 113,
       "length_m": 164.5198566414,
       "coords": [
         28.1938684697,
@@ -36,17 +36,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Moog Rd",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
       "to": "Moog Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 132,
-      "length_m": 46.2334903757,
+      "roadnums": "US-19 N",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 83,
+      "length_m": 147.8622545944,
       "coords": [
-        28.2074417777,
-        -82.7388874308
+        28.2088647008,
+        -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Grand Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 71,
+      "length_m": 144.2451578488,
+      "coords": [
+        28.2170253129,
+        -82.7219144122
       ]
     },
     {
@@ -100,19 +118,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
+      "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Beach Blvd",
-      "to": "Port Richey",
-      "roadnums": "County Hwy-595 US-19 S",
+      "from": "Scenic Dr",
+      "to": "US Highway 19",
+      "roadnums": "",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 71,
-      "length_m": 156.7961091232,
+      "delay_sec": 122,
+      "length_m": 74.5841797911,
       "coords": [
-        28.3402097554,
-        -82.699237676
+        28.3022685404,
+        -82.7046222106
       ]
     },
     {
@@ -120,17 +138,15 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "Port Richey",
-      "to": "Little Rd",
-      "roadnums": "County Hwy-1",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": 104,
-      "length_m": 98.6999623212,
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 96,
+      "length_m": 117.9521747299,
       "coords": [
-        28.3311023276,
-        -82.6653949038
+        28.2804971037,
+        -82.6980668918
       ]
     },
     {
@@ -171,11 +187,43 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-52 (US-41)",
+      "to": "CR-583/Ehren Cutoff (US-41)",
+      "roadnums": "FL-45 US-41 S",
+      "roads": [],
+      "delay_sec": 461,
+      "length_m": 897.0631350948,
+      "coords": [
+        28.2750213458,
+        -82.4823006109
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Sun Vista Dr",
+      "to": "Sun Vista Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 151,
+      "length_m": 209.1781340496,
+      "coords": [
+        28.1894508466,
+        -82.3943536594
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -190,8 +238,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -238,15 +286,63 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
+      "from": "FL-56 exit [275]",
+      "to": "FL-56 exit [275]",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 74,
-      "length_m": 227.5785419743,
+      "delay_sec": 88,
+      "length_m": 811.1743539805,
       "coords": [
-        28.1855898018,
-        -82.3647635296
+        28.1952202859,
+        -82.3847419634
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Old Pasco Rd",
+      "to": "Wesley Chapel Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 76,
+      "length_m": 65.4019376834,
+      "coords": [
+        28.2380055615,
+        -82.3667805508
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 137,
+      "length_m": 202.7268426929,
+      "coords": [
+        28.2374154748,
+        -82.3673277214
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 58,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -302,22 +398,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "to": "Central Ave (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 40.2663598779,
-      "coords": [
-        28.1792020973,
-        -82.1840255573
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Central Ave",
       "to": "Central Ave",
       "roadnums": "",
@@ -327,6 +407,22 @@
       "coords": [
         28.179564204,
         -82.1840295806
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "to": "Central Ave (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 40.2663598779,
+      "coords": [
+        28.1792020973,
+        -82.1840255573
       ]
     },
     {
@@ -381,31 +477,43 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "COLLIER PKWY x[BRAESGATE CT]    [LAND O LAKES]",
-      "county": "PASCO",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "COMMERCIAL WAY x[HEXAM RD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.223262551603,
-        -82.4375333881612
+        28.5844615854194,
+        -82.554745792777
       ]
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/roadblock",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
-      "desc": "Vehicle Crash w/roadblock",
-      "location": "US-19 x[SR-52]    [HUDSON]",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "LAND O LAKES BLVD x[PLEASANT PLAINS PKWY]    [LAND O LAKES]",
       "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2728533245499,
+        -82.4811906733067
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "I-75 NB [MM295]  x[MM295]    [BROOKSVILLE]",
+      "county": "HERNANDO",
       "roads": [
-        "US 19",
-        "SR 52"
+        "I-75"
       ],
       "coords": [
-        28.3312621651296,
-        -82.6994899774579
+        28.4487425647782,
+        -82.2774099577582
       ]
     },
     {
@@ -422,30 +530,12 @@
         28.3051954896794,
         -82.3248657917054
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 SB [MM278]  x[MM278]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.2273660693896,
-        -82.3617601592696
-      ]
     }
   ],
   "monitored_roads_active": [
     "I-75",
     "Little Road",
-    "SR 52",
     "US 19"
   ],
-  "overlap": [
-    "US 19"
-  ]
+  "overlap": []
 }
