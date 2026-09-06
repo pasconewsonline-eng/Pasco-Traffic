@@ -1,20 +1,52 @@
 {
-  "generated": "2026-09-06T12:41:35.616575Z",
+  "generated": "2026-09-06T15:48:58.975800Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 158.798,
+      "delay_sec": 81,
+      "length_m": 164.354,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 100,
+      "length_m": 164.5198566414,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Moog Rd",
+      "to": "Moog Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 132,
+      "length_m": 46.2334903757,
+      "coords": [
+        28.2074417777,
+        -82.7388874308
       ]
     },
     {
@@ -38,6 +70,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -47,6 +95,42 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Beach Blvd",
+      "to": "Port Richey",
+      "roadnums": "County Hwy-595 US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 71,
+      "length_m": 156.7961091232,
+      "coords": [
+        28.3402097554,
+        -82.699237676
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Port Richey",
+      "to": "Little Rd",
+      "roadnums": "County Hwy-1",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 104,
+      "length_m": 98.6999623212,
+      "coords": [
+        28.3311023276,
+        -82.6653949038
       ]
     },
     {
@@ -152,53 +236,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic; Incident",
-      "from": "Overpass Rd (I-75)",
-      "to": "FL-52/Exit 285 (I-75)",
-      "roadnums": "I-75 N",
-      "roads": [
-        "I-75"
-      ],
-      "delay_sec": 92,
-      "length_m": 850.4311998921,
-      "coords": [
-        28.3134064684,
-        -82.3253243282
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Accident",
-      "severity": "unknown",
-      "desc": "Incident",
-      "from": "Overpass Rd (I-75)",
-      "to": "FL-52/Exit 285 (I-75)",
-      "roadnums": "I-75 N",
-      "roads": [
-        "I-75"
-      ],
-      "delay_sec": null,
-      "length_m": 1643.9538371059,
-      "coords": [
-        28.3147462177,
-        -82.3252210632
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "Central Pasco",
-      "to": "Curley St",
-      "roadnums": "FL-52",
+      "to": "Northwood Palms Rd",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 97,
-      "length_m": 285.2175243306,
+      "delay_sec": 74,
+      "length_m": 227.5785419743,
       "coords": [
-        28.324761556,
-        -82.2767709806
+        28.1855898018,
+        -82.3647635296
       ]
     },
     {
@@ -254,22 +302,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Central Ave",
-      "to": "Central Ave",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 40.2663598779,
-      "coords": [
-        28.179564204,
-        -82.1840295806
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
       "to": "Central Ave (Crystal Springs Rd)",
       "roadnums": "",
@@ -286,15 +318,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Central Ave (Crystal Springs Rd)",
-      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "from": "Central Ave",
+      "to": "Central Ave",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1383.6908219203,
+      "length_m": 40.2663598779,
       "coords": [
-        28.2067457469,
-        -82.1840979769
+        28.179564204,
+        -82.1840295806
       ]
     },
     {
@@ -318,6 +350,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Central Ave (Crystal Springs Rd)",
+      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 1494.7206961578,
+      "coords": [
+        28.2070287246,
+        -82.1836312726
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "FL-35A/Old Lakeland Hwy (US-98)",
       "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
@@ -333,15 +381,31 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "CORTEZ BLVD x[OGBURN ST]    [BROOKSVILLE]",
-      "county": "HERNANDO",
+      "desc": "Vehicle Crash",
+      "location": "COLLIER PKWY x[BRAESGATE CT]    [LAND O LAKES]",
+      "county": "PASCO",
       "roads": [],
       "coords": [
-        28.5230064822134,
-        -82.3016502799572
+        28.223262551603,
+        -82.4375333881612
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "US-19 x[SR-52]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [
+        "US 19",
+        "SR 52"
+      ],
+      "coords": [
+        28.3312621651296,
+        -82.6994899774579
       ]
     },
     {
@@ -373,41 +437,15 @@
         28.2273660693896,
         -82.3617601592696
       ]
-    },
-    {
-      "source": "FHP",
-      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
-      "location": "3415 BLUEBIRD DR   [HOLIDAY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2086146903821,
-        -82.7254660066501
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 NB [MM282]  x[MM282]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.2766692270531,
-        -82.326081857415
-      ]
     }
   ],
   "monitored_roads_active": [
     "I-75",
-    "Little Road"
+    "Little Road",
+    "SR 52",
+    "US 19"
   ],
   "overlap": [
-    "I-75"
+    "US 19"
   ]
 }
