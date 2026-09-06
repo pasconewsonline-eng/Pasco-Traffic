@@ -1,22 +1,22 @@
 {
-  "generated": "2026-09-05T23:23:14.458004Z",
+  "generated": "2026-09-06T01:15:06.948155Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Darlington Rd",
+      "to": "Mile Stretch Dr",
       "roadnums": "US-19 S",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 91,
-      "length_m": 160.841,
+      "delay_sec": 63,
+      "length_m": 130.738,
       "coords": [
-        28.1961161437,
-        -82.739878507
+        28.1885522733,
+        -82.7400367574
       ]
     },
     {
@@ -30,11 +30,27 @@
       "roads": [
         "US 19"
       ],
-      "delay_sec": 97,
+      "delay_sec": 66,
       "length_m": 147.8622545944,
       "coords": [
         28.2088647008,
         -82.739621015
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -59,22 +75,6 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Grand Blvd",
-      "to": "Aspen St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
       "roads": [],
@@ -83,6 +83,22 @@
       "coords": [
         28.2497442198,
         -82.7190109209
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 71,
+      "length_m": 139.8768034468,
+      "coords": [
+        28.2805386612,
+        -82.7061121777
       ]
     },
     {
@@ -124,33 +140,19 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 62,
-      "length_m": 138.9274305032,
-      "coords": [
-        28.1935157196,
-        -82.4993326381
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 54",
+      "to": "State Road 54",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 99,
+      "length_m": 318.9049297777,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.1882813627,
+        -82.4002531782
       ]
     },
     {
@@ -174,15 +176,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -203,18 +205,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Old Pasco Rd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 75,
-      "length_m": 202.7268426929,
+      "delay_sec": null,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2374154748,
-        -82.3673277214
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -223,14 +225,16 @@
       "severity": "moderate",
       "desc": "Backed up traffic",
       "from": "Central Pasco",
-      "to": "Old Pasco Rd",
+      "to": "State Road 52",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 118,
-      "length_m": 110.4145390694,
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 64,
+      "length_m": 173.2083667039,
       "coords": [
-        28.2380404158,
-        -82.3660214856
+        28.3248621229,
+        -82.2969009593
       ]
     },
     {
@@ -267,6 +271,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Zephyrhills",
+      "to": "Prospect Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 75,
+      "length_m": 129.3125092833,
+      "coords": [
+        28.3319780828,
+        -82.2370474651
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -279,22 +299,6 @@
       "coords": [
         28.3587625976,
         -82.1907726541
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Central Ave (Crystal Springs Rd)",
-      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 630.2182264253,
-      "coords": [
-        28.1971728873,
-        -82.1840885892
       ]
     },
     {
@@ -334,15 +338,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Central Ave (Crystal Springs Rd)",
+      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 1383.6908219203,
+      "coords": [
+        28.2067457469,
+        -82.1840979769
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
       "to": "Central Ave (Crystal Springs Rd)",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1969.7195503072,
+      "length_m": 2027.2011218091,
       "coords": [
-        28.2067457469,
-        -82.1840979769
+        28.2069133472,
+        -82.1839424088
       ]
     },
     {
@@ -365,56 +385,30 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "I-75 SB [MM280]  x[MM280]    [WESLEY CHAPEL]",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "US-19 [SOF]  x[HARRIS LOOP]    [HUDSON]",
       "county": "PASCO",
       "roads": [
-        "I-75"
+        "US 19"
       ],
       "coords": [
-        28.2519639174352,
-        -82.3431101269533
+        28.4289703996487,
+        -82.6421217943396
       ]
     },
     {
       "source": "FHP",
-      "kind": "Possible Fatality",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Possible Fatality",
-      "location": "CORTEZ BLVD x[KETTERING RD]    [BROOKSVILLE]",
+      "desc": "Vehicle Crash",
+      "location": "N LECANTO HWY x[N CARL G ROSE HWY]    [HERNANDO]",
       "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.5228427448397,
-        -82.2201013025434
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Patrol Car Crash",
-      "severity": "reported",
-      "desc": "Patrol Car Crash",
-      "location": "8510 BLUEVINE SKY DR   [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.279651559069,
-        -82.4560321819193
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SEVEN SPRINGS BLVD x[PERRINE RANCH RD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1945213658322,
-        -82.6990476654259
+        28.9756805797101,
+        -82.3630327486221
       ]
     },
     {
@@ -422,19 +416,61 @@
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "MOOG RD x[JARVIS ST]    [NEW PORT RICHEY]",
+      "location": "CR-54 x[FORBES RD]    [ZEPHYRHILLS]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.2099003864734,
-        -82.7312982505482
+        28.2518778480457,
+        -82.155227974612
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "CR-54 x[PHOTINIA DR]    [ZEPHYRHILLS]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2519758761528,
+        -82.1621613636952
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "COATS RD x[HOUGH CT]    [ZEPHYRHILLS]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2216903864734,
+        -82.2130801666579
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Fatality",
+      "severity": "reported",
+      "desc": "Fatality",
+      "location": "CORTEZ BLVD x[KETTERING RD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.5228427448397,
+        -82.2201013025434
       ]
     }
   ],
   "monitored_roads_active": [
-    "I-75",
     "Little Road",
+    "SR 52",
+    "SR 54",
     "US 19"
   ],
-  "overlap": []
+  "overlap": [
+    "US 19"
+  ]
 }
