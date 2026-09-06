@@ -1,40 +1,20 @@
 {
-  "generated": "2026-09-06T01:15:06.948155Z",
+  "generated": "2026-09-06T12:41:35.616575Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Mile Stretch Dr",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 63,
-      "length_m": 130.738,
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.798,
       "coords": [
-        28.1885522733,
-        -82.7400367574
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 66,
-      "length_m": 147.8622545944,
-      "coords": [
-        28.2088647008,
-        -82.739621015
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -58,22 +38,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -83,22 +47,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 71,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
       ]
     },
     {
@@ -135,24 +83,6 @@
       "coords": [
         28.3286802772,
         -82.6620770112
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "State Road 54",
-      "to": "State Road 54",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 99,
-      "length_m": 318.9049297777,
-      "coords": [
-        28.1882813627,
-        -82.4002531782
       ]
     },
     {
@@ -223,34 +153,52 @@
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "State Road 52",
-      "roadnums": "",
+      "desc": "Stopped traffic; Incident",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-52/Exit 285 (I-75)",
+      "roadnums": "I-75 N",
       "roads": [
-        "SR 52"
+        "I-75"
       ],
-      "delay_sec": 64,
-      "length_m": 173.2083667039,
+      "delay_sec": 92,
+      "length_m": 850.4311998921,
       "coords": [
-        28.3248621229,
-        -82.2969009593
+        28.3134064684,
+        -82.3253243282
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
+      "kind": "Accident",
+      "severity": "unknown",
+      "desc": "Incident",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-52/Exit 285 (I-75)",
+      "roadnums": "I-75 N",
+      "roads": [
+        "I-75"
+      ],
       "delay_sec": null,
-      "length_m": 3037.5898268784,
+      "length_m": 1643.9538371059,
       "coords": [
-        28.3100483137,
-        -82.2703256324
+        28.3147462177,
+        -82.3252210632
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Curley St",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 97,
+      "length_m": 285.2175243306,
+      "coords": [
+        28.324761556,
+        -82.2767709806
       ]
     },
     {
@@ -271,18 +219,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Zephyrhills",
-      "to": "Prospect Rd",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 75,
-      "length_m": 129.3125092833,
+      "delay_sec": null,
+      "length_m": 3037.5898268784,
       "coords": [
-        28.3319780828,
-        -82.2370474651
+        28.3100483137,
+        -82.2703256324
       ]
     },
     {
@@ -388,53 +336,12 @@
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
-      "location": "US-19 [SOF]  x[HARRIS LOOP]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
-      "coords": [
-        28.4289703996487,
-        -82.6421217943396
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "N LECANTO HWY x[N CARL G ROSE HWY]    [HERNANDO]",
+      "location": "CORTEZ BLVD x[OGBURN ST]    [BROOKSVILLE]",
       "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.9756805797101,
-        -82.3630327486221
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "CR-54 x[FORBES RD]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2518778480457,
-        -82.155227974612
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "CR-54 x[PHOTINIA DR]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2519758761528,
-        -82.1621613636952
+        28.5230064822134,
+        -82.3016502799572
       ]
     },
     {
@@ -442,35 +349,65 @@
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
-      "location": "COATS RD x[HOUGH CT]    [ZEPHYRHILLS]",
+      "location": "I-75 NB [MM284]  x[MM284]    [SAN ANTONIO]",
       "county": "PASCO",
-      "roads": [],
+      "roads": [
+        "I-75"
+      ],
       "coords": [
-        28.2216903864734,
-        -82.2130801666579
+        28.3051954896794,
+        -82.3248657917054
       ]
     },
     {
       "source": "FHP",
-      "kind": "Fatality",
+      "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
-      "desc": "Fatality",
-      "location": "CORTEZ BLVD x[KETTERING RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "I-75 SB [MM278]  x[MM278]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.2273660693896,
+        -82.3617601592696
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "HIT AND RUN CRASH W/ INJURIES AND ROADBLOCK",
+      "location": "3415 BLUEBIRD DR   [HOLIDAY]",
+      "county": "PASCO",
       "roads": [],
       "coords": [
-        28.5228427448397,
-        -82.2201013025434
+        28.2086146903821,
+        -82.7254660066501
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "I-75 NB [MM282]  x[MM282]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [
+        "I-75"
+      ],
+      "coords": [
+        28.2766692270531,
+        -82.326081857415
       ]
     }
   ],
   "monitored_roads_active": [
-    "Little Road",
-    "SR 52",
-    "SR 54",
-    "US 19"
+    "I-75",
+    "Little Road"
   ],
   "overlap": [
-    "US 19"
+    "I-75"
   ]
 }
