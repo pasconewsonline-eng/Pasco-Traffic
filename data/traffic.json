@@ -1,22 +1,6 @@
 {
-  "generated": "2026-09-12T00:09:43.861159Z",
+  "generated": "2026-09-12T12:43:22.596801Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 57,
-      "length_m": 187.59,
-      "coords": [
-        28.2255479908,
-        -82.7331045882
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -27,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -74,11 +58,11 @@
       "to": "Congress St",
       "roadnums": "County Hwy-524",
       "roads": [],
-      "delay_sec": 88,
-      "length_m": 110.8882967126,
+      "delay_sec": 73,
+      "length_m": 139.8768034468,
       "coords": [
-        28.2805064782,
-        -82.7078153805
+        28.2805386612,
+        -82.7061121777
       ]
     },
     {
@@ -150,17 +134,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Sun Vista Dr",
-      "to": "Sun Vista Dr",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "Monroe Meadows Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 133,
-      "length_m": 209.1781340496,
+      "delay_sec": 143,
+      "length_m": 242.4493513454,
       "coords": [
-        28.1894508466,
-        -82.3943536594
+        28.2035029355,
+        -82.6188330964
       ]
     },
     {
@@ -233,62 +217,32 @@
       "severity": "moderate",
       "desc": "Backed up traffic",
       "from": "Central Pasco",
-      "to": "Old Pasco Rd",
-      "roadnums": "",
+      "to": "Progress Pkwy",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 100,
-      "length_m": 110.4145390694,
+      "delay_sec": 74,
+      "length_m": 122.2285106294,
       "coords": [
-        28.2380404158,
-        -82.3660214856
+        28.2330756414,
+        -82.3711136594
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
-      "from": "Hueland Pond Blvd",
-      "to": "State Road 56",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "State Road 52",
+      "to": "Bellamy Brothers Blvd / State Road 52",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": 57,
-      "length_m": 294.0484880464,
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 70,
+      "length_m": 163.8064669196,
       "coords": [
-        28.1972600562,
-        -82.3292001203
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Rain",
-      "severity": "minor",
-      "desc": "Heavy rain; Slow traffic",
-      "from": "Central Pasco",
-      "to": "Mansfield Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 60,
-      "length_m": 340.0656489699,
-      "coords": [
-        28.1996016219,
-        -82.3291250184
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Curley Rd / Curley St",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 120.7772827883,
-      "coords": [
-        28.312117619,
-        -82.2743234649
+        28.3245121672,
+        -82.3568536952
       ]
     },
     {
@@ -313,14 +267,14 @@
       "severity": "closure",
       "desc": "Closed",
       "from": "Wirt Rd",
-      "to": "Handcart Rd",
+      "to": "Curley Rd / Curley St",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 2022.7417711729,
+      "length_m": 120.7772827883,
       "coords": [
-        28.3100523724,
-        -82.2601466491
+        28.312117619,
+        -82.2743234649
       ]
     },
     {
@@ -341,20 +295,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-56 (Morris Bridge Rd)",
-      "to": "FL-54 (Morris Bridge Rd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 120,
-      "length_m": 557.2284690622,
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wirt Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 2022.7417711729,
       "coords": [
-        28.2044417144,
-        -82.2458933904
+        28.3100523724,
+        -82.2601466491
       ]
     },
     {
@@ -410,8 +362,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "US-301 (US-98)",
-      "to": "FL-35A/Old Lakeland Hwy (US-98)",
+      "from": "FL-35A/Old Lakeland Hwy (US-98)",
+      "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -426,8 +378,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "FL-35A/Old Lakeland Hwy (US-98)",
-      "to": "US-301 (US-98)",
+      "from": "US-301 (US-98)",
+      "to": "FL-35A/Old Lakeland Hwy (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
       "roads": [],
       "delay_sec": null,
@@ -438,56 +390,10 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "E COUNTY LINE RD x[BIG CREEK DR]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "County Line Road"
-      ],
-      "coords": [
-        28.171213544137,
-        -82.3572763567951
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "I-75 NB [MM302]  x[MM302]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [
-        "I-75"
-      ],
-      "coords": [
-        28.5368054896794,
-        -82.236819616989
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Hit and Run Crash",
-      "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "15339 JESSAMINE RD   [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.381622551603,
-        -82.2791644833755
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
-    "County Line Road",
-    "I-75",
     "Little Road",
-    "Ridge Road"
+    "SR 52"
   ],
   "overlap": []
 }
