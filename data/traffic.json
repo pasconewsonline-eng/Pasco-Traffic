@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-13T19:28:11.753752Z",
+  "generated": "2026-09-13T21:36:40.781340Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 158.798,
+      "delay_sec": 117,
+      "length_m": 164.52,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
@@ -38,6 +38,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "Grand Blvd",
       "to": "Adams St",
       "roadnums": "",
@@ -47,38 +63,6 @@
       "coords": [
         28.2497442198,
         -82.7190109209
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 90,
-      "length_m": 145.8132968764,
-      "coords": [
-        28.217041414,
-        -82.7163448051
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Madison St",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 61,
-      "length_m": 157.5965365388,
-      "coords": [
-        28.2170306307,
-        -82.7140904085
       ]
     },
     {
@@ -149,6 +133,92 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 62,
+      "length_m": 187.5851667449,
+      "coords": [
+        28.1918138596,
+        -82.6142290846
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "State Road 54",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 81,
+      "length_m": 165.2499374309,
+      "coords": [
+        28.1870046676,
+        -82.5503254548
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Hopson Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 61,
+      "length_m": 112.1169582944,
+      "coords": [
+        28.22908989,
+        -82.4580185726
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 68,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "State Road 54 / Cypress Creek Rd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 77,
+      "length_m": 147.6256764512,
+      "coords": [
+        28.1866264804,
+        -82.4030587688
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -214,33 +284,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "Central Pasco",
-      "to": "McKendree Rd",
+      "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 64,
-      "length_m": 124.0869931932,
+      "delay_sec": 49,
+      "length_m": 202.7268426929,
       "coords": [
-        28.3252014528,
-        -82.3132651165
+        28.2374154748,
+        -82.3673277214
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
+      "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "McCabe Rd",
-      "to": "Central Pasco",
-      "roadnums": "",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 150,
-      "length_m": 403.3300741366,
+      "delay_sec": 105,
+      "length_m": 167.252086934,
       "coords": [
-        28.3259578762,
-        -82.2892097249
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -280,22 +350,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 2022.7417711729,
-      "coords": [
-        28.3100523724,
-        -82.2601466491
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Handcart Rd",
       "to": "Wirt Rd",
       "roadnums": "County Hwy-579A",
@@ -305,6 +359,22 @@
       "coords": [
         28.310065729,
         -82.2615065291
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wirt Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 2022.7417711729,
+      "coords": [
+        28.3100523724,
+        -82.2601466491
       ]
     },
     {
@@ -328,22 +398,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Central Ave (Crystal Springs Rd)",
-      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1423.7549054621,
-      "coords": [
-        28.2068583915,
-        -82.1840054407
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
       "to": "Central Ave (Crystal Springs Rd)",
       "roadnums": "",
@@ -353,6 +407,22 @@
       "coords": [
         28.2069951899,
         -82.1837975695
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Central Ave (Crystal Springs Rd)",
+      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 1494.7206961578,
+      "coords": [
+        28.2070287246,
+        -82.1836312726
       ]
     },
     {
@@ -378,12 +448,27 @@
       "kind": "Vehicle Crash w/roadblock",
       "severity": "reported",
       "desc": "Vehicle Crash w/roadblock",
-      "location": "STRICKLAND AV [@ ROUND ABOUT]  x[WIREGRASS RANCH BLVD]    [WESLEY CHAPEL]",
+      "location": "8719 WINNING FIELDS RD   [NEW PORT RICHEY]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.1985927316645,
-        -82.330660190532
+        28.1993570487484,
+        -82.6717063094536
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "FIRE - BRUSH/FOREST",
+      "severity": "reported",
+      "desc": "FIRE - BRUSH/FOREST",
+      "location": "SUNCOAST PKWY NB (SR-589 NB) [MM49]  x[MM49]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "coords": [
+        28.5973864822134,
+        -82.4881109588395
       ]
     },
     {
@@ -391,38 +476,12 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "LAKEWOOD DR x[POST RD]    [HUDSON]",
-      "county": "PASCO",
+      "location": "CORTEZ BLVD x[WINTER ST]    [BROOKSVILLE]",
+      "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.3441843039087,
-        -82.6180875618372
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "LAKEWOOD DR x[POST RD]    [HUDSON]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3439756960913,
-        -82.6183893271798
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "US-301 x[LOCK ST]    [DADE CITY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.3761503864734,
-        -82.191472656945
+        28.5349750900307,
+        -82.4734395967547
       ]
     },
     {
@@ -430,17 +489,19 @@
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "BROAD ST x[CHILDS RD]    [BROOKSVILLE]",
+      "location": "5178 OLIVET DR   [DADE CITY]",
       "county": "HERNANDO",
       "roads": [],
       "coords": [
-        28.6519155028546,
-        -82.3288080806721
+        28.5061507861221,
+        -82.2049524022369
       ]
     }
   ],
   "monitored_roads_active": [
-    "Little Road"
+    "Little Road",
+    "SR 54",
+    "Suncoast Parkway"
   ],
   "overlap": []
 }
