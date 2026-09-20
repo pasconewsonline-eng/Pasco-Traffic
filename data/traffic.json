@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-20T01:10:44.970002Z",
+  "generated": "2026-09-20T13:29:54.494079Z",
   "tomtom": [
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "minor",
+      "desc": "Slow traffic",
       "from": "New Port Richey",
-      "to": "Trouble Creek Rd",
+      "to": "Darlington Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 87,
-      "length_m": 187.59,
+      "delay_sec": 75,
+      "length_m": 164.52,
       "coords": [
-        28.2255479908,
-        -82.7331045882
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
@@ -47,6 +47,24 @@
       "coords": [
         28.2361628496,
         -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Port Richey",
+      "to": "Little Rd",
+      "roadnums": "County Hwy-1",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 73,
+      "length_m": 98.6999623212,
+      "coords": [
+        28.3311023276,
+        -82.6653949038
       ]
     },
     {
@@ -119,32 +137,50 @@
       "severity": "moderate",
       "desc": "Backed up traffic",
       "from": "State Road 54",
-      "to": "Old Gunn Hwy",
+      "to": "New Port Richey",
       "roadnums": "",
       "roads": [
         "SR 54"
       ],
-      "delay_sec": 116,
-      "length_m": 45.179690071,
+      "delay_sec": 233,
+      "length_m": 186.2528052285,
       "coords": [
-        28.1935465992,
-        -82.5927566603
+        28.189430752,
+        -82.61831543
       ]
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "State Road 54",
+      "to": "Meadowbrook Dr",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 68,
+      "length_m": 180.3672136589,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.1938000622,
+        -82.533196868
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 78,
+      "length_m": 125.9781478669,
+      "coords": [
+        28.1860484476,
+        -82.4266648904
       ]
     },
     {
@@ -168,15 +204,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -193,6 +229,38 @@
       "coords": [
         28.2237925064,
         -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 55.9480836986,
+      "coords": [
+        28.2237925064,
+        -82.3808916524
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 50,
+      "length_m": 202.7268426929,
+      "coords": [
+        28.2374154748,
+        -82.3673277214
       ]
     },
     {
@@ -232,22 +300,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Wirt Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1419.556518653,
-      "coords": [
-        28.3100765029,
-        -82.2657055273
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Wirt Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -269,10 +321,10 @@
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 427.2512763471,
+      "length_m": 1419.556518653,
       "coords": [
-        28.3100885313,
-        -82.2525238111
+        28.3100765029,
+        -82.2657055273
       ]
     },
     {
@@ -296,15 +348,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Yellow Parrot Dr",
-      "to": "Pure Water Way",
-      "roadnums": "",
+      "from": "Handcart Rd",
+      "to": "Wirt Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 284.7781803041,
+      "length_m": 835.2983798759,
       "coords": [
-        28.2211720027,
-        -82.2419854119
+        28.3101274206,
+        -82.2516695276
       ]
     },
     {
@@ -328,6 +380,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Yellow Parrot Dr",
+      "to": "Pure Water Way",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 284.7781803041,
+      "coords": [
+        28.2211720027,
+        -82.2419854119
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "7th St",
       "to": "9th St",
       "roadnums": "",
@@ -337,38 +405,6 @@
       "coords": [
         28.3587625976,
         -82.1907726541
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Central Ave (Crystal Springs Rd)",
-      "to": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 863.2946732714,
-      "coords": [
-        28.2018963035,
-        -82.1841355279
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "CR-535/Chancey Rd (Crystal Springs Rd)",
-      "to": "Central Ave (Crystal Springs Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1383.6908330924,
-      "coords": [
-        28.206697439,
-        -82.1841207757
       ]
     },
     {
@@ -408,15 +444,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Melrose Ave",
-      "to": "Merrick Rd",
+      "from": "Berry Rd",
+      "to": "Belmar Ln",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 159.7493929269,
+      "length_m": 166.0088637853,
       "coords": [
-        28.2672389385,
-        -82.1208514883
+        28.2809771908,
+        -82.1337207272
       ]
     },
     {
@@ -434,40 +470,41 @@
         28.2672389385,
         -82.1208514883
       ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Melrose Ave",
+      "to": "Merrick Rd",
+      "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 159.7493929269,
+      "coords": [
+        28.2672389385,
+        -82.1208514883
+      ]
     }
   ],
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "SAN MARCO DR x[COCKLE DR]    [PORT RICHEY]",
+      "desc": "Vehicle Crash",
+      "location": "US-301 x[CLINTON AVE]    [DADE CITY]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.3241907729469,
-        -82.7016475584115
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "MORRIS BRIDGE RD x[MANDRAKE RD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [
-        "Ridge Road"
-      ],
-      "coords": [
-        28.1773003864734,
-        -82.2539866691492
+        28.3283976416337,
+        -82.1873466843377
       ]
     }
   ],
   "monitored_roads_active": [
-    "Ridge Road",
+    "Little Road",
     "SR 54"
   ],
   "overlap": []
