@@ -1,20 +1,20 @@
 {
-  "generated": "2026-09-27T01:10:05.776075Z",
+  "generated": "2026-09-27T14:36:13.267821Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Aspen St",
-      "to": "Grand Blvd",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Trouble Creek Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 158.798,
+      "delay_sec": 99,
+      "length_m": 187.59,
       "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.2255479908,
+        -82.7331045882
       ]
     },
     {
@@ -38,8 +38,24 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Little Rd",
+      "from": "Aspen St",
+      "to": "Grand Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Little Rd",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -56,8 +72,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Canton Ave",
+      "from": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -103,18 +119,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 66,
-      "length_m": 126.905205149,
+      "delay_sec": null,
+      "length_m": 104.4002288785,
       "coords": [
-        28.1859934811,
-        -82.4282353237
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -138,15 +154,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 104.4002288785,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -167,18 +183,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 55.9480836986,
+      "delay_sec": 63,
+      "length_m": 202.7268426929,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2374154748,
+        -82.3673277214
       ]
     },
     {
@@ -218,22 +234,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1419.556518653,
-      "coords": [
-        28.3100684594,
-        -82.26493171
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Handcart Rd",
       "to": "Wirt Rd",
       "roadnums": "County Hwy-579A",
@@ -255,10 +255,10 @@
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 427.2512763471,
+      "length_m": 1419.556518653,
       "coords": [
-        28.3100885313,
-        -82.2525238111
+        28.3100684594,
+        -82.26493171
       ]
     },
     {
@@ -275,6 +275,40 @@
       "coords": [
         28.3100885313,
         -82.2525238111
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Wirt Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 427.2512763471,
+      "coords": [
+        28.3100885313,
+        -82.2525238111
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 118,
+      "length_m": 277.3472965756,
+      "coords": [
+        28.2094869283,
+        -82.2460502997
       ]
     },
     {
@@ -346,8 +380,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Melrose Ave",
-      "to": "Merrick Rd",
+      "from": "Merrick Rd",
+      "to": "Melrose Ave",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -362,8 +396,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Merrick Rd",
-      "to": "Melrose Ave",
+      "from": "Melrose Ave",
+      "to": "Merrick Rd",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -374,78 +408,10 @@
       ]
     }
   ],
-  "fhp": [
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "COMMERCIAL WAY x[CENTRALIA RD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.6143378480457,
-        -82.5519094535824
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "COLLIER PKWY x[WEEKS BLVD]    [LAND O LAKES]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.197445103206,
-        -82.4343677621074
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-56 x[ARROWGRASS DR]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1856170619236,
-        -82.3666890208649
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SR-52 x[MIRADA BLVD]    [SAN ANTONIO]",
-      "county": "PASCO",
-      "roads": [
-        "SR 52"
-      ],
-      "coords": [
-        28.3249337241985,
-        -82.2981602022379
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "WESLEY CHAPEL BLVD x[GATEWAY BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.2380454765042,
-        -82.3615026886446
-      ]
-    }
-  ],
+  "fhp": [],
   "monitored_roads_active": [
     "Little Road",
-    "SR 52"
+    "Ridge Road"
   ],
   "overlap": []
 }
