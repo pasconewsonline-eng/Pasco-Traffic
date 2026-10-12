@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T23:11:13.391555Z",
+  "generated": "2026-10-12T02:26:16.533985Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,29 +35,11 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Port Richey",
-      "to": "Little Rd",
-      "roadnums": "County Hwy-1",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": 73,
-      "length_m": 98.6999623212,
-      "coords": [
-        28.3311023276,
-        -82.6653949038
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Canton Ave",
+      "from": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -74,8 +56,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -105,36 +87,38 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Country Place Blvd",
-      "to": "State Road 54",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "FL-52 exit [27]",
+      "to": "Suncoast Pkwy S",
       "roadnums": "",
       "roads": [
-        "SR 54"
+        "Suncoast Parkway"
       ],
-      "delay_sec": 81,
-      "length_m": 27.8230193607,
+      "delay_sec": null,
+      "length_m": 695.9354826577,
       "coords": [
-        28.1946798274,
-        -82.639565231
+        28.3275779117,
+        -82.5530733779
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Port Richey",
-      "to": "Port Richey",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 63,
-      "length_m": 121.3885042067,
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Hammock Toll Plaza (FL-589)",
+      "to": "Ridge Rd (FL-589)",
+      "roadnums": "FL-589 S",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 54,
+      "length_m": 2481.5335879996,
       "coords": [
-        28.3314013542,
-        -82.6389188186
+        28.3207396108,
+        -82.5533094123
       ]
     },
     {
@@ -174,22 +158,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
-      "coords": [
-        28.2180016404,
-        -82.3833592847
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Jermyn Loop",
       "to": "Regent Royal Ct",
       "roadnums": "",
@@ -206,15 +174,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 55.9480836986,
+      "length_m": 104.4002288785,
       "coords": [
-        28.2237925064,
-        -82.3808916524
+        28.2180016404,
+        -82.3833592847
       ]
     },
     {
@@ -238,63 +206,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Old Pasco Rd",
-      "to": "Angus Valley Dr",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 528.1209975438,
+      "length_m": 55.9480836986,
       "coords": [
-        28.2429032072,
-        -82.3685347155
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Angus Valley Dr",
-      "to": "Old Pasco Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 528.1209975438,
-      "coords": [
-        28.2429636085,
-        -82.3662977531
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Saint Joe Rd",
-      "to": "Saint Joe Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 237,
-      "length_m": 172.2886865147,
-      "coords": [
-        28.3771933911,
-        -82.3549050704
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Wirt Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 120.7772827883,
-      "coords": [
-        28.312117619,
-        -82.2743234649
+        28.2237925064,
+        -82.3808916524
       ]
     },
     {
@@ -315,18 +235,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "State Road 56",
-      "to": "Castaway Loop",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Wirt Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 198,
-      "length_m": 144.9916863199,
+      "delay_sec": null,
+      "length_m": 120.7772827883,
       "coords": [
-        28.1935170494,
-        -82.2667582944
+        28.312117619,
+        -82.2743234649
       ]
     },
     {
@@ -363,22 +283,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "CR-41/Fort King Rd (Fairview Heights Rd)",
-      "to": "Handcart Rd (Fairview Heights Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 194,
-      "length_m": 1592.7413278129,
-      "coords": [
-        28.2710328805,
-        -82.2167565539
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -398,8 +302,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Melrose Ave",
-      "to": "Merrick Rd",
+      "from": "Merrick Rd",
+      "to": "Melrose Ave",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -414,8 +318,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Merrick Rd",
-      "to": "Melrose Ave",
+      "from": "Melrose Ave",
+      "to": "Merrick Rd",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -429,43 +333,17 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Hit and Run Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CORTEZ BLVD x[MARINER BLVD]    [BROOKSVILLE]",
-      "county": "HERNANDO",
-      "roads": [],
-      "coords": [
-        28.5336552832675,
-        -82.5113705402158
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SWEETSPIRE DR x[TRINITY BLVD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1786011857707,
-        -82.6580831061594
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-54 x[OLD GUNN HWY]    [ODESSA]",
+      "desc": "Hit and Run Crash",
+      "location": "11024 SR-52   [HUDSON]",
       "county": "PASCO",
       "roads": [
-        "SR 54"
+        "SR 52"
       ],
       "coords": [
-        28.1940313658322,
-        -82.5942046698604
+        28.332892345191,
+        -82.6314831312718
       ]
     },
     {
@@ -484,9 +362,9 @@
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 54"
+    "Ridge Road",
+    "SR 52",
+    "Suncoast Parkway"
   ],
-  "overlap": [
-    "SR 54"
-  ]
+  "overlap": []
 }
