@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T01:19:36.618510Z",
+  "generated": "2026-10-17T12:45:35.803425Z",
   "tomtom": [
     {
       "source": "TomTom",
@@ -35,20 +35,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Little Rd",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 354.7058901414,
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Congress St",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 44,
+      "length_m": 139.8768034468,
       "coords": [
-        28.329480944,
-        -82.6641584054
+        28.2805386612,
+        -82.7061121777
       ]
     },
     {
@@ -74,15 +72,17 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Tipton Ave",
-      "to": "Canton Ave",
+      "from": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "Little Road"
+      ],
       "delay_sec": null,
-      "length_m": 201.6231279231,
+      "length_m": 354.7058901414,
       "coords": [
-        28.3286802772,
-        -82.6620770112
+        28.329480944,
+        -82.6641584054
       ]
     },
     {
@@ -103,18 +103,54 @@
     },
     {
       "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Tipton Ave",
+      "to": "Canton Ave",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
+      "coords": [
+        28.3286802772,
+        -82.6620770112
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 81,
-      "length_m": 138.9274305032,
+      "desc": "Stopped traffic",
+      "from": "State Road 54 / Duck Slough Blvd",
+      "to": "Country Place Blvd",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 88,
+      "length_m": 45.4099817837,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.1940025514,
+        -82.6348150388
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "State Road 54",
+      "to": "New Port Richey",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 126,
+      "length_m": 186.2528052285,
+      "coords": [
+        28.189430752,
+        -82.61831543
       ]
     },
     {
@@ -206,27 +242,27 @@
       "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 73,
-      "length_m": 110.4145390694,
+      "delay_sec": 56,
+      "length_m": 202.7268426929,
       "coords": [
-        28.2380404158,
-        -82.3660214856
+        28.2374154748,
+        -82.3673277214
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 77,
-      "length_m": 227.5785419743,
+      "delay_sec": 68,
+      "length_m": 167.252086934,
       "coords": [
-        28.1855898018,
-        -82.3647635296
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -282,22 +318,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Wirt Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 835.2983798759,
-      "coords": [
-        28.3101274206,
-        -82.2516695276
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Wirt Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -311,34 +331,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US Highway 98 Byp",
-      "to": "8th St",
-      "roadnums": "",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Wirt Rd",
+      "roadnums": "County Hwy-579A",
       "roads": [],
-      "delay_sec": 162,
-      "length_m": 209.4198888649,
+      "delay_sec": null,
+      "length_m": 835.2983798759,
       "coords": [
-        28.3724512694,
-        -82.1885423973
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Gall Blvd",
-      "to": "7th St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 122,
-      "length_m": 77.5716630586,
-      "coords": [
-        28.2318766527,
-        -82.1798399701
+        28.3101274206,
+        -82.2516695276
       ]
     },
     {
@@ -409,71 +413,30 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Hit and Run Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "CORTEZ BLVD [EASTBOUND]  x[DELTONA BLVD]    [SPRING HILL]",
-      "county": "HERNANDO",
+      "desc": "Hit and Run Crash",
+      "location": "OVERPASS RD x[BOYETTE RD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
       "roads": [],
       "coords": [
-        28.5207994202899,
-        -82.5642867965221
+        28.2734696003513,
+        -82.3200234650303
       ]
     },
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SR-54 x[ELLERBEE RD]    [WESLEY CHAPEL]",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[SR-54]    [LUTZ]",
       "county": "PASCO",
       "roads": [
         "SR 54"
       ],
       "coords": [
-        28.2408546903821,
-        -82.316266346842
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
-      "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "SR-56 x[LAJUANA BLVD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.1925646903821,
-        -82.3375687295108
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "COATS RD x[SR-54]    [ZEPHYRHILLS]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
-      "coords": [
-        28.2299829380764,
-        -82.213191631704
-      ]
-    },
-    {
-      "source": "FHP",
-      "kind": "Vehicle Crash",
-      "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "SR-56 x[GRAND CYPRESS DR]    [LUTZ]",
-      "county": "PASCO",
-      "roads": [],
-      "coords": [
-        28.193026455863,
-        -82.3937160320178
+        28.1916117654809,
+        -82.4655792300956
       ]
     }
   ],
@@ -481,5 +444,7 @@
     "Little Road",
     "SR 54"
   ],
-  "overlap": []
+  "overlap": [
+    "SR 54"
+  ]
 }
