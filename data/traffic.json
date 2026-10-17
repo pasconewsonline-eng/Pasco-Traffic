@@ -1,6 +1,40 @@
 {
-  "generated": "2026-10-17T12:45:35.803425Z",
+  "generated": "2026-10-17T16:11:08.326779Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 93,
+      "length_m": 164.354,
+      "coords": [
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 110,
+      "length_m": 160.678148348,
+      "coords": [
+        28.2160435848,
+        -82.7377944306
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +45,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -31,40 +65,6 @@
       "coords": [
         28.2361628496,
         -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Congress St",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 44,
-      "length_m": 139.8768034468,
-      "coords": [
-        28.2805386612,
-        -82.7061121777
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Canton Ave",
-      "roadnums": "",
-      "roads": [
-        "Little Road"
-      ],
-      "delay_sec": null,
-      "length_m": 354.7058901414,
-      "coords": [
-        28.329480944,
-        -82.6641584054
       ]
     },
     {
@@ -90,15 +90,17 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Tipton Ave",
+      "from": "Little Rd",
+      "to": "Canton Ave",
       "roadnums": "",
-      "roads": [],
+      "roads": [
+        "Little Road"
+      ],
       "delay_sec": null,
-      "length_m": 201.6231279231,
+      "length_m": 354.7058901414,
       "coords": [
-        28.3286776211,
-        -82.6600170747
+        28.329480944,
+        -82.6641584054
       ]
     },
     {
@@ -119,38 +121,52 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54 / Duck Slough Blvd",
-      "to": "Country Place Blvd",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Canton Ave",
+      "to": "Tipton Ave",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 88,
-      "length_m": 45.4099817837,
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 201.6231279231,
       "coords": [
-        28.1940025514,
-        -82.6348150388
+        28.3286776211,
+        -82.6600170747
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "State Road 54",
-      "to": "New Port Richey",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Hays Rd",
+      "to": "Hays Rd",
       "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 126,
-      "length_m": 186.2528052285,
+      "roads": [],
+      "delay_sec": 155,
+      "length_m": 181.8157485305,
       "coords": [
-        28.189430752,
-        -82.61831543
+        28.3564827264,
+        -82.5635930017
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-589/Suncoast Pkwy (FL-54)",
+      "to": "US-41/FL-45/Land O Lakes Blvd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [
+        "Suncoast Parkway"
+      ],
+      "delay_sec": 252,
+      "length_m": 887.1849908721,
+      "coords": [
+        28.1931657018,
+        -82.4697532371
       ]
     },
     {
@@ -171,11 +187,43 @@
     },
     {
       "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 54,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Livingston Rd (FL-54)",
+      "to": "FL-56 (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 144,
+      "length_m": 1080.2428709351,
+      "coords": [
+        28.1858285077,
+        -82.4192324892
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -190,8 +238,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -235,14 +283,30 @@
     },
     {
       "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Progress Pkwy",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 79,
+      "length_m": 122.2285106294,
+      "coords": [
+        28.2330756414,
+        -82.3711136594
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "Central Pasco",
       "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 56,
+      "delay_sec": 92,
       "length_m": 202.7268426929,
       "coords": [
         28.2374154748,
@@ -251,14 +315,30 @@
     },
     {
       "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "Northwood Palms Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 70,
+      "length_m": 227.5785419743,
+      "coords": [
+        28.1855898018,
+        -82.3647635296
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
+      "desc": "Backed up traffic",
       "from": "Central Pasco",
       "to": "Bellamy Brothers Blvd",
       "roadnums": "FL-52",
       "roads": [],
-      "delay_sec": 68,
+      "delay_sec": 48,
       "length_m": 167.252086934,
       "coords": [
         28.3243699858,
@@ -267,11 +347,113 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Williamsburg Dr",
+      "to": "Williamsburg Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 290,
+      "length_m": 341.9120954636,
+      "coords": [
+        28.1848240332,
+        -82.3511472955
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "CR-577/Curley Rd (FL-54)",
+      "to": "I-75 (FL-54)",
+      "roadnums": "County Hwy-54 FL-54",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 172,
+      "length_m": 968.4394866094,
+      "coords": [
+        28.2363519665,
+        -82.3504204169
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-54/Exit 279 (I-75)",
+      "roadnums": "I-75 S",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 156,
+      "length_m": 3596.5576021062,
+      "coords": [
+        28.2559857283,
+        -82.3398833588
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "Mansfield Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 93,
+      "length_m": 383.0819437651,
+      "coords": [
+        28.1960919874,
+        -82.3326078668
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Boyette Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 197,
+      "length_m": 290.7704585142,
+      "coords": [
+        28.2706533669,
+        -82.321394892
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "State Road 52",
+      "roadnums": "",
+      "roads": [
+        "SR 52"
+      ],
+      "delay_sec": 75,
+      "length_m": 173.2083667039,
+      "coords": [
+        28.3248621229,
+        -82.2969009593
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Wirt Rd",
+      "from": "Wirt Rd",
+      "to": "Curley Rd / Curley St",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
@@ -286,8 +468,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Curley Rd / Curley St",
+      "from": "Curley Rd / Curley St",
+      "to": "Wirt Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
@@ -343,6 +525,38 @@
       "coords": [
         28.3101274206,
         -82.2516695276
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Handcart Rd (Eiland Blvd/CR-54)",
+      "to": "Dean Dairy Rd (Eiland Blvd/CR-54)",
+      "roadnums": "County Hwy-54",
+      "roads": [],
+      "delay_sec": 118,
+      "length_m": 812.8310352188,
+      "coords": [
+        28.2445809938,
+        -82.2154838457
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "US Highway 301",
+      "to": "US Highway 301",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 579,
+      "length_m": 351.4901095103,
+      "coords": [
+        28.3413885653,
+        -82.1885893359
       ]
     },
     {
@@ -413,15 +627,17 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "OVERPASS RD x[BOYETTE RD]    [WESLEY CHAPEL]",
-      "county": "PASCO",
-      "roads": [],
+      "desc": "Vehicle Crash",
+      "location": "I-75 SB [MM305]  x[MM305]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [
+        "I-75"
+      ],
       "coords": [
-        28.2734696003513,
-        -82.3200234650303
+        28.5750609793588,
+        -82.2218622860792
       ]
     },
     {
@@ -429,22 +645,68 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "LAND O LAKES BLVD x[SR-54]    [LUTZ]",
+      "location": "24148 SR-54   [LUTZ]",
       "county": "PASCO",
       "roads": [
         "SR 54"
       ],
       "coords": [
-        28.1916117654809,
-        -82.4655792300956
+        28.18564609574,
+        -82.4164569782631
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "SR-56 x[WESLEY CHAPEL BLVD]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1905943170839,
+        -82.3970152366263
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "SR-52 x[CANYON BLVD]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [
+        "SR 52"
+      ],
+      "coords": [
+        28.3306064822134,
+        -82.5592341931536
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "N BITZER AVE x[E PARSONS POINT RD]    [HERNANDO]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.8994219455424,
+        -82.36905243065
       ]
     }
   ],
   "monitored_roads_active": [
+    "I-75",
     "Little Road",
-    "SR 54"
+    "SR 52",
+    "SR 54",
+    "Suncoast Parkway"
   ],
   "overlap": [
+    "I-75",
+    "SR 52",
     "SR 54"
   ]
 }
