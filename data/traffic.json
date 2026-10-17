@@ -1,24 +1,6 @@
 {
-  "generated": "2026-10-17T18:31:23.618984Z",
+  "generated": "2026-10-17T20:59:31.692889Z",
   "tomtom": [
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 68,
-      "length_m": 147.862,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -29,7 +11,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 158.798,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -56,17 +38,17 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Stopped traffic",
-      "from": "Richey Dr",
+      "from": "US Highway 19",
       "to": "US Highway 19",
       "roadnums": "",
       "roads": [
         "US 19"
       ],
-      "delay_sec": 72,
-      "length_m": 47.7731312836,
+      "delay_sec": 60,
+      "length_m": 127.6552585516,
       "coords": [
-        28.280439381,
-        -82.7175866679
+        28.3282940337,
+        -82.699249746
       ]
     },
     {
@@ -155,61 +137,11 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 70,
-      "length_m": 147.6256764512,
-      "coords": [
-        28.1866264804,
-        -82.4030587688
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Sun Vista Dr",
-      "to": "Sun Vista Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 116,
-      "length_m": 209.1781340496,
-      "coords": [
-        28.1894508466,
-        -82.3943536594
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Sierra Center Blvd",
-      "to": "Creek Grass Way",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 123,
-      "length_m": 292.0345491744,
-      "coords": [
-        28.1935063376,
-        -82.3946916178
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Regent Royal Ct",
-      "to": "Jermyn Loop",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -224,8 +156,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "from": "Regent Royal Ct",
+      "to": "Jermyn Loop",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -270,49 +202,17 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
+      "severity": "major",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
-      "to": "Old Pasco Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 115,
-      "length_m": 110.4145390694,
-      "coords": [
-        28.2380404158,
-        -82.3660214856
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Old Pasco Rd (FL-54)",
-      "to": "CR-577/Curley Rd (FL-54)",
+      "to": "Progress Pkwy",
       "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 159,
-      "length_m": 907.533942793,
+      "delay_sec": 138,
+      "length_m": 122.2285106294,
       "coords": [
-        28.2363961995,
-        -82.3530865326
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "State Road 56",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 370.7900713318,
-      "coords": [
-        28.1888621168,
-        -82.3486394301
+        28.2330756414,
+        -82.3711136594
       ]
     },
     {
@@ -374,8 +274,8 @@
       "roads": [
         "Ridge Road"
       ],
-      "delay_sec": 239,
-      "length_m": 465.6283191567,
+      "delay_sec": 180,
+      "length_m": 444.7404255417,
       "coords": [
         28.210227259,
         -82.2460784629
@@ -481,45 +381,35 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash",
+      "kind": "Hit and Run Crash w/injuries",
       "severity": "reported",
-      "desc": "Vehicle Crash",
-      "location": "LITTLE RD x[RIDGE RD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "Little Road",
-        "Ridge Road"
-      ],
+      "desc": "Hit and Run Crash w/injuries",
+      "location": "COMMERCIAL WAY x[CORTEZ BLVD]    [BROOKSVILLE]",
+      "county": "HERNANDO",
+      "roads": [],
       "coords": [
-        28.2805496003513,
-        -82.6758821824564
+        28.5190425384278,
+        -82.5711927484384
       ]
     },
     {
       "source": "FHP",
-      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "TROUBLE CREEK RD x[US-19]    [NEW PORT RICHEY]",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[EHREN CUTOFF]    [LAND O LAKES]",
       "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
+      "roads": [],
       "coords": [
-        28.2241672683355,
-        -82.7336639481762
+        28.241678440931,
+        -82.4602017643749
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
     "Ridge Road",
-    "SR 54",
     "US 19"
   ],
-  "overlap": [
-    "Little Road",
-    "Ridge Road",
-    "US 19"
-  ]
+  "overlap": []
 }
