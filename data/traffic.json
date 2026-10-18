@@ -1,6 +1,22 @@
 {
-  "generated": "2026-10-18T13:03:51.143456Z",
+  "generated": "2026-10-18T16:32:49.547621Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Grand Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 83,
+      "length_m": 144.245,
+      "coords": [
+        28.2170253129,
+        -82.7219144122
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +27,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -31,6 +47,24 @@
       "coords": [
         28.2361628496,
         -82.7220512048
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Little Rd",
+      "to": "Mitchell Blvd",
+      "roadnums": "",
+      "roads": [
+        "Little Road"
+      ],
+      "delay_sec": 91,
+      "length_m": 76.5147167611,
+      "coords": [
+        28.187484806,
+        -82.6676077262
       ]
     },
     {
@@ -136,17 +170,35 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Grand Parkview Blvd",
-      "to": "Mentmore Blvd",
-      "roadnums": "FL-54",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "New Port Richey",
+      "roadnums": "",
       "roads": [],
-      "delay_sec": 46,
-      "length_m": 138.9274305032,
+      "delay_sec": 168,
+      "length_m": 83.6582008461,
       "coords": [
-        28.1935157196,
-        -82.4993326381
+        28.1895205868,
+        -82.617737414
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "New Port Richey",
+      "to": "State Road 54",
+      "roadnums": "",
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 208,
+      "length_m": 187.5851667449,
+      "coords": [
+        28.1918138596,
+        -82.6142290846
       ]
     },
     {
@@ -163,6 +215,22 @@
       "coords": [
         28.2160449143,
         -82.4598652735
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 52,
+      "length_m": 126.905205149,
+      "coords": [
+        28.1859934811,
+        -82.4282353237
       ]
     },
     {
@@ -202,8 +270,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Compark Dr / Scarborough Dr",
-      "to": "Wesley Chapel Blvd",
+      "from": "Wesley Chapel Blvd",
+      "to": "Compark Dr / Scarborough Dr",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -218,8 +286,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wesley Chapel Blvd",
-      "to": "Compark Dr / Scarborough Dr",
+      "from": "Compark Dr / Scarborough Dr",
+      "to": "Wesley Chapel Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
@@ -234,15 +302,31 @@
       "kind": "Traffic Jam",
       "severity": "moderate",
       "desc": "Backed up traffic",
-      "from": "The Shoppes at New Tampa",
-      "to": "Central Pasco",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 231,
-      "length_m": 158.0254936265,
+      "delay_sec": 83,
+      "length_m": 110.4145390694,
       "coords": [
-        28.1827788539,
-        -82.3530677572
+        28.2380404158,
+        -82.3660214856
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Central Pasco",
+      "to": "Ancient Oaks Blvd",
+      "roadnums": "FL-56",
+      "roads": [],
+      "delay_sec": 49,
+      "length_m": 206.0900241395,
+      "coords": [
+        28.1856005144,
+        -82.3624005034
       ]
     },
     {
@@ -250,8 +334,58 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Curley Rd / Curley St",
+      "from": "State Road 56",
+      "to": "State Road 56",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 170.4400284043,
+      "coords": [
+        28.1887467937,
+        -82.347649695
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Overpass Rd (I-75)",
+      "to": "FL-56 (I-75)",
+      "roadnums": "I-75 S",
+      "roads": [
+        "I-75"
+      ],
+      "delay_sec": 293,
+      "length_m": 4203.8824618781,
+      "coords": [
+        28.2361266656,
+        -82.3552510753
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Boyette Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 71,
+      "length_m": 189.7650728047,
+      "coords": [
+        28.2733074239,
+        -82.3204386845
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Curley Rd / Curley St",
+      "to": "Wirt Rd",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
@@ -266,8 +400,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Curley Rd / Curley St",
-      "to": "Wirt Rd",
+      "from": "Wirt Rd",
+      "to": "Curley Rd / Curley St",
       "roadnums": "County Hwy-579A",
       "roads": [],
       "delay_sec": null,
@@ -295,18 +429,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Wirt Rd",
-      "to": "Handcart Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 2430.7888747016,
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "FL-54 (Morris Bridge Rd)",
+      "to": "FL-56 (Morris Bridge Rd)",
+      "roadnums": "",
+      "roads": [
+        "Ridge Road"
+      ],
+      "delay_sec": 292,
+      "length_m": 1030.7777716553,
       "coords": [
-        28.3100590138,
-        -82.2583884611
+        28.2128102145,
+        -82.2461669758
       ]
     },
     {
@@ -330,6 +466,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "Wirt Rd",
+      "to": "Handcart Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 2430.7888747016,
+      "coords": [
+        28.3100590138,
+        -82.2583884611
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "FL-35A/Old Lakeland Hwy (US-98)",
       "to": "US-301 (US-98)",
       "roadnums": "FL-35 FL-700 US-98 E US-98 W",
@@ -346,8 +498,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Merrick Rd",
-      "to": "Belmar Ln",
+      "from": "Belmar Ln",
+      "to": "Merrick Rd",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -362,15 +514,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Belmar Ln",
-      "to": "Merrick Rd",
+      "from": "Merrick Rd",
+      "to": "Belmar Ln",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
-      "length_m": 2069.6908502827,
+      "length_m": 2371.3690158324,
       "coords": [
-        28.2743856964,
-        -82.1250451221
+        28.2770719184,
+        -82.1259906008
       ]
     }
   ],
@@ -390,7 +542,10 @@
     }
   ],
   "monitored_roads_active": [
-    "Little Road"
+    "I-75",
+    "Little Road",
+    "Ridge Road",
+    "SR 54"
   ],
   "overlap": []
 }
