@@ -1,22 +1,68 @@
 {
-  "generated": "2026-11-01T15:52:34.300648Z",
+  "generated": "2026-11-01T20:19:17.918773Z",
   "tomtom": [
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
+      "kind": "Rain",
       "severity": "minor",
-      "desc": "Slow traffic",
+      "desc": "Heavy rain; Slow traffic",
       "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 81,
-      "length_m": 147.862,
+      "to": "Mile Stretch Dr",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 69,
+      "length_m": 164.354,
       "coords": [
-        28.2088647008,
-        -82.739621015
+        28.1869724563,
+        -82.7400635795
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 64,
+      "length_m": 164.5198566414,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Sunray Dr/Perrine Ranch Rd (Grand Blvd/CR-595)",
+      "to": "Moog Rd (Grand Blvd/CR-595)",
+      "roadnums": "County Hwy-595",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 1005.8197402862,
+      "coords": [
+        28.1984576606,
+        -82.7234030382
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 158.7983712618,
+      "coords": [
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -40,47 +86,15 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
+      "from": "Teak St",
+      "to": "Mango St",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.7983712618,
+      "length_m": 94.7081949407,
       "coords": [
-        28.2361628496,
-        -82.7220512048
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Port Richey",
-      "to": "Gableview Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 262,
-      "length_m": 116.2957566686,
-      "coords": [
-        28.2921727019,
-        -82.7112901822
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "New Port Richey",
-      "to": "Regency Park Blvd",
-      "roadnums": "County Hwy-524",
-      "roads": [],
-      "delay_sec": 89,
-      "length_m": 117.9521747299,
-      "coords": [
-        28.2804971037,
-        -82.6980668918
+        28.329480944,
+        -82.6641584054
       ]
     },
     {
@@ -104,24 +118,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Teak St",
-      "to": "Mango St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 94.7081949407,
-      "coords": [
-        28.329480944,
-        -82.6641584054
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -138,8 +136,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Canton Ave",
+      "from": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -201,22 +199,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Morgan Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 61,
-      "length_m": 123.1269138425,
-      "coords": [
-        28.1975980195,
-        -82.4644974485
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -229,40 +211,6 @@
       "coords": [
         28.2160449143,
         -82.4598652735
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 82,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 54",
-      "to": "State Road 54 / Cypress Creek Rd",
-      "roadnums": "",
-      "roads": [
-        "SR 54"
-      ],
-      "delay_sec": 53,
-      "length_m": 147.6256764512,
-      "coords": [
-        28.1866264804,
-        -82.4030587688
       ]
     },
     {
@@ -301,18 +249,64 @@
       "source": "TomTom",
       "kind": "Traffic Jam",
       "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 52",
-      "to": "Bellamy Brothers Blvd / State Road 52",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Northwood Palms Rd",
       "roadnums": "",
-      "roads": [
-        "SR 52"
-      ],
-      "delay_sec": 96,
-      "length_m": 163.8064669196,
+      "roads": [],
+      "delay_sec": 87,
+      "length_m": 216.8347243815,
       "coords": [
-        28.3245121672,
-        -82.3568536952
+        28.1854623588,
+        -82.3684716836
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Old Pasco Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 117,
+      "length_m": 110.4145390694,
+      "coords": [
+        28.2380404158,
+        -82.3660214856
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Central Pasco",
+      "to": "Ancient Oaks Blvd",
+      "roadnums": "FL-56",
+      "roads": [],
+      "delay_sec": 76,
+      "length_m": 206.0900241395,
+      "coords": [
+        28.1856005144,
+        -82.3624005034
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Sports Coast Way",
+      "to": "Sports Coast Way",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 64,
+      "length_m": 71.7652523795,
+      "coords": [
+        28.1983249142,
+        -82.3419419542
       ]
     },
     {
@@ -334,13 +328,13 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
       "from": "Central Pasco",
       "to": "Curley Rd",
       "roadnums": "County Hwy-54",
       "roads": [],
-      "delay_sec": 66,
+      "delay_sec": 81,
       "length_m": 175.8496424936,
       "coords": [
         28.2405911678,
@@ -400,22 +394,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Handcart Rd",
-      "to": "Wirt Rd",
-      "roadnums": "County Hwy-579A",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 835.2983798759,
-      "coords": [
-        28.3101274206,
-        -82.2516695276
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Wirt Rd",
       "to": "Handcart Rd",
       "roadnums": "County Hwy-579A",
@@ -425,6 +403,22 @@
       "coords": [
         28.3100590138,
         -82.2583884611
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Handcart Rd",
+      "to": "Wirt Rd",
+      "roadnums": "County Hwy-579A",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 835.2983798759,
+      "coords": [
+        28.3101274206,
+        -82.2516695276
       ]
     },
     {
@@ -464,6 +458,22 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
+      "from": "CR-530/Otis Allen Rd (Wire Rd)",
+      "to": "US-301/Gall Blvd (Wire Rd)",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 823.0160671367,
+      "coords": [
+        28.290213351,
+        -82.1841583266
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
       "from": "12th St",
       "to": "12th St",
       "roadnums": "",
@@ -485,58 +495,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 225.6530847206,
+      "length_m": 1790.5520914792,
       "coords": [
-        28.2779516617,
-        -82.1797782793
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "CR-530/Otis Allen Rd (Wire Rd)",
-      "to": "US-301/Gall Blvd (Wire Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1161.9331842084,
-      "coords": [
-        28.2850179111,
-        -82.1805145457
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "US-301/Gall Blvd (Wire Rd)",
-      "to": "CR-530/Otis Allen Rd (Wire Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1365.6516963067,
-      "coords": [
-        28.2846196254,
-        -82.1802382782
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Crystal Springs Rd (Central Ave)",
-      "to": "FL-39/Paul S Buchman Hwy (Central Ave)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 246,
-      "length_m": 181.1023084129,
-      "coords": [
-        28.1791538508,
-        -82.1577640488
+        28.2841046418,
+        -82.1799016609
       ]
     },
     {
@@ -591,58 +553,78 @@
   "fhp": [
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "13705 US-19   [HUDSON]",
+      "desc": "Vehicle Crash",
+      "location": "LITTLE RANCH RD x[TIGER TRL]    [SPRING HILL]",
       "county": "PASCO",
-      "roads": [
-        "US 19"
-      ],
+      "roads": [],
       "coords": [
-        28.3548480544576,
-        -82.6989222347041
+        28.3993697935881,
+        -82.5688542386155
       ]
     },
     {
       "source": "FHP",
-      "kind": "Hit and Run Crash",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Hit and Run Crash",
-      "location": "MIRADA BLVD x[SR-52]    [SAN ANTONIO]",
+      "desc": "Vehicle Crash",
+      "location": "SR-54 x[COLLIER PKWY]    [LUTZ]",
       "county": "PASCO",
       "roads": [
-        "SR 52"
+        "SR 54"
       ],
       "coords": [
-        28.3252199868248,
-        -82.2977533435998
+        28.1862319455424,
+        -82.438159786808
       ]
     },
     {
       "source": "FHP",
-      "kind": "Vehicle Crash w/injuries",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Vehicle Crash w/injuries",
-      "location": "3511 US-19   [NEW PORT RICHEY]",
+      "desc": "Vehicle Crash",
+      "location": "SR-589 NB [MM24]  x[MM24]    [LAND O LAKES]",
       "county": "PASCO",
       "roads": [
-        "US 19"
+        "Suncoast Parkway"
       ],
       "coords": [
-        28.2101447167325,
-        -82.7394776769189
+        28.2661186341678,
+        -82.5500865863415
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/roadblock",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/roadblock",
+      "location": "SUNRAY DR x[GRAND BLVD]    [HOLIDAY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1951002064119,
+        -82.7236652394216
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "BRUCE B DOWNS BLVD x[CHANCEY RD]    [WESLEY CHAPEL]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2091849099693,
+        -82.3534715664938
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 52",
     "SR 54",
-    "US 19"
+    "Suncoast Parkway"
   ],
-  "overlap": [
-    "SR 52",
-    "US 19"
-  ]
+  "overlap": []
 }
