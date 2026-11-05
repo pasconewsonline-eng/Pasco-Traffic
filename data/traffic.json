@@ -1,6 +1,24 @@
 {
-  "generated": "2026-11-04T22:29:25.864959Z",
+  "generated": "2026-11-05T02:42:48.400501Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Mile Stretch Dr",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 93,
+      "length_m": 130.738,
+      "coords": [
+        28.1885522733,
+        -82.7400367574
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
@@ -8,83 +26,13 @@
       "desc": "Backed up traffic",
       "from": "New Port Richey",
       "to": "Darlington Rd",
-      "roadnums": "US-19 S",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 84,
-      "length_m": 160.841,
-      "coords": [
-        28.1961161437,
-        -82.739878507
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "New Port Richey",
-      "to": "Moog Rd",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 90,
-      "length_m": 147.8622545944,
-      "coords": [
-        28.2088647008,
-        -82.739621015
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Darlington Rd (US-19)",
-      "to": "Moog Rd (US-19)",
-      "roadnums": "US-19 N",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 113,
-      "length_m": 825.8877702061,
-      "coords": [
-        28.2060832466,
-        -82.7395874874
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Sunset Rd",
-      "to": "Sunset Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 190,
-      "length_m": 66.1039162109,
+      "delay_sec": 82,
+      "length_m": 164.5198566414,
       "coords": [
-        28.2568211997,
-        -82.7269516007
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Grand Blvd",
-      "to": "Aspen St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 158.7983712618,
-      "coords": [
-        28.2361628496,
-        -82.7220512048
+        28.1938684697,
+        -82.7399120347
       ]
     },
     {
@@ -105,54 +53,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Cecelia Dr (Madison St)",
-      "to": "Trouble Creek Rd (Madison St)",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Grand Blvd",
+      "to": "Aspen St",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 155,
-      "length_m": 369.6074511876,
+      "delay_sec": null,
+      "length_m": 158.7983712618,
       "coords": [
-        28.2250101968,
-        -82.7153242246
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Avon St",
-      "to": "US Highway 19",
-      "roadnums": "",
-      "roads": [
-        "US 19"
-      ],
-      "delay_sec": 71,
-      "length_m": 23.494139825,
-      "coords": [
-        28.3473806773,
-        -82.6990754024
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "CR-587/Massachusetts Ave (Rowan Rd)",
-      "to": "CR-524/Ridge Rd (Regency Park Blvd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 140,
-      "length_m": 972.8025992533,
-      "coords": [
-        28.275832751,
-        -82.6983445004
+        28.2361628496,
+        -82.7220512048
       ]
     },
     {
@@ -192,17 +104,17 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Old CR-54/Villa Entrada (Little Rd/CR-1)",
-      "to": "Trouble Creek Rd (Little Rd/CR-1)",
+      "from": "Port Richey",
+      "to": "Little Rd",
       "roadnums": "County Hwy-1",
       "roads": [
         "Little Road"
       ],
-      "delay_sec": 190,
-      "length_m": 1270.1039445852,
+      "delay_sec": 137,
+      "length_m": 98.6999623212,
       "coords": [
-        28.233467252,
-        -82.6662545518
+        28.3311023276,
+        -82.6653949038
       ]
     },
     {
@@ -242,8 +154,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Little Rd",
-      "to": "Canton Ave",
+      "from": "Canton Ave",
+      "to": "Little Rd",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -260,8 +172,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Canton Ave",
-      "to": "Little Rd",
+      "from": "Little Rd",
+      "to": "Canton Ave",
       "roadnums": "",
       "roads": [
         "Little Road"
@@ -291,238 +203,6 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Alico Pass",
-      "to": "River Crossing Blvd / Clark Lake Dr",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 141,
-      "length_m": 1340.5421382946,
-      "coords": [
-        28.2452555124,
-        -82.6484259084
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "FL-589/Suncoast Pkwy (Shady Hills Rd)",
-      "to": "Peace Blvd/Platinum Dr (Shady Hills Rd)",
-      "roadnums": "",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "delay_sec": 129,
-      "length_m": 1413.0501073972,
-      "coords": [
-        28.3900612677,
-        -82.5511931494
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Ridge Rd (County Hwy-587) exit [25]",
-      "to": "Ridge Rd",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 113,
-      "length_m": 227.5439251936,
-      "coords": [
-        28.2816209202,
-        -82.5494631246
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Backed up traffic",
-      "from": "Springhill Toll Plaza (FL-589)",
-      "to": "FL-54/Exit 19 (FL-589)",
-      "roadnums": "FL-589 S",
-      "roads": [],
-      "delay_sec": 30,
-      "length_m": 412.3151635371,
-      "coords": [
-        28.1972896049,
-        -82.546927096
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Broken Down Vehicle",
-      "severity": "unknown",
-      "desc": "Broken down vehicle; Lane closed",
-      "from": "FL-54 exit [19]",
-      "to": "FL-54 exit [19]",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 608.9080893184,
-      "coords": [
-        28.1929270123,
-        -82.5461733953
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic; Broken down vehicle",
-      "from": "FL-54 exit [19]",
-      "to": "FL-54 exit [19]",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 241,
-      "length_m": 734.5178629317,
-      "coords": [
-        28.190357391,
-        -82.5453982368
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "CR-685A/Van Dyke Rd/Exit 14 (FL-589)",
-      "to": "FL-54/Exit 19 (FL-589)",
-      "roadnums": "FL-589 N",
-      "roads": [],
-      "delay_sec": 77,
-      "length_m": 1943.0116873751,
-      "coords": [
-        28.155701921,
-        -82.537713708
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US-41/FL-45/Land O Lakes Blvd (FL-54)",
-      "to": "FL-589/Suncoast Pkwy (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "delay_sec": 326,
-      "length_m": 1476.2727930495,
-      "coords": [
-        28.1936229853,
-        -82.5343931333
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Wilderness Lake Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 63,
-      "length_m": 226.477442128,
-      "coords": [
-        28.2613983824,
-        -82.4755682662
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "CR-583/Ehren Cutoff (US-41)",
-      "to": "FL-52 (US-41)",
-      "roadnums": "FL-45 US-41 N",
-      "roads": [],
-      "delay_sec": 379,
-      "length_m": 2558.5049361696,
-      "coords": [
-        28.2598708801,
-        -82.4746938661
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-589/Suncoast Pkwy (FL-54)",
-      "to": "US-41/FL-45/Land O Lakes Blvd (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [
-        "Suncoast Parkway"
-      ],
-      "delay_sec": 186,
-      "length_m": 1150.2920946663,
-      "coords": [
-        28.1932662452,
-        -82.4701086298
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hale Rd (US-41)",
-      "to": "FL-54 (US-41)",
-      "roadnums": "FL-45 US-41 S",
-      "roads": [],
-      "delay_sec": 319,
-      "length_m": 896.6394509975,
-      "coords": [
-        28.1946462888,
-        -82.4652337149
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "N Dale Mabry Hwy",
-      "to": "Land O Lakes Blvd / N US Highway 41",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 332,
-      "length_m": 1000.5982032408,
-      "coords": [
-        28.1718729595,
-        -82.4674411729
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Central Pasco",
-      "roadnums": "FL-45",
-      "roads": [],
-      "delay_sec": 292,
-      "length_m": 114.7390781728,
-      "coords": [
-        28.2133452633,
-        -82.4611084774
-      ]
-    },
-    {
-      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -535,184 +215,6 @@
       "coords": [
         28.2160449143,
         -82.4598652735
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Collier Pkwy (FL-54)",
-      "to": "US-41/FL-45/Land O Lakes Blvd (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 153,
-      "length_m": 686.9301953267,
-      "coords": [
-        28.1912801066,
-        -82.4632260814
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Livingston Ave (Collier Pkwy)",
-      "to": "FL-54 (Collier Pkwy)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 139,
-      "length_m": 329.6515643703,
-      "coords": [
-        28.1840072813,
-        -82.4378604308
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Champions Ave",
-      "to": "Collier Pkwy",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 210,
-      "length_m": 192.9382270183,
-      "coords": [
-        28.1879233488,
-        -82.4384210125
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Hale Rd (Collier Pkwy)",
-      "to": "FL-54 (Collier Pkwy)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 206,
-      "length_m": 666.906596329,
-      "coords": [
-        28.1876779246,
-        -82.4377705768
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-54 (Collier Pkwy)",
-      "to": "Livingston Ave (Collier Pkwy)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 169,
-      "length_m": 648.7508071031,
-      "coords": [
-        28.1712185188,
-        -82.4312179402
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Collier Pkwy (FL-54)",
-      "to": "Livingston Rd (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 180,
-      "length_m": 714.896344481,
-      "coords": [
-        28.1858714318,
-        -82.4303770676
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Livingston Rd",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 105,
-      "length_m": 126.905205149,
-      "coords": [
-        28.1859934811,
-        -82.4282353237
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US-41/FL-45/Land O Lakes Blvd (Ehren Cutoff/CR-583)",
-      "to": "FL-52 (Ehren Cutoff/CR-583)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 425,
-      "length_m": 660.4300394673,
-      "coords": [
-        28.3217535045,
-        -82.4172221735
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Livingston Rd (FL-54)",
-      "to": "FL-56 (FL-54)",
-      "roadnums": "FL-54",
-      "roads": [],
-      "delay_sec": 133,
-      "length_m": 1008.3405461145,
-      "coords": [
-        28.1858298375,
-        -82.4185740069
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "FL-56 exit [59]",
-      "to": "State Road 56",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 59,
-      "length_m": 1124.8224029036,
-      "coords": [
-        28.1661732721,
-        -82.3949115589
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "CR-581/Bruce B Downs Blvd/Exit 56 (I-75)",
-      "to": "I-275/Exit 57 (I-75)",
-      "roadnums": "I-75 N",
-      "roads": [
-        "I-75"
-      ],
-      "delay_sec": 41,
-      "length_m": 1451.0754913539,
-      "coords": [
-        28.1583653395,
-        -82.3928958788
       ]
     },
     {
@@ -752,31 +254,15 @@
       "kind": "Traffic Jam",
       "severity": "minor",
       "desc": "Slow traffic",
-      "from": "FL-56 exit [275]",
+      "from": "Hueland Pond Blvd",
       "to": "State Road 56",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 210,
-      "length_m": 3682.4772188671,
+      "delay_sec": 71,
+      "length_m": 294.0484880464,
       "coords": [
-        28.1760116485,
-        -82.3914367571
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Central Pasco",
-      "to": "Old Pasco Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 110,
-      "length_m": 202.7268426929,
-      "coords": [
-        28.2374154748,
-        -82.3673277214
+        28.1972600562,
+        -82.3292001203
       ]
     },
     {
@@ -784,233 +270,17 @@
       "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
-      "from": "Dayflower Blvd",
-      "to": "Dayflower Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 148,
-      "length_m": 87.1233932243,
-      "coords": [
-        28.2428241242,
-        -82.3647072032
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Northwood Palms Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 54,
-      "length_m": 227.5785419743,
-      "coords": [
-        28.1855898018,
-        -82.3647635296
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
-      "from": "Central Pasco",
-      "to": "Ancient Oaks Blvd",
-      "roadnums": "FL-56",
-      "roads": [],
-      "delay_sec": 55,
-      "length_m": 206.0900241395,
-      "coords": [
-        28.1856005144,
-        -82.3624005034
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "CR-583/Ehren Cutoff (FL-52)",
-      "to": "CR-581/Bellamy Brothers Blvd (FL-52)",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 225,
-      "length_m": 2578.7016369208,
-      "coords": [
-        28.3241124798,
-        -82.3690389708
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Bellamy Brothers Blvd",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 79,
-      "length_m": 167.252086934,
-      "coords": [
-        28.3243699858,
-        -82.3590477422
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "CR-581/Bruce B Downs Blvd/Exit 56 (I-75)",
-      "to": "FL-54/Exit 279 (I-75)",
-      "roadnums": "I-75 N",
+      "from": "I-75 (FL-54)",
+      "to": "CR-577/Curley Rd (FL-54)",
+      "roadnums": "County Hwy-54",
       "roads": [
         "I-75"
       ],
-      "delay_sec": 426,
-      "length_m": 7480.4265518797,
+      "delay_sec": 299,
+      "length_m": 739.8722960303,
       "coords": [
-        28.2024702617,
-        -82.3793225601
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Gateway Blvd",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 162,
-      "length_m": 203.1707300171,
-      "coords": [
-        28.2380685502,
-        -82.3574303701
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "State Road 52",
-      "to": "Bellamy Brothers Blvd / State Road 52",
-      "roadnums": "",
-      "roads": [
-        "SR 52"
-      ],
-      "delay_sec": 101,
-      "length_m": 163.8064669196,
-      "coords": [
-        28.3245121672,
-        -82.3568536952
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "FL-56 (Bruce B Downs Blvd/CR-581)",
-      "to": "FL-54 (Bruce B Downs Blvd/CR-581)",
-      "roadnums": "County Hwy-581",
-      "roads": [],
-      "delay_sec": 134,
-      "length_m": 558.6631528384,
-      "coords": [
-        28.2346326228,
-        -82.3500744119
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "CR-577/Curley Rd (FL-54)",
-      "to": "I-75 (FL-54)",
-      "roadnums": "County Hwy-54 FL-54",
-      "roads": [
-        "I-75"
-      ],
-      "delay_sec": 148,
-      "length_m": 943.4364562541,
-      "coords": [
-        28.2363465758,
-        -82.3508093372
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Old Pasco Rd (FL-52)",
-      "to": "CR-581/Bellamy Brothers Blvd (FL-52)",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 199,
-      "length_m": 1301.6895934335,
-      "coords": [
-        28.3246744175,
-        -82.3483122006
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Ashley Pines Pl",
-      "to": "Wesley Chapel Blvd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 266,
-      "length_m": 141.5446885389,
-      "coords": [
-        28.2328623707,
-        -82.2996636346
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "State Road 52",
-      "roadnums": "",
-      "roads": [
-        "SR 52"
-      ],
-      "delay_sec": 79,
-      "length_m": 173.2083667039,
-      "coords": [
-        28.3248621229,
-        -82.2969009593
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "CR-579/Morris Bridge Rd (FL-56)",
-      "to": "Meadow Pointe Blvd (FL-56)",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 163,
-      "length_m": 772.0208547361,
-      "coords": [
-        28.1978703101,
-        -82.2952205553
+        28.2405456073,
+        -82.3250574484
       ]
     },
     {
@@ -1043,76 +313,6 @@
       "coords": [
         28.312117619,
         -82.2743234649
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "Central Pasco",
-      "to": "Curley St",
-      "roadnums": "FL-52",
-      "roads": [],
-      "delay_sec": 97,
-      "length_m": 285.2175243306,
-      "coords": [
-        28.324761556,
-        -82.2767709806
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Stopped traffic",
-      "from": "FL-54 (Morris Bridge Rd)",
-      "to": "FL-56 (Morris Bridge Rd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 117,
-      "length_m": 533.5085898274,
-      "coords": [
-        28.2104418306,
-        -82.2460865095
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Cross Creek Blvd (Morris Bridge Rd)",
-      "to": "FL-54 (Morris Bridge Rd)",
-      "roadnums": "",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 674,
-      "length_m": 2825.3417704574,
-      "coords": [
-        28.2012015662,
-        -82.2470440581
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Zephyrhills",
-      "to": "Morris Bridge Rd",
-      "roadnums": "FL-56",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 56,
-      "length_m": 239.4547861413,
-      "coords": [
-        28.1958250849,
-        -82.2469112888
       ]
     },
     {
@@ -1150,111 +350,13 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "McCabe Rd",
-      "to": "Clinton Ave / Prospect Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 74,
-      "length_m": 251.6639354751,
-      "coords": [
-        28.3319123461,
-        -82.2375329449
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Zephyrhills",
-      "to": "Prospect Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 51,
-      "length_m": 129.3125092833,
-      "coords": [
-        28.3319780828,
-        -82.2370474651
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "FL-54/Morris Bridge Rd (FL-54)",
-      "to": "Coats Rd/Dean Dairy Rd (FL-54)",
-      "roadnums": "County Hwy-54",
-      "roads": [
-        "Ridge Road"
-      ],
-      "delay_sec": 270,
-      "length_m": 1546.1310569953,
-      "coords": [
-        28.2298771268,
-        -82.2222725167
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Handcart Rd (Eiland Blvd/CR-54)",
-      "to": "Geiger Rd (Eiland Blvd/CR-54)",
-      "roadnums": "County Hwy-54",
-      "roads": [],
-      "delay_sec": 559,
-      "length_m": 2367.1259851691,
-      "coords": [
-        28.2451415792,
-        -82.2289150074
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US-301/Gall Blvd (Eiland Blvd/CR-54)",
-      "to": "Dean Dairy Rd (Eiland Blvd/CR-54)",
-      "roadnums": "County Hwy-54",
-      "roads": [],
-      "delay_sec": 258,
-      "length_m": 1188.5381719803,
-      "coords": [
-        28.2457155264,
-        -82.2027031198
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "McIntosh Rd (US-301)",
-      "to": "CR-535/Chancey Rd (Gall Blvd/US-301)",
-      "roadnums": "US-301 S US-301 N",
-      "roads": [],
-      "delay_sec": 737,
-      "length_m": 3734.5159235159,
-      "coords": [
-        28.1918674933,
-        -82.2018756583
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
       "severity": "major",
       "desc": "Stopped traffic",
       "from": "US Highway 301",
       "to": "US Highway 301",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 370,
+      "delay_sec": 432,
       "length_m": 351.4901095103,
       "coords": [
         28.3413885653,
@@ -1279,50 +381,18 @@
     },
     {
       "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "US Highway 301 / Countryside Pl",
-      "to": "US Highway 301",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "CR-530/Otis Allen Rd (Wire Rd)",
+      "to": "US-301/Gall Blvd (Wire Rd)",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 281,
-      "length_m": 104.0863179921,
+      "delay_sec": null,
+      "length_m": 2297.4153208422,
       "coords": [
-        28.3473015244,
-        -82.1866608276
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Coats Rd (Chancey Rd)",
-      "to": "US-301/Gall Blvd (Chancey Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 217,
-      "length_m": 484.8197178198,
-      "coords": [
-        28.2081324119,
-        -82.186113657
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Gall Blvd",
-      "to": "Wire Rd",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": 151,
-      "length_m": 402.2338395252,
-      "coords": [
-        28.2664731649,
-        -82.1821144834
+        28.2840376207,
+        -82.1798574045
       ]
     },
     {
@@ -1339,22 +409,6 @@
       "coords": [
         28.2839705257,
         -82.1798171713
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "CR-530/Otis Allen Rd (Wire Rd)",
-      "to": "US-301/Gall Blvd (Wire Rd)",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 1631.5243304536,
-      "coords": [
-        28.2856214631,
-        -82.1809343114
       ]
     },
     {
@@ -1412,27 +466,53 @@
       "kind": "Vehicle Crash",
       "severity": "reported",
       "desc": "Vehicle Crash",
-      "location": "TRINITY BLVD x[LITTLE RD]    [NEW PORT RICHEY]",
+      "location": "LAKE PATIENCE RD x[FAN PALM CT]    [LAND O LAKES]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2153078612209,
+        -82.4659128228965
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash w/injuries",
+      "severity": "reported",
+      "desc": "Hit and Run Crash w/injuries",
+      "location": "EMMONS AVE x[LITTLE RD]    [NEW PORT RICHEY]",
       "county": "PASCO",
       "roads": [
         "Little Road"
       ],
       "coords": [
-        28.177477654809,
-        -82.6651896203578
+        28.2706780544576,
+        -82.6745340951378
       ]
     },
     {
       "source": "FHP",
-      "kind": "Patrol Car Crash",
+      "kind": "Vehicle Crash",
       "severity": "reported",
-      "desc": "Patrol Car Crash",
-      "location": "WESLEY CHAPEL BLVD x[OAKLEY BLVD]    [WESLEY CHAPEL]",
+      "desc": "Vehicle Crash",
+      "location": "FIVAY RD x[LIBRARY RD]    [HUDSON]",
       "county": "PASCO",
       "roads": [],
       "coords": [
-        28.237514896794,
-        -82.357333656075
+        28.3540747035573,
+        -82.6830406735503
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "GALL BLVD x[CHANCEY RD]    [ZEPHYRHILLS]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.20816,
+        -82.1850697122507
       ]
     },
     {
@@ -1440,24 +520,44 @@
       "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
       "severity": "reported",
       "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
-      "location": "SR-54 x[ROWAN RD]    [NEW PORT RICHEY]",
-      "county": "PASCO",
-      "roads": [
-        "SR 54"
-      ],
+      "location": "COMMERCIAL WAY x[TOUCAN TRL]    [SPRING HILL]",
+      "county": "HERNANDO",
+      "roads": [],
       "coords": [
-        28.2170617786561,
-        -82.6926981379573
+        28.481701559069,
+        -82.6081217886476
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "DENTON AVE x[ELMER TER]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.3897905797101,
+        -82.6657714745149
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Hit and Run Crash",
+      "severity": "reported",
+      "desc": "Hit and Run Crash",
+      "location": "WESTWOOD DR x[TOPP DR]    [HOLIDAY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2054980544576,
+        -82.744254566631
       ]
     }
   ],
   "monitored_roads_active": [
     "I-75",
     "Little Road",
-    "Ridge Road",
-    "SR 52",
-    "SR 54",
-    "Suncoast Parkway",
     "US 19"
   ],
   "overlap": [
