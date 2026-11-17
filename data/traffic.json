@@ -1,6 +1,24 @@
 {
-  "generated": "2026-11-17T02:33:21.008915Z",
+  "generated": "2026-11-17T18:16:24.795468Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Flora Ave",
+      "to": "US Highway 19",
+      "roadnums": "",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 71,
+      "length_m": 52.4779,
+      "coords": [
+        28.1771408511,
+        -82.740275474
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +29,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -36,17 +54,33 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "major",
-      "desc": "Stopped traffic",
-      "from": "Photonics Dr",
-      "to": "Mitchell Blvd",
-      "roadnums": "",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "Madison St",
+      "roadnums": "FL-54",
       "roads": [],
-      "delay_sec": 255,
-      "length_m": 109.2594238998,
+      "delay_sec": 68,
+      "length_m": 145.8132968764,
       "coords": [
-        28.1869322661,
-        -82.6774715499
+        28.217041414,
+        -82.7163448051
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Regency Park Blvd",
+      "roadnums": "County Hwy-524",
+      "roads": [],
+      "delay_sec": 89,
+      "length_m": 117.9521747299,
+      "coords": [
+        28.2804971037,
+        -82.6980668918
       ]
     },
     {
@@ -119,6 +153,38 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Grand Parkview Blvd",
+      "to": "Mentmore Blvd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 73,
+      "length_m": 138.9274305032,
+      "coords": [
+        28.1935157196,
+        -82.4993326381
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Central Pasco",
+      "roadnums": "FL-45",
+      "roads": [],
+      "delay_sec": 50,
+      "length_m": 123.2416584302,
+      "coords": [
+        28.2133452633,
+        -82.4611084774
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -131,6 +197,38 @@
       "coords": [
         28.2160449143,
         -82.4598652735
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "minor",
+      "desc": "Heavy rain; Slow traffic",
+      "from": "Collier Pkwy (FL-54)",
+      "to": "US-41/FL-45/Land O Lakes Blvd (FL-54)",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 139,
+      "length_m": 1096.7351614071,
+      "coords": [
+        28.1909354744,
+        -82.461808534
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "CR-583/Ehren Cutoff (FL-52)",
+      "to": "CR-581/Bellamy Brothers Blvd (FL-52)",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 121,
+      "length_m": 1184.2753808169,
+      "coords": [
+        28.3233319895,
+        -82.4072403327
       ]
     },
     {
@@ -168,17 +266,97 @@
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "minor",
-      "desc": "Slow traffic",
+      "severity": "major",
+      "desc": "Stopped traffic",
       "from": "Central Pasco",
       "to": "Old Pasco Rd",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 69,
-      "length_m": 110.4145390694,
+      "delay_sec": 169,
+      "length_m": 202.7268426929,
       "coords": [
-        28.2380404158,
-        -82.3660214856
+        28.2374154748,
+        -82.3673277214
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Ancient Oaks Blvd",
+      "roadnums": "FL-56",
+      "roads": [],
+      "delay_sec": 90,
+      "length_m": 206.0900241395,
+      "coords": [
+        28.1856005144,
+        -82.3624005034
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Stopped traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 65,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Rain",
+      "severity": "moderate",
+      "desc": "Heavy rain; Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Eagleston Blvd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 71,
+      "length_m": 296.955107852,
+      "coords": [
+        28.2198684476,
+        -82.3533547535
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Old Pasco Rd (FL-52)",
+      "to": "CR-583/Ehren Cutoff (FL-52)",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 208,
+      "length_m": 1338.0934007089,
+      "coords": [
+        28.3246556027,
+        -82.3503949359
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "Masena Dr",
+      "to": "Boyette Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 129,
+      "length_m": 1443.1360538769,
+      "coords": [
+        28.2554036411,
+        -82.3125194624
       ]
     },
     {
@@ -263,6 +441,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "FL-54/5th Ave (US-301)",
+      "to": "CR-54/Eiland Blvd (US-301)",
+      "roadnums": "US-301 S US-301 N",
+      "roads": [],
+      "delay_sec": 111,
+      "length_m": 693.9035446767,
+      "coords": [
+        28.2380645626,
+        -82.1840765193
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -271,10 +465,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 831.3825669567,
+      "length_m": 1790.5520914792,
       "coords": [
-        28.2901650808,
-        -82.1841221168
+        28.2841046418,
+        -82.1799016609
       ]
     },
     {
@@ -287,10 +481,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 2297.4153208422,
+      "length_m": 2031.5426866953,
       "coords": [
-        28.2839705257,
-        -82.1798171713
+        28.283844455,
+        -82.179760845
       ]
     },
     {
@@ -345,36 +539,80 @@
   "fhp": [
     {
       "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "WADSWORTH DR x[MICHIGAN AVE]    [ODESSA]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.1735037110233,
+        -82.5796303039349
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "FIVAY RD x[CLAYTON BLVD]    [HUDSON]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.34876609574,
+        -82.6771297780092
+      ]
+    },
+    {
+      "source": "FHP",
       "kind": "Vehicle Crash w/injuries",
       "severity": "reported",
       "desc": "Vehicle Crash w/injuries",
-      "location": "SR-54 x[MENTMORE BLVD]    [LUTZ]",
+      "location": "20060 SR-54   [LUTZ]",
       "county": "PASCO",
       "roads": [
         "SR 54"
       ],
       "coords": [
-        28.1933758761528,
-        -82.5007815642211
+        28.1951096135266,
+        -82.4843129053463
       ]
     },
     {
       "source": "FHP",
-      "kind": "CONSTRUCTION",
+      "kind": "Hit and Run Crash",
       "severity": "reported",
-      "desc": "CONSTRUCTION",
-      "location": "ROAD CLOSED FROM  POND ROAD TO MARTIN LUTHER KING FROM 9P - 5A DUE TO CONSTRUCTION",
+      "desc": "Hit and Run Crash",
+      "location": "5920 SR-54   [NEW PORT RICHEY]",
       "county": "PASCO",
-      "roads": [],
+      "roads": [
+        "SR 54"
+      ],
       "coords": [
-        28.3710800131752,
-        -82.1891553473462
+        28.2171813658322,
+        -82.7170698889944
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "LAND O LAKES BLVD x[SR-54]    [LUTZ]",
+      "county": "PASCO",
+      "roads": [
+        "SR 54"
+      ],
+      "coords": [
+        28.1916090206412,
+        -82.465545058213
       ]
     }
   ],
   "monitored_roads_active": [
     "Little Road",
-    "SR 54"
+    "SR 54",
+    "US 19"
   ],
   "overlap": []
 }
