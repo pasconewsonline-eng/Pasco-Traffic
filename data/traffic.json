@@ -1,6 +1,40 @@
 {
-  "generated": "2026-11-22T16:57:13.188224Z",
+  "generated": "2026-11-22T22:22:38.649407Z",
   "tomtom": [
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "US-19 S",
+      "roads": [
+        "US 19"
+      ],
+      "delay_sec": 114,
+      "length_m": 160.841,
+      "coords": [
+        28.1961161437,
+        -82.739878507
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "New Port Richey",
+      "to": "Darlington Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 99,
+      "length_m": 164.5198566414,
+      "coords": [
+        28.1938684697,
+        -82.7399120347
+      ]
+    },
     {
       "source": "TomTom",
       "kind": "Road Closed",
@@ -11,7 +45,7 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 158.798,
+      "length_m": 158.7983712618,
       "coords": [
         28.2361628496,
         -82.7220512048
@@ -38,22 +72,6 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Mango St",
-      "to": "Teak St",
-      "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 94.7081949407,
-      "coords": [
-        28.3286292946,
-        -82.6641718165
-      ]
-    },
-    {
-      "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
       "from": "Teak St",
       "to": "Mango St",
       "roadnums": "",
@@ -63,6 +81,22 @@
       "coords": [
         28.329480944,
         -82.6641584054
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Road Closed",
+      "severity": "closure",
+      "desc": "Closed",
+      "from": "Mango St",
+      "to": "Teak St",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": null,
+      "length_m": 94.7081949407,
+      "coords": [
+        28.3286292946,
+        -82.6641718165
       ]
     },
     {
@@ -117,18 +151,20 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Sunterra Dr / Feldman Dr",
-      "to": "Central Pasco",
+      "kind": "Traffic Jam",
+      "severity": "minor",
+      "desc": "Slow traffic",
+      "from": "New Port Richey",
+      "to": "State Road 54",
       "roadnums": "",
-      "roads": [],
-      "delay_sec": null,
-      "length_m": 28.7290017013,
+      "roads": [
+        "SR 54"
+      ],
+      "delay_sec": 92,
+      "length_m": 187.5851667449,
       "coords": [
-        28.2947744858,
-        -82.4935296789
+        28.1918138596,
+        -82.6142290846
       ]
     },
     {
@@ -149,18 +185,34 @@
     },
     {
       "source": "TomTom",
-      "kind": "Road Closed",
-      "severity": "closure",
-      "desc": "Closed",
-      "from": "Jermyn Loop",
-      "to": "Regent Royal Ct",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Livingston Rd",
+      "to": "Livingston Rd",
+      "roadnums": "FL-54",
+      "roads": [],
+      "delay_sec": 48,
+      "length_m": 232.4399715588,
+      "coords": [
+        28.1859478974,
+        -82.4341858044
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Sun Vista Dr",
+      "to": "Grand Cypress Dr",
       "roadnums": "",
       "roads": [],
-      "delay_sec": null,
-      "length_m": 104.4002288785,
+      "delay_sec": 158,
+      "length_m": 240.4488749807,
       "coords": [
-        28.2180016404,
-        -82.3833592847
+        28.1887507831,
+        -82.3936911538
       ]
     },
     {
@@ -184,15 +236,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Trout Creek Dr / Colonial Isle Dr",
-      "to": "Bruce B Downs Blvd / Imperial Oak Blvd",
+      "from": "Jermyn Loop",
+      "to": "Regent Royal Ct",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 102.1598606582,
+      "length_m": 104.4002288785,
       "coords": [
-        28.1686703956,
-        -82.3568577185
+        28.2180016404,
+        -82.3833592847
+      ]
+    },
+    {
+      "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Central Pasco",
+      "to": "Bellamy Brothers Blvd",
+      "roadnums": "FL-52",
+      "roads": [],
+      "delay_sec": 51,
+      "length_m": 167.252086934,
+      "coords": [
+        28.3243699858,
+        -82.3590477422
       ]
     },
     {
@@ -216,31 +284,31 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "State Road 56",
-      "to": "State Road 56",
+      "from": "Trout Creek Dr / Colonial Isle Dr",
+      "to": "Bruce B Downs Blvd / Imperial Oak Blvd",
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 200.3500429276,
+      "length_m": 102.1598606582,
       "coords": [
-        28.1886461721,
-        -82.3494816437
+        28.1686703956,
+        -82.3568577185
       ]
     },
     {
       "source": "TomTom",
       "kind": "Traffic Jam",
-      "severity": "moderate",
-      "desc": "Backed up traffic",
-      "from": "Bridgegate Heights Loop",
-      "to": "Bridgegate Heights Loop",
+      "severity": "major",
+      "desc": "Stopped traffic",
+      "from": "Saint Joe Rd",
+      "to": "Central Pasco",
       "roadnums": "",
       "roads": [],
-      "delay_sec": 91,
-      "length_m": 89.9467046104,
+      "delay_sec": 184,
+      "length_m": 237.7115979652,
       "coords": [
-        28.3076102128,
-        -82.3076485708
+        28.3810075254,
+        -82.3563856497
       ]
     },
     {
@@ -309,6 +377,22 @@
     },
     {
       "source": "TomTom",
+      "kind": "Traffic Jam",
+      "severity": "moderate",
+      "desc": "Backed up traffic",
+      "from": "Diana Dr",
+      "to": "Chancey Rd",
+      "roadnums": "",
+      "roads": [],
+      "delay_sec": 137,
+      "length_m": 632.547575865,
+      "coords": [
+        28.2049352183,
+        -82.2184973076
+      ]
+    },
+    {
+      "source": "TomTom",
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
@@ -333,10 +417,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 831.3825669567,
+      "length_m": 621.2403697556,
       "coords": [
-        28.2901650808,
-        -82.1841221168
+        28.2900444054,
+        -82.1840336039
       ]
     },
     {
@@ -365,10 +449,10 @@
       "roadnums": "",
       "roads": [],
       "delay_sec": null,
-      "length_m": 1711.9126266087,
+      "length_m": 1365.6516963067,
       "coords": [
-        28.2850179111,
-        -82.1805145457
+        28.2846196254,
+        -82.1802382782
       ]
     },
     {
@@ -392,8 +476,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Merrick Rd",
-      "to": "Melrose Ave",
+      "from": "Melrose Ave",
+      "to": "Merrick Rd",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -408,8 +492,8 @@
       "kind": "Road Closed",
       "severity": "closure",
       "desc": "Closed",
-      "from": "Melrose Ave",
-      "to": "Merrick Rd",
+      "from": "Merrick Rd",
+      "to": "Melrose Ave",
       "roadnums": "County Hwy-35A County Hwy-35 FL-35A",
       "roads": [],
       "delay_sec": null,
@@ -420,9 +504,51 @@
       ]
     }
   ],
-  "fhp": [],
+  "fhp": [
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash",
+      "severity": "reported",
+      "desc": "Vehicle Crash",
+      "location": "BARBOUR TRL x[BONFIRE DR]    [ODESSA]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2133792138779,
+        -82.6078724286678
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "severity": "reported",
+      "desc": "VEHICLE CRASH W/INJURIES AND ROADBLOCK",
+      "location": "EASTHAVEN CT x[RIVER CROSSING BLVD]    [NEW PORT RICHEY]",
+      "county": "PASCO",
+      "roads": [],
+      "coords": [
+        28.2388093939394,
+        -82.6692343160936
+      ]
+    },
+    {
+      "source": "FHP",
+      "kind": "Vehicle Crash w/injuries",
+      "severity": "reported",
+      "desc": "Vehicle Crash w/injuries",
+      "location": "FAIRMONT DR x[OAK CHASE BLVD]    [SPRING HILL]",
+      "county": "HERNANDO",
+      "roads": [],
+      "coords": [
+        28.4374413790075,
+        -82.4953658666843
+      ]
+    }
+  ],
   "monitored_roads_active": [
-    "SR 52"
+    "SR 52",
+    "SR 54",
+    "US 19"
   ],
   "overlap": []
 }
